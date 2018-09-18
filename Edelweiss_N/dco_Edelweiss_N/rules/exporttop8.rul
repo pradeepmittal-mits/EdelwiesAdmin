@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleset id="24" name="ExportToP8" ver="39" modder="admin.1" qi="" dt="09/14/18 17:34:49.212 ">
+	<rule name="FilenetOpenConnection" id="1" qi="">
+		<func name="BatchLevel" qi="">
+			<a ns="FileNetP8" name="FNP8_SetURL">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="@APPVAR(values\gen\FilenetUrl)" name="StrParam"/>
+			</a>
+			<a name="FNP8_SetTargetClassID" ns="FileNetP8" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="ObjectStore" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetTargetObjectID">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="@APPVAR(values\gen\ObjectStore)" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_Login">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="@APPVAR(values\gen\FilenetUserName),@APPVAR(values\adv\FilenetPassword)" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="FilenetMetadataExport" id="2" qi="">
+		<func name="Function1: LOI Page" disabled="y">
+			<a ns="rrunner" name="rrCompare">
+				<p name="object1" v="@B.PageOccured"/>
+				<p name="object2" v="LOIFirst"/>
+			</a>
+			<a ns="rrunner" name="rrSet" qi="">
+				<p name="varSource" v="@ID+.pdf"/>
+				<p name="varTarget" v="@P.PDFImage"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetDestinationFolder" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="\Edelweiss_N\" name="StrParam"/>
+			</a>
+			<a name="FNP8_SetDocClassId" ns="FileNetP8">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="EDSAdminDocsClass" name="StrParam"/>
+			</a>
+			<a name="FNP8_SetDocTitle" ns="FileNetP8">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="@BATCHID" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Document_Type,@P\DocumentType" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Issue_Date,@P\IssueDate,DateTime" name="StrParam"/>
+			</a>
+			<a name="FNP8_SetProperty" ns="FileNetP8" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Tenure,@D.Tenure" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Licensors,@P\Licensors" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Licensee,@P\City" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Unit_No,@P\Function" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Floor_No,@P\State" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="BuildingNo_Name,@P\Entity" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Area_Locality,@P\Region" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="City_Pincode,@P\PrimaryUser" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="State,@P\PropertyAddress" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Country,@P\UniqueCode" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="LocationCode,@P\VendorName" name="StrParam"/>
+			</a>
+			<a name="FNP8_SetFileType" ns="FileNetP8" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="pdf" name="StrParam"/>
+			</a>
+			<a name="FNP8_Upload" ns="FileNetP8" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+			</a>
+		</func>
+		<func name="Function2: AgreementPage">
+			<a ns="rrunner" name="rrCompare" qi="" disabled="y">
+				<p name="object1" v="@B.PageOccured"/>
+				<p name="object2" v="AgreementFirstPage"/>
+			</a>
+			<a ns="rrunner" name="rrSet" qi="" disabled="y">
+				<p name="varSource" v="@ID+.pdf"/>
+				<p name="varTarget" v="@P.PDFImage"/>
+			</a>
+			<a name="rrCompare" ns="rrunner" disabled="y">
+				<p name="object1" v="@P.TYPE"/>
+				<p name="object2" v="Agreement_MainPage"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetDestinationFolder" qi="" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="\Edelweiss_N\" name="StrParam"/>
+			</a>
+			<a name="FNP8_SetDocClassId" ns="FileNetP8" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="EDSAdminDocsClass" name="StrParam"/>
+			</a>
+			<a name="FNP8_SetDocTitle" ns="FileNetP8" qi="" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="@BATCHID" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetDocTitle" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="@P\UniqueCode+_+@P\DocumentType" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Document_Type,@P\DocumentType" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Start_Date,@D.IssueDate,DateTime" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="End_Date,@D.Function,DateTime" name="StrParam"/>
+			</a>
+			<a name="FNP8_SetProperty" ns="FileNetP8" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Licensors,@P\Licensors" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty" qi="" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Licensee,@P\Tenure" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Unit_No,@P\City" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Floor_No,@P\State" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="BuildingNo_Name,@P\Entity" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Area_Locality,@P\Region" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="City_Pincode,@P\PrimaryUser" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="State,@P\PropertyAddress" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Country,@P\UniqueCode" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty" qi="" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="LocationCode,@P\VendorName" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Entity,@P\Entity" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="PrimaryUser,@P\PrimaryUser" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Function,@P\Function" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Region_ED,@P\Region" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="State,@P\State" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="City,@P\City" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Document_Type,@P\DocumentType" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Issue_Date,@P\IssueDate,DateTime" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Tenure,@P\Tenure" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Licensors,@P\Licensors" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="PropertyAddress,@P\PropertyAddress" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="UniqueCode,@P\UniqueCode" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetProperty">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="VendorName,@P\VendorName" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_SetFileType">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="tif,tiff,pdf,png,jpg,jpeg,xls,xlsx,msg,docx,doc,bmp" name="StrParam"/>
+			</a>
+			<a name="FNP8_Upload" ns="FileNetP8" disabled="y" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Upload" id="3">
+		<func name="Upload_Function1" qi="">
+			<a ns="FileNetP8" name="FNP8_UploadDir">
+				<p type="bInter"/>
+				<p type="bDebug"/>
+				<p type="strParam" v="@APPVAR(values\gen\UploadImage)+\+@BatchID,False"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_UploadDir" qi="" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="C:\Datacap\Edelweiss_N\Scan_Move,True" name="StrParam"/>
+			</a>
+			<a ns="FileNetP8" name="FNP8_UploadDir" qi="" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="@APPVAR(values/gen/upload)" name="StrParam"/>
+			</a>
+			<a name="FNP8_Upload" ns="FileNetP8" disabled="y" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

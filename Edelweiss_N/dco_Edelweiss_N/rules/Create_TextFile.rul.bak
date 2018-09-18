@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archive>
+	<ruleset id="18" name="Create_TextFile" ver="1" modder="admin.1" qi="">
+		<rule name="Rule1" id="1">
+			<func name="Function1" qi="">
+				<a name="CreateTextFile" ns="Recog_Shared.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="18" name="Create_TextFile" ver="2" modder="admin.1" qi="" dt="08/29/18 10:57:42.670 ">
+		<rule name="Rule1" id="1">
+			<func name="Function1" qi="">
+				<a name="CreateTextFile" ns="Recog_Shared.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="18" name="Create_TextFile" ver="3" modder="admin.1" qi="" dt="08/31/18 10:57:58.758 ">
+		<rule name="Rule1" id="1">
+			<func name="Function1" qi="">
+				<a name="CreateTextFile" ns="Recog_Shared.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+</archive>

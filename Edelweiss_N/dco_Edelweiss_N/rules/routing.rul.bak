@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archive>
+	<ruleset name="Routing" id="10" ver="7" modder="admin.1" dt="10/15/14 17:52:25.221 " qi="Routes documents that need verification to the Verify_Export job.  Documents that do not need verification are sent directly to the Export task.">
+		<rule name="Page Level Rule" id="1" qi="" dcomap.open="P:Page;P=Page">
+			<func name="Mark Docs with Status 1 for Verify">
+				<a name="ChkDCOStatus" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="StrParam"/>
+				</a>
+				<a ns="rrunner" name="rrSet">
+					<p name="varSource" v="Yes"/>
+					<p name="varTarget" v="@D.NeedsVerify"/>
+				</a>
+			</func>
+			<func name="Check for Confidence">
+				<a name="ChkConfidence" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="8,1" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Mark Docs with Low Confidence for Verify">
+				<a ns="rrunner" name="rrSet">
+					<p name="varSource" v="Yes"/>
+					<p name="varTarget" v="@D.NeedsVerify"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="Split Batch between Verify and Quick Export" id="2" dcomap.close="B">
+			<func name="Function1">
+				<a ns="split" name="SplitBatch">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="@D.NeedsVerify" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset name="Routing" id="10" ver="8" modder="admin.1" dt="08/27/18 14:58:23.65 " qi="Routes documents that need verification to the Verify_Export job.  Documents that do not need verification are sent directly to the Export task.">
+		<rule name="Page Level Rule" id="1" qi="" dcomap.open="P:Page;P=Page">
+			<func name="Mark Docs with Status 1 for Verify">
+				<a name="ChkDCOStatus" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="StrParam"/>
+				</a>
+				<a ns="rrunner" name="rrSet">
+					<p name="varSource" v="Yes"/>
+					<p name="varTarget" v="@D.NeedsVerify"/>
+				</a>
+			</func>
+			<func name="Check for Confidence">
+				<a name="ChkConfidence" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="8,1" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Mark Docs with Low Confidence for Verify">
+				<a ns="rrunner" name="rrSet">
+					<p name="varSource" v="Yes"/>
+					<p name="varTarget" v="@D.NeedsVerify"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="Split Batch between Verify and Quick Export" id="2" dcomap.close="B">
+			<func name="Function1">
+				<a ns="split" name="SplitBatch">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="@D.NeedsVerify" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="16" name="Routing" ver="1" modder="admin.1" qi="">
+		<rule name="Routing Rule 1" id="1">
+			<func name="Function 1">
+				<a name="ChkDCOStatus" ns="DCO">
+					<p type="bInter"/>
+					<p type="bDebug"/>
+					<p type="strParam" v="1"/>
+				</a>
+			</func>
+			<func name="Function 2">
+				<a name="ChkConfidence" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="8,1" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+</archive>

@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archive>
+	<ruleset id="13" name="Recognize_bkp" ver="1" modder="admin.1" qi="">
+		<rule name="Recognize Page" id="1">
+			<func name="Recognition: Page Function 1">
+				<a name="ReadZones" ns="Zones">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RecognizePageFieldsOCR_S" ns="com:Datacap.Libraries.ScansoftR.Actions" qi=""/>
+			</func>
+		</rule>
+		<rule name="Tenure" id="2" qi="">
+			<func name="Function1">
+				<a name="RegExFind" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b([LlI1i][Eea][Aae][Ss5][Eea]|[LlIi1][Iil1][Cc][Eea][Nn][Ss5][Eea])\s*[Tt][Eea][Nn][Uu][Rr][Eea]\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="GoRightWord" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@D.Tenure"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="Licensors" id="3" qi="">
+			<func name="Three Line Function" qi="">
+				<a name="RegExFind" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F1"/>
+				</a>
+				<a ns="rrunner" name="rrSet">
+					<p name="varSource" v="@F.F1"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F2"/>
+				</a>
+				<a ns="rrunner" name="rrSet">
+					<p name="varSource" v="@F.F1+@F.F2"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F3"/>
+				</a>
+				<a name="RegExFind_InZone" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a ns="rrunner" name="rrSet">
+					<p name="varSource" v="@F.F1+@F.F2+@F.F3"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+				<a ns="rrunner" name="rrSet" disabled="y" qi="">
+					<p name="varSource" v="@F.F1+@F.F2+@F.F3"/>
+					<p name="varTarget" v="@F.F1"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+			</func>
+			<func name="Four Line Function" qi="">
+				<a name="RegExFind" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F1"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F2"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F3"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F4"/>
+				</a>
+				<a name="RegExFind_InZone" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F.F1+@F.F2+@F.F3+@F.F4"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+			</func>
+			<func name="Five Line Function" qi="">
+				<a name="RegExFind" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F1"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F2"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F3"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F4"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F5"/>
+				</a>
+				<a name="RegExFind_InZone" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@F.F1+@F.F2+@F.F3+@F.F4+@F.F5"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+			</func>
+			<func name="Six Line Function" qi="">
+				<a name="RegExFind" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F1"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F2"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F3"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F4"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F5"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="rrunner" name="rrSet">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F6"/>
+				</a>
+				<a name="RegExFind_InZone" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a ns="rrunner" name="rrSet" qi="">
+					<p name="varSource" v="@F.F1+@F.F2+@F.F3+@F.F4+@F.F5+@F.F6"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+			</func>
+			<func name="Readzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Eea][Eea])\s?\,?\.?\:?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="DocumentType" id="4" qi="">
+			<func name="LOI_DocumentType">
+				<a name="RegExFind" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Lli1I][Eea][Tt][Tt][Eea][Rr]\s*[Oo][Ff]\s*[Ii1][Nn][Tt][Eea][Nn][Tt]\s?\.?\,?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="rrunner" name="rrSet" qi="">
+					<p name="varSource" v="Letter of Intent"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+			</func>
+			<func name="AggrementType">
+				<a name="RegExFind" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Cc][Oo0][Mm][Mm][Eea][Nn][Cc][Iil1][Nn][Gg]\s*[Ff][Rr][Oo0][Mm]\s?\.?\,?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="rrunner" name="rrSet" qi="">
+					<p name="varSource" v="Registered Agreement"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+			</func>
+			<func name="Copy ofAggrementType">
+				<a ns="Locate" name="RegExFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Lli1I][Eea][Aae4][Vv][Eea]\s*[Aae4][Nn][Dd]\s*[Lli1I][Ii1l][Cc][Eea][Nn][Ss5][Eea]\s*[Aae4][Gg][Rr][Eea][Eea][Mm][Eea][Nn][Tt]\s?\.?\,?" name="StrParam"/>
+				</a>
+				<a ns="rrunner" name="rrSet">
+					<p name="varSource" v="Registered Agreement"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+			</func>
+			<func name="Copy ofAggrementType">
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Aae4][Gg][Rr][Eea][Eea][Mm][Eea][Nn][Tt]\s*[Oo0][Ff]\s*[Lli1I][Eea][Aae4][Vv][Eea]\s*[Aae4][Nn][Dd]\s*[Lli1I][Ii1l][Cc][Eea][Nn][Ss5][Eea]\s?\.?\,?\:?\;?(?!\w+)\s?|\b[Lli1I][Eea][Aae4][Vv][Eea]\s*[Aae4][Nn][Dd]\s*[Lli1I][Ii1l][Cc][Eea][Nn]([Cc]|[Ss5])[Eea]\s*[Aae4][Gg][Rr][Eea][Eea][Mm][Eea][Nn][Tt]\s*\s?\.?\,?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="rrunner" name="rrSet">
+					<p name="varSource" v="Registered Agreement"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="IssueDate" id="5">
+			<func name="Function1">
+				<a name="RegExFind" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Dd][Aa4][Tt][Eea]\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="GoRightWord" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="IsFieldDateWithReformat" ns="Validations" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="mm/dd/yyyy" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="PropertyAddress_Rule1" id="6" qi="">
+			<func name="Function1">
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*[Ff][Lli1I][Oo0][Oo0][Rr]\s?\.?\,?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="WordFind" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="PROPOSED FLOOR TO" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GroupWordsRIGHT" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="10" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="rrunner" name="rrSet">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F1"/>
+				</a>
+				<a ns="rrunner" name="rrSet">
+					<p name="varSource" v="@F.F1"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+				<a ns="Locate" name="WordFind" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="OCCUPIED AND RENTABLE" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Oo0][Cc][Cc][Uu0Oo][Pp][Ii1l][Eea][Dd]\s*[Aae4][Nn][Dd]\s*[Rr][Eea][Nn][Tt][Aae4][Bb][Lli1I][Eea]" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GroupWords" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="10" name="nSpaces"/>
+				</a>
+				<a ns="Locate" name="GroupWordsRIGHT" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="10" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="rrunner" name="rrSet">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F2"/>
+				</a>
+				<a ns="rrunner" name="rrSet">
+					<p name="varSource" v="@F.F1+@CHR(32)+@F.F2"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[Aae4][Rr][Eea][Aae4]" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="AREA" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GroupWords" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="rrunner" name="rrSet" qi="">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F3"/>
+				</a>
+				<a ns="rrunner" name="rrSet" qi="">
+					<p name="varSource" v="@F.F1+@CHR(32)+@F.F2+@CHR(32)+@F.F3"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="AgreementLicensee" id="7">
+			<func name="Function1">
+				<a name="FindRegExList" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="AgreementLicensee" name="StrParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="AgreementLicensors" id="8" qi="">
+			<func name="Function1">
+				<a name="RegExFind" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Bb8][Eea][TtI][Ww][Eea][Eea][Nn]\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="GoDownLine" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoRightWord" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="SetTenureValue" id="9">
+			<func name="Function1">
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@D.Tenure"/>
+					<p name="varTarget" v="..\TenureLOI"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="EndingDate" id="10" qi="">
+			<func name="Function1" qi="">
+				<a name="RegExFind" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Eea][Nn][Dd][Iil1][Nn][Gg]\s*[Oo0][Nn]\s?\.?\,?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="GoRightWord" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.DD"/>
+				</a>
+				<a name="GoDownLine" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoFirstWord" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.MM"/>
+				</a>
+				<a name="GoRightWord" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.YYYY"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@F.DD+@F.MM+@F.YYYY"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+				<a name="IsFieldDateWithReformat" ns="Validations" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="mm/dd/yyyy" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="ProposedLessee" id="11" qi="">
+			<func name="Function1" qi="">
+				<a name="RegExFind" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Eea][Eea]|[Lli1I][Ii1l][Cc][Eea][Nn][Ss5][Eea][Eea])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GroupWords" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner" disabled="y">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F1"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="5" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner" disabled="y">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F2"/>
+				</a>
+				<a name="GoBelowWord" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="" disabled="y">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F3"/>
+				</a>
+				<a ns="rrunner" name="rrSet" disabled="y" qi="">
+					<p name="varSource" v="@F.F1"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="StartDate" id="12" qi="">
+			<func name="Function1">
+				<a name="RegExFind" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Cc][Oo0][Mm][Mm][Eea][Nn][Cc][Iil1][Nn][Gg]\s*[Ff][Rr][Oo0][Mm]\s?\.?\,?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="GoRightWord" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.DD"/>
+				</a>
+				<a name="GoRightWord" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.MM"/>
+				</a>
+				<a name="GoRightWord" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.YYYY"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@F.DD+@F.MM+@F.YYYY"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+				<a name="IsFieldDateWithReformat" ns="Validations" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="mm/dd/yyyy" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="PropertyAddress" id="13" qi="">
+			<func name="Single Line Function">
+				<a name="RegExFind" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Rr][Eea][Mm][Ii1][Ss5][Eea][Ss5]\s*[Bb8][Eea][Ii1][Nn][Gg]\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="GoRightWord" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F1"/>
+				</a>
+				<a name="GoDownLine" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F2"/>
+				</a>
+				<a name="RegExFind_InZone" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@F.F1+@F.F2"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+			</func>
+			<func name="Two Line Function" qi="">
+				<a name="RegExFind" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Rr][Eea][Mm][Ii1][Ss5][Eea][Ss5]\s*[Bb8][Eea][Ii1][Nn][Gg]\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="GoRightWord" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F1"/>
+				</a>
+				<a name="GoDownLine" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F2"/>
+				</a>
+				<a name="GoDownLine" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F3"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F.F1+@F.F2+@F.F3"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+			</func>
+			<func name="Two Line - No Right Word Function" qi="">
+				<a name="RegExFind" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Rr][Eea][Mm][Ii1][Ss5][Eea][Ss5]\s*[Bb8][Eea][Ii1][Nn][Gg]\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="GoDownLine" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F1"/>
+				</a>
+				<a name="GoDownLine" ns="Locate">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GroupWordsRIGHT" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="3" name="nSpaces"/>
+				</a>
+				<a name="UpdateField" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@F"/>
+					<p name="varTarget" v="@F.F2"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@F.F1+@F.F2"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+</archive>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleset id="30" name="Recognize_OCREngine" ver="11" modder="admin.1" qi="" dt="09/07/18 13:42:00.190 ">
+	<rule name="Recognize_OCREngine_Rule1" id="1" qi="">
+		<func name="Recognize_OCREngine_Function1" qi="">
+			<a ns="rrunner" name="rrCompareNot" qi="">
+				<p name="object1" v=".xlsx"/>
+				<p name="object2" v="@B.FILEEXT"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot" disabled="y">
+				<p name="object1" v=".bmp"/>
+				<p name="object2" v="@B.FILEEXT"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot" qi="">
+				<p name="object1" v=".gif"/>
+				<p name="object2" v="@B.FILEEXT"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot" qi="">
+				<p name="object1" v=".xls"/>
+				<p name="object2" v="@B.FILEEXT"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot" qi="">
+				<p name="object1" v=".docx"/>
+				<p name="object2" v="@B.FILEEXT"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot" qi="">
+				<p name="object1" v=".doc"/>
+				<p name="object2" v="@B.FILEEXT"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot" qi="" disabled="y">
+				<p name="object1" v=".msg"/>
+				<p name="object2" v="@B.FILEEXT"/>
+			</a>
+			<a ns="com:Datacap.Libraries.ScansoftR.Actions" name="SetEngineTimeoutOCR_S">
+				<p name="Seconds" type="int" v="600"/>
+			</a>
+			<a name="RecognizePageOCR_S" ns="com:Datacap.Libraries.ScansoftR.Actions" qi=""/>
+			<a name="CreateTextFile" ns="Recog_Shared.dll" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archive>
+	<ruleset id="3" name="ConnvertImages" ver="1" modder="admin.1" qi="">
+		<rule name="PageLevelPDF" id="1" qi="">
+			<func name="FunctionPDF">
+				<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf">
+					<p name="p_iVal" type="int" v="1"/>
+				</a>
+				<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="ExcelConversion" qi="">
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+					<p name="blankPage" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+					<p name="tiffCompression" type="string" v="CCITT4"/>
+				</a>
+				<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="3" name="ConnvertImages" ver="2" modder="admin.1" qi="" dt="08/31/18 15:01:41.766 ">
+		<rule name="PageLevelPDF" id="1" qi="">
+			<func name="FunctionPDF">
+				<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf">
+					<p name="p_iVal" type="int" v="1"/>
+				</a>
+				<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="ExcelConversion" qi="">
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+					<p name="blankPage" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+					<p name="tiffCompression" type="string" v="CCITT4"/>
+				</a>
+				<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Function1">
+				<a ns="com:Datacap.Libraries.Convert.Images" name="ImageFileTypesToConvert" qi="">
+					<p name="fileextensions" type="string" qi="A CSV string of file extensions that defines the image types that will be   converted." v="jpg,jpeg,png"/>
+				</a>
+				<a name="ImageToTIFF" ns="com:Datacap.Libraries.Convert.Images"/>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="3" name="ConnvertImages" ver="3" modder="admin.1" qi="" dt="08/31/18 15:02:22.811 ">
+		<rule name="PageLevelPDF" id="1" qi="">
+			<func name="FunctionPDF">
+				<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf">
+					<p name="p_iVal" type="int" v="1"/>
+				</a>
+				<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="ExcelConversion" qi="">
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+					<p name="blankPage" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+					<p name="tiffCompression" type="string" v="CCITT4"/>
+				</a>
+				<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Function1">
+				<a ns="com:Datacap.Libraries.Convert.Images" name="ImageFileTypesToConvert" qi="">
+					<p name="fileextensions" type="string" qi="A CSV string of file extensions that defines the image types that will be   converted." v="jpg,jpeg,png,bmp"/>
+				</a>
+				<a name="ImageToTIFF" ns="com:Datacap.Libraries.Convert.Images"/>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="3" name="ConnvertImages" ver="4" modder="admin.1" qi="" dt="08/31/18 15:03:58.922 ">
+		<rule name="PageLevelPDF" id="1" qi="">
+			<func name="FunctionPDF">
+				<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf">
+					<p name="p_iVal" type="int" v="1"/>
+				</a>
+				<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="ExcelConversion" qi="">
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+					<p name="blankPage" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+					<p name="tiffCompression" type="string" v="CCITT4"/>
+				</a>
+				<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Function1">
+				<a ns="com:Datacap.Libraries.Convert.Images" name="ImageFileTypesToConvert" qi="">
+					<p name="fileextensions" type="string" qi="A CSV string of file extensions that defines the image types that will be   converted." v="jpg,jpeg,png,bmp"/>
+				</a>
+				<a name="ImageToTIFF" ns="com:Datacap.Libraries.Convert.Images"/>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="3" name="ConnvertImages" ver="5" modder="admin.1" qi="" dt="08/31/18 15:04:50.224 ">
+		<rule name="PageLevelPDF" id="1" qi="">
+			<func name="FunctionPDF">
+				<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf">
+					<p name="p_iVal" type="int" v="1"/>
+				</a>
+				<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="ExcelConversion" qi="">
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+					<p name="blankPage" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+					<p name="tiffCompression" type="string" v="CCITT4"/>
+				</a>
+				<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Function1">
+				<a ns="com:Datacap.Libraries.Convert.Images" name="ImageFileTypesToConvert" qi="">
+					<p name="fileextensions" type="string" qi="A CSV string of file extensions that defines the image types that will be   converted." v="jpg,jpeg,png"/>
+				</a>
+				<a name="ImageToTIFF" ns="com:Datacap.Libraries.Convert.Images"/>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="3" name="ConnvertImages" ver="6" modder="admin.1" qi="" dt="08/31/18 15:09:45.320 ">
+		<rule name="PageLevelPDF" id="1" qi="">
+			<func name="FunctionPDF">
+				<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf">
+					<p name="p_iVal" type="int" v="1"/>
+				</a>
+				<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="ExcelConversion" qi="" disabled="y">
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+					<p name="blankPage" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+					<p name="tiffCompression" type="string" v="CCITT4"/>
+				</a>
+				<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Function1">
+				<a ns="com:Datacap.Libraries.Convert.Images" name="ImageFileTypesToConvert" qi="">
+					<p name="fileextensions" type="string" qi="A CSV string of file extensions that defines the image types that will be   converted." v="jpg,jpeg,png"/>
+				</a>
+				<a name="ImageToTIFF" ns="com:Datacap.Libraries.Convert.Images"/>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="3" name="ConnvertImages" ver="7" modder="admin.1" qi="" dt="08/31/18 16:36:39.953 ">
+		<rule name="PageLevelPDF" id="1" qi="">
+			<func name="FunctionPDF">
+				<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf">
+					<p name="p_iVal" type="int" v="1"/>
+				</a>
+				<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="ExcelConversion" qi="" disabled="y">
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+					<p name="blankPage" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+					<p name="tiffCompression" type="string" v="CCITT4"/>
+				</a>
+				<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Function1">
+				<a ns="com:Datacap.Libraries.Convert.Images" name="ImageFileTypesToConvert" qi="">
+					<p name="fileextensions" type="string" qi="A CSV string of file extensions that defines the image types that will be   converted." v="jpg,jpeg,png"/>
+				</a>
+				<a name="ImageToTIFF" ns="com:Datacap.Libraries.Convert.Images" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="3" name="ConnvertImages" ver="8" modder="admin.1" qi="" dt="09/03/18 10:21:30.520 ">
+		<rule name="PageLevelPDF" id="1" qi="">
+			<func name="FunctionPDF">
+				<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf">
+					<p name="p_iVal" type="int" v="1"/>
+				</a>
+				<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="ExcelConversion" qi="" disabled="y">
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+					<p name="blankPage" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+					<p name="tiffCompression" type="string" v="CCITT4"/>
+				</a>
+				<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Function1">
+				<a ns="com:Datacap.Libraries.Convert.Images" name="ImageFileTypesToConvert" qi="">
+					<p name="fileextensions" type="string" qi="A CSV string of file extensions that defines the image types that will be   converted." v="png"/>
+				</a>
+				<a name="ImageToTIFF" ns="com:Datacap.Libraries.Convert.Images" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="3" name="ConnvertImages" ver="9" modder="admin.1" qi="" dt="09/03/18 10:21:42.65 ">
+		<rule name="PageLevelPDF" id="1" qi="">
+			<func name="Convert_PDF" qi="">
+				<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf">
+					<p name="p_iVal" type="int" v="1"/>
+				</a>
+				<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="ExcelConversion" qi="" disabled="y">
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+					<p name="blankPage" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+					<p name="tiffCompression" type="string" v="CCITT4"/>
+				</a>
+				<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Convert_JPG">
+				<a ns="com:Datacap.Libraries.Convert.Images" name="ImageFileTypesToConvert" qi="">
+					<p name="fileextensions" type="string" qi="A CSV string of file extensions that defines the image types that will be   converted." v="png"/>
+				</a>
+				<a name="ImageToTIFF" ns="com:Datacap.Libraries.Convert.Images" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="3" name="ConnvertImages" ver="10" modder="admin.1" qi="" dt="09/03/18 10:58:01.782 ">
+		<rule name="PageLevelPDF" id="1" qi="">
+			<func name="Convert_PDF" qi="">
+				<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf">
+					<p name="p_iVal" type="int" v="1"/>
+				</a>
+				<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Convert_JPG" qi="">
+				<a ns="com:Datacap.Libraries.Convert.Images" name="ImageFileTypesToConvert" qi="">
+					<p name="fileextensions" type="string" qi="A CSV string of file extensions that defines the image types that will be   converted." v="png"/>
+				</a>
+				<a name="ImageToTIFF" ns="com:Datacap.Libraries.Convert.Images" qi=""/>
+				<a name="SetDCOType" ns="DCO" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="ExcelConversion" qi="" disabled="y">
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+					<p name="blankPage" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+					<p name="tiffCompression" type="string" v="CCITT4"/>
+				</a>
+				<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="3" name="ConnvertImages" ver="11" modder="admin.1" qi="" dt="09/03/18 11:00:57.476 ">
+		<rule name="PageLevelPDF" id="1" qi="">
+			<func name="Convert_PDF" qi="">
+				<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf">
+					<p name="p_iVal" type="int" v="1"/>
+				</a>
+				<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Convert_PNG" qi="">
+				<a ns="com:Datacap.Libraries.Convert.Images" name="ImageFileTypesToConvert" qi="">
+					<p name="fileextensions" type="string" qi="A CSV string of file extensions that defines the image types that will be   converted." v="png"/>
+				</a>
+				<a name="ImageToTIFF" ns="com:Datacap.Libraries.Convert.Images" qi=""/>
+				<a name="SetDCOType" ns="DCO" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="ExcelConversion" qi="" disabled="y">
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+					<p name="blankPage" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+					<p name="tiffCompression" type="string" v="CCITT4"/>
+				</a>
+				<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="3" name="ConnvertImages" ver="12" modder="admin.1" qi="" dt="09/03/18 15:14:21.967 ">
+		<rule name="PageLevelPDF" id="1" qi="">
+			<func name="Convert_PDF" qi="">
+				<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf">
+					<p name="p_iVal" type="int" v="1"/>
+				</a>
+				<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Convert_PNG" qi="">
+				<a ns="com:Datacap.Libraries.Convert.Images" name="ImageFileTypesToConvert" qi="">
+					<p name="fileextensions" type="string" qi="A CSV string of file extensions that defines the image types that will be   converted." v="png,bmp"/>
+				</a>
+				<a name="ImageToTIFF" ns="com:Datacap.Libraries.Convert.Images" qi=""/>
+				<a name="SetDCOType" ns="DCO" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="ExcelConversion" qi="" disabled="y">
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+					<p name="blankPage" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+					<p name="tiffCompression" type="string" v="CCITT4"/>
+				</a>
+				<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="3" name="ConnvertImages" ver="13" modder="admin.1" qi="" dt="09/03/18 18:29:02.959 ">
+		<rule name="PageLevelPDF" id="1" qi="">
+			<func name="Convert_PDF" qi="">
+				<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf">
+					<p name="p_iVal" type="int" v="1"/>
+				</a>
+				<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Convert_PNG" qi="">
+				<a ns="com:Datacap.Libraries.Convert.Images" name="ImageFileTypesToConvert" qi="">
+					<p name="fileextensions" type="string" qi="A CSV string of file extensions that defines the image types that will be   converted." v="png,bmp"/>
+				</a>
+				<a name="ImageToTIFF" ns="com:Datacap.Libraries.Convert.Images" qi=""/>
+				<a name="SetDCOType" ns="DCO" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="ExcelConversion" qi="" disabled="y">
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+					<p name="blankPage" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+					<p name="tiffCompression" type="string" v="CCITT4"/>
+				</a>
+				<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="3" name="ConnvertImages" ver="14" modder="admin.1" qi="" dt="09/03/18 19:04:16.990 ">
+		<rule name="PageLevelPDF" id="1" qi="">
+			<func name="Convert_PDF" qi="">
+				<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf">
+					<p name="p_iVal" type="int" v="1"/>
+				</a>
+				<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Convert_PNG" qi="">
+				<a ns="com:Datacap.Libraries.Convert.Images" name="ImageFileTypesToConvert" qi="">
+					<p name="fileextensions" type="string" qi="A CSV string of file extensions that defines the image types that will be   converted." v="png,bmp,msg"/>
+				</a>
+				<a name="ImageToTIFF" ns="com:Datacap.Libraries.Convert.Images" qi=""/>
+				<a name="SetDCOType" ns="DCO" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="ExcelConversion" qi="" disabled="y">
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+					<p name="blankPage" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+					<p name="tiffCompression" type="string" v="CCITT4"/>
+				</a>
+				<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="3" name="ConnvertImages" ver="15" modder="admin.1" qi="" dt="09/03/18 19:07:43.239 ">
+		<rule name="PageLevelPDF" id="1" qi="">
+			<func name="Convert_PDF" qi="">
+				<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" disabled="y">
+					<p name="p_iVal" type="int" v="1"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.PdfFRE" name="PDFFREDocumentToImage">
+					<p name="resolution" type="string" qi="The resolution of extracted images." v="300"/>
+					<p name="compressionBW" type="string" qi="The compression of extracted black and white image files." v="32"/>
+					<p name="compressionColor" type="string" qi="The compression of extracted color image files." v="32"/>
+					<p name="compressionGray" type="string" qi="The compression of extracted grayscale image files." v="32"/>
+					<p name="extensionBW" type="string" qi="The file extension of extracted black and white image files." v=".bw.tif"/>
+					<p name="extensionColor" type="string" qi="The file extension of extracted color image files." v=".color.tif"/>
+					<p name="extensionGray" type="string" qi="The file extension of extracted grayscale image files." v=".gray.tif"/>
+					<p name="convertMode" type="string" qi="Preseve colors on images or convert all to black and white." v="0"/>
+					<p name="useFastBinarization" type="string" qi="Use fast image binarization algorithm when convertMode is set to preserve colors." v="false"/>
+					<p name="jpegQuality" type="string" qi="Jpeg quality of the of images extracted with JPEG compression." v="100"/>
+				</a>
+				<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi="" disabled="y"/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Convert_PNG" qi="">
+				<a ns="com:Datacap.Libraries.Convert.Images" name="ImageFileTypesToConvert" qi="">
+					<p name="fileextensions" type="string" qi="A CSV string of file extensions that defines the image types that will be   converted." v="png,bmp,msg"/>
+				</a>
+				<a name="ImageToTIFF" ns="com:Datacap.Libraries.Convert.Images" qi=""/>
+				<a name="SetDCOType" ns="DCO" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="ExcelConversion" qi="" disabled="y">
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+					<p name="blankPage" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+					<p name="tiffCompression" type="string" v="CCITT4"/>
+				</a>
+				<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="3" name="ConnvertImages" ver="16" modder="admin.1" qi="" dt="09/03/18 19:39:10.554 ">
+		<rule name="PageLevelPDF" id="1" qi="">
+			<func name="Convert_PDF" qi="">
+				<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" disabled="y">
+					<p name="p_iVal" type="int" v="1"/>
+				</a>
+				<a ns="rrunner" name="rrCompare" qi="">
+					<p name="object1" v="@B.FILEEXT"/>
+					<p name="object2" v=".pdf"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.PdfFRE" name="PDFFREDocumentToImage">
+					<p name="resolution" type="string" qi="The resolution of extracted images." v="300"/>
+					<p name="compressionBW" type="string" qi="The compression of extracted black and white image files." v="32"/>
+					<p name="compressionColor" type="string" qi="The compression of extracted color image files." v="32"/>
+					<p name="compressionGray" type="string" qi="The compression of extracted grayscale image files." v="32"/>
+					<p name="extensionBW" type="string" qi="The file extension of extracted black and white image files." v=""/>
+					<p name="extensionColor" type="string" qi="The file extension of extracted color image files." v=""/>
+					<p name="extensionGray" type="string" qi="The file extension of extracted grayscale image files." v=""/>
+					<p name="convertMode" type="string" qi="Preseve colors on images or convert all to black and white." v="0"/>
+					<p name="useFastBinarization" type="string" qi="Use fast image binarization algorithm when convertMode is set to preserve colors." v="false"/>
+					<p name="jpegQuality" type="string" qi="Jpeg quality of the of images extracted with JPEG compression." v="100"/>
+				</a>
+				<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi="" disabled="y"/>
+				<a name="SetDCOType" ns="DCO" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="Convert_PNG" qi="">
+				<a ns="com:Datacap.Libraries.Convert.Images" name="ImageFileTypesToConvert" qi="">
+					<p name="fileextensions" type="string" qi="A CSV string of file extensions that defines the image types that will be   converted." v="png,bmp,msg"/>
+				</a>
+				<a name="ImageToTIFF" ns="com:Datacap.Libraries.Convert.Images" qi=""/>
+				<a name="SetDCOType" ns="DCO" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+			<func name="ExcelConversion" qi="" disabled="y">
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+					<p name="blankPage" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+					<p name="tiffCompression" type="string" v="CCITT4"/>
+				</a>
+				<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+				<a name="SetDCOType" ns="DCO">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+</archive>

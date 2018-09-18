@@ -1,0 +1,374 @@
+C:\Datacap\DStudio\WpfAppWiz.dll. AssemblyVersion: 9.1.0.0
+AssemblyFileVersion: 9.1.3.8.***************** Application Wizard New Application Logs *************************
+8/27/2018 2:48:21 PM    Reading application data
+8/27/2018 2:48:21 PM    Parsing source admin database
+8/27/2018 2:48:21 PM    Admin database found: Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Datacap\Templates\FormTemplate\FormTemplateAdm.mdb;
+8/27/2018 2:48:21 PM    Parsing source engine database
+8/27/2018 2:48:21 PM    Engine database found: Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Datacap\Templates\FormTemplate\FormTemplateEng.mdb;
+8/27/2018 2:48:21 PM    Obtaining workflow data from admin database.
+8/27/2018 2:48:21 PM    1 workflows found
+8/27/2018 2:48:21 PM    Copying application files
+8/27/2018 2:48:21 PM    Destination folder C:\Datacap\Edelweiss_N
+8/27/2018 2:48:21 PM    Batches folder C:\Datacap\Templates\FormTemplate\batches
+8/27/2018 2:48:21 PM    Source folder C:\Datacap\Templates\FormTemplate
+8/27/2018 2:48:21 PM    Creating directory C:\Datacap\Edelweiss_N
+8/27/2018 2:48:21 PM    Created
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\batches, type: Directory
+8/27/2018 2:48:21 PM    Creating directory C:\Datacap\Edelweiss_N\batches
+8/27/2018 2:48:21 PM    Folder created
+8/27/2018 2:48:21 PM    Copying to directory C:\Datacap\Edelweiss_N\batches
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco.xsl, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco.xsl to C:\Datacap\Edelweiss_N\dco.xsl
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate, type: Directory
+8/27/2018 2:48:21 PM    Creating directory C:\Datacap\Edelweiss_N\dco_FormTemplate
+8/27/2018 2:48:21 PM    Folder created
+8/27/2018 2:48:21 PM    Copying to directory C:\Datacap\Edelweiss_N\dco_FormTemplate
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\blank.tif, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\blank.tif to C:\Datacap\Edelweiss_N\dco_FormTemplate\blank.tif
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\Convert.set.xml, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\Convert.set.xml to C:\Datacap\Edelweiss_N\dco_FormTemplate\Convert.set.xml
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\Export.set.xml, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\Export.set.xml to C:\Datacap\Edelweiss_N\dco_FormTemplate\Export.set.xml
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\Fingerprint Maintenance Tool.exe, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\Fingerprint Maintenance Tool.exe to C:\Datacap\Edelweiss_N\dco_FormTemplate\Fingerprint Maintenance Tool.exe
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\fixup.set.xml, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\fixup.set.xml to C:\Datacap\Edelweiss_N\dco_FormTemplate\fixup.set.xml
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\fixupBP.ini, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\fixupBP.ini to C:\Datacap\Edelweiss_N\dco_FormTemplate\fixupBP.ini
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\FMTLogo.jpg, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\FMTLogo.jpg to C:\Datacap\Edelweiss_N\dco_FormTemplate\FMTLogo.jpg
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\FormTemplate.ini, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\FormTemplate.ini to C:\Datacap\Edelweiss_N\dco_FormTemplate\FormTemplate.ini
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\FormTemplate.xml, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\FormTemplate.xml to C:\Datacap\Edelweiss_N\dco_FormTemplate\FormTemplate.xml
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\imagefix.ini, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\imagefix.ini to C:\Datacap\Edelweiss_N\dco_FormTemplate\imagefix.ini
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\iVScan.set.xml, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\iVScan.set.xml to C:\Datacap\Edelweiss_N\dco_FormTemplate\iVScan.set.xml
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\nscan.set.xml, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\nscan.set.xml to C:\Datacap\Edelweiss_N\dco_FormTemplate\nscan.set.xml
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\nupload.set.xml, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\nupload.set.xml to C:\Datacap\Edelweiss_N\dco_FormTemplate\nupload.set.xml
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\PageID.set.xml, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\PageID.set.xml to C:\Datacap\Edelweiss_N\dco_FormTemplate\PageID.set.xml
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\profiler.set.xml, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\profiler.set.xml to C:\Datacap\Edelweiss_N\dco_FormTemplate\profiler.set.xml
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules, type: Directory
+8/27/2018 2:48:21 PM    Creating directory C:\Datacap\Edelweiss_N\dco_FormTemplate\rules
+8/27/2018 2:48:21 PM    Folder created
+8/27/2018 2:48:21 PM    Copying to directory C:\Datacap\Edelweiss_N\dco_FormTemplate\rules
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\collection.xml, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\collection.xml to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\collection.xml
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\CreateDocuments.Rul.dll, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\CreateDocuments.Rul.dll to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\CreateDocuments.Rul.dll
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\CreateDocuments.Rul.dll.config, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\CreateDocuments.Rul.dll.config to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\CreateDocuments.Rul.dll.config
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\dcKST.dll, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\dcKST.dll to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\dcKST.dll
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\Document Integrity.rul, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\Document Integrity.rul to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\Document Integrity.rul
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\dumpns.xml, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\dumpns.xml to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\dumpns.xml
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\Export Statistics.rul, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\Export Statistics.rul to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\Export Statistics.rul
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\Export.rul, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\Export.rul to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\Export.rul
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\FingerprintAdd.rul, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\FingerprintAdd.rul to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\FingerprintAdd.rul
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\IdentifyPages.Rul.dll, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\IdentifyPages.Rul.dll to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\IdentifyPages.Rul.dll
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\IdentifyPages.Rul.dll.config, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\IdentifyPages.Rul.dll.config to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\IdentifyPages.Rul.dll.config
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\ImageEnhancement.Rul.dll, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\ImageEnhancement.Rul.dll to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\ImageEnhancement.Rul.dll
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\ImageEnhancement.Rul.dll.config, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\ImageEnhancement.Rul.dll.config to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\ImageEnhancement.Rul.dll.config
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\Image_Convert.Rul.dll, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\Image_Convert.Rul.dll to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\Image_Convert.Rul.dll
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\Image_Convert.Rul.dll.config, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\Image_Convert.Rul.dll.config to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\Image_Convert.Rul.dll.config
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\import files - all.rul, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\import files - all.rul to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\import files - all.rul
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\ImportFiles.Rul.dll, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\ImportFiles.Rul.dll to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\ImportFiles.Rul.dll
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\ImportFiles.Rul.dll.config, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\ImportFiles.Rul.dll.config to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\ImportFiles.Rul.dll.config
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\Profile Statistics.rul, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\Profile Statistics.rul to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\Profile Statistics.rul
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\RecognizePagesAndFields.Rul.dll, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\RecognizePagesAndFields.Rul.dll to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\RecognizePagesAndFields.Rul.dll
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\RecognizePagesAndFields.Rul.dll.config, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\RecognizePagesAndFields.Rul.dll.config to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\RecognizePagesAndFields.Rul.dll.config
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\Routing.rul, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\Routing.rul to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\Routing.rul
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\Templates.RRX, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\Templates.RRX to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\Templates.RRX
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\ValidateFields.Rul.dll, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\ValidateFields.Rul.dll to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\ValidateFields.Rul.dll
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\ValidateFields.Rul.dll.config, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\rules\ValidateFields.Rul.dll.config to C:\Datacap\Edelweiss_N\dco_FormTemplate\rules\ValidateFields.Rul.dll.config
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\scan.set.xml, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\scan.set.xml to C:\Datacap\Edelweiss_N\dco_FormTemplate\scan.set.xml
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\Settings.ini, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\Settings.ini to C:\Datacap\Edelweiss_N\dco_FormTemplate\Settings.ini
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\Upload.set.xml, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\Upload.set.xml to C:\Datacap\Edelweiss_N\dco_FormTemplate\Upload.set.xml
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\Verify.set.xml, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\Verify.set.xml to C:\Datacap\Edelweiss_N\dco_FormTemplate\Verify.set.xml
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\vscan.set.xml, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\vscan.set.xml to C:\Datacap\Edelweiss_N\dco_FormTemplate\vscan.set.xml
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\dco_FormTemplate\vscanmulti.set.xml, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\dco_FormTemplate\vscanmulti.set.xml to C:\Datacap\Edelweiss_N\dco_FormTemplate\vscanmulti.set.xml
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\export, type: Directory
+8/27/2018 2:48:21 PM    Creating directory C:\Datacap\Edelweiss_N\export
+8/27/2018 2:48:21 PM    Folder created
+8/27/2018 2:48:21 PM    Copying to directory C:\Datacap\Edelweiss_N\export
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\fingerprint, type: Directory
+8/27/2018 2:48:21 PM    Creating directory C:\Datacap\Edelweiss_N\fingerprint
+8/27/2018 2:48:21 PM    Folder created
+8/27/2018 2:48:21 PM    Copying to directory C:\Datacap\Edelweiss_N\fingerprint
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\fingerprint\555.cco, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\fingerprint\555.cco to C:\Datacap\Edelweiss_N\fingerprint\555.cco
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\fingerprint\555.tif, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\fingerprint\555.tif to C:\Datacap\Edelweiss_N\fingerprint\555.tif
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\FormTemplate.app, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\FormTemplate.app to C:\Datacap\Edelweiss_N\FormTemplate.app
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\FormTemplate.app.bak, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\FormTemplate.app.bak to C:\Datacap\Edelweiss_N\FormTemplate.app.bak
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\FormTemplateAdm.mdb, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\FormTemplateAdm.mdb to C:\Datacap\Edelweiss_N\FormTemplateAdm.mdb
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\FormTemplateEng.mdb, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\FormTemplateEng.mdb to C:\Datacap\Edelweiss_N\FormTemplateEng.mdb
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\FormTemplateFingerprint.mdb, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\FormTemplateFingerprint.mdb to C:\Datacap\Edelweiss_N\FormTemplateFingerprint.mdb
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\FormTemplateLook.mdb, type: Archive
+8/27/2018 2:48:21 PM    Copying file C:\Datacap\Templates\FormTemplate\FormTemplateLook.mdb to C:\Datacap\Edelweiss_N\FormTemplateLook.mdb
+8/27/2018 2:48:21 PM    File Copied.
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\images, type: Directory
+8/27/2018 2:48:21 PM    Creating directory C:\Datacap\Edelweiss_N\images
+8/27/2018 2:48:21 PM    Folder created
+8/27/2018 2:48:21 PM    Copying to directory C:\Datacap\Edelweiss_N\images
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\images\Input_MultiFormat, type: Directory
+8/27/2018 2:48:21 PM    Creating directory C:\Datacap\Edelweiss_N\images\Input_MultiFormat
+8/27/2018 2:48:21 PM    Folder created
+8/27/2018 2:48:21 PM    Copying to directory C:\Datacap\Edelweiss_N\images\Input_MultiFormat
+8/27/2018 2:48:21 PM    Processing item C:\Datacap\Templates\FormTemplate\images\Input_SingleTIFFs, type: Directory
+8/27/2018 2:48:21 PM    Creating directory C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs
+8/27/2018 2:48:21 PM    Folder created
+8/27/2018 2:48:21 PM    Copying to directory C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs
+8/27/2018 2:48:21 PM    Done copying files
+8/27/2018 2:48:21 PM    Renaming dco folder
+8/27/2018 2:48:21 PM    Updating database paths
+8/27/2018 2:48:21 PM    ***** Original Admin Database Path *****
+Before: C:\Datacap\Templates\FormTemplate\FormTemplateAdm.mdb
+After: C:\Datacap\Templates\FormTemplate\FormTemplateAdm.mdb
+
+8/27/2018 2:48:21 PM    ***** Original Admin Database Path *****
+Before: C:\Datacap\Templates\FormTemplate\FormTemplateEng.mdb
+After: C:\Datacap\Templates\FormTemplate\FormTemplateEng.mdb
+
+8/27/2018 2:48:21 PM    ***** Original fingerprint Database Path *****
+Before: C:\Datacap\Templates\FormTemplate\FormTemplateFingerprint.mdb
+After: C:\Datacap\Templates\FormTemplate\FormTemplateFingerprint.mdb
+
+Admin Database: C:\Datacap\Edelweiss_N\Edelweiss_NAdm.mdb
+Engine Database: C:\Datacap\Edelweiss_N\Edelweiss_NEng.mdb
+Fingerprint Database: C:\Datacap\Edelweiss_N\Edelweiss_NFingerprint.mdb
+
+Activity log follows:
+8/27/2018 2:48:21 PM    Done
+8/27/2018 2:48:21 PM    Workflows 1
+8/27/2018 2:48:21 PM    Performing file name changes for workflow FormTemplate
+8/27/2018 2:48:21 PM    Performing project file name changes in C:\Datacap\Edelweiss_N\dco_Edelweiss_N
+8/27/2018 2:48:21 PM    ***** C:\Datacap\Edelweiss_N\dco_Edelweiss_NFolder Files *****
+Before: C:\Datacap\Edelweiss_N\dco_Edelweiss_N\FormTemplate.ini
+After: C:\Datacap\Edelweiss_N\dco_Edelweiss_N\EDELWEISS_N.INI
+
+8/27/2018 2:48:21 PM    ***** C:\Datacap\Edelweiss_N\dco_Edelweiss_NFolder Files *****
+Before: C:\Datacap\Edelweiss_N\dco_Edelweiss_N\FormTemplate.xml
+After: C:\Datacap\Edelweiss_N\dco_Edelweiss_N\EDELWEISS_N.XML
+
+8/27/2018 2:48:21 PM    Performing project file name changes in C:\Datacap\Edelweiss_N\dco_Edelweiss_N\verify
+8/27/2018 2:48:21 PM    Updating project file entries in C:\Datacap\Edelweiss_N\dco_Edelweiss_N
+8/27/2018 2:48:21 PM    DEBUGLOG: ModifyEntries - *.ini
+8/27/2018 2:48:21 PM    DEBUGLOG: Reading file C:\Datacap\Edelweiss_N\dco_Edelweiss_N\EDELWEISS_N.INI
+8/27/2018 2:48:21 PM    DEBUGLOG: File read
+8/27/2018 2:48:21 PM    DEBUGLOG: File close
+8/27/2018 2:48:21 PM    DEBUGLOG: Reading file C:\Datacap\Edelweiss_N\dco_Edelweiss_N\fixupBP.ini
+8/27/2018 2:48:21 PM    DEBUGLOG: File read
+8/27/2018 2:48:21 PM    DEBUGLOG: File close
+8/27/2018 2:48:21 PM    DEBUGLOG: Reading file C:\Datacap\Edelweiss_N\dco_Edelweiss_N\imagefix.ini
+8/27/2018 2:48:21 PM    DEBUGLOG: File read
+8/27/2018 2:48:21 PM    DEBUGLOG: File close
+8/27/2018 2:48:21 PM    DEBUGLOG: Reading file C:\Datacap\Edelweiss_N\dco_Edelweiss_N\Settings.ini
+8/27/2018 2:48:21 PM    DEBUGLOG: File read
+8/27/2018 2:48:21 PM    DEBUGLOG: File close
+8/27/2018 2:48:21 PM    ***** C:\Datacap\Edelweiss_N\dco_Edelweiss_N\Settings.ini <String Replacement> *****
+Before: TestVendorDSN=provider=microsoft.jet.oledb.4.0;data source=C:\Datacap\Templates\apt\aptlook.mdb;persist security info=false
+After: TestVendorDSN=provider=microsoft.jet.oledb.4.0;data source=C:\Datacap\apt\aptlook.mdb;persist security info=false
+
+8/27/2018 2:48:21 PM    ***** C:\Datacap\Edelweiss_N\dco_Edelweiss_N\Settings.ini <String Replacement> *****
+Before: VendorDSN=provider=microsoft.jet.oledb.4.0;data source=C:\Datacap\Templates\apt\aptlook.mdb;persist security info=false
+After: VendorDSN=provider=microsoft.jet.oledb.4.0;data source=C:\Datacap\apt\aptlook.mdb;persist security info=false
+
+8/27/2018 2:48:21 PM    ***** C:\Datacap\Edelweiss_N\dco_Edelweiss_N\Settings.ini <String Replacement> *****
+Before: FingerprintDatabase=provider=microsoft.jet.oledb.4.0;data source=C:\Datacap\Templates\FormTemplate\FormTemplatefingerprint.mdb;persist security info=false
+After: FingerprintDatabase=provider=microsoft.jet.oledb.4.0;data source=C:\Datacap\Edelweiss_N\Edelweiss_Nfingerprint.mdb;persist security info=false
+
+8/27/2018 2:48:21 PM    ***** C:\Datacap\Edelweiss_N\dco_Edelweiss_N\Settings.ini <String Replacement> *****
+Before: FingerprintDirectory=C:\Datacap\Templates\FormTemplate\fingerprint
+After: FingerprintDirectory=C:\Datacap\Edelweiss_N\fingerprint
+
+8/27/2018 2:48:21 PM    ***** C:\Datacap\Edelweiss_N\dco_Edelweiss_N\Settings.ini <String Replacement> *****
+Before: FingerprintBackupDirectory=C:\Datacap\Templates\FormTemplate\fingerprint backup
+After: FingerprintBackupDirectory=C:\Datacap\Edelweiss_N\fingerprint backup
+
+8/27/2018 2:48:21 PM    ***** C:\Datacap\Edelweiss_N\dco_Edelweiss_N\Settings.ini <String Replacement> *****
+Before: SetupDCO=C:\Datacap\Templates\FormTemplate\dco_FormTemplate\FormTemplate.xml
+After: SetupDCO=C:\Datacap\Edelweiss_N\dco_Edelweiss_N\Edelweiss_N.xml
+
+8/27/2018 2:48:21 PM    ***** C:\Datacap\Edelweiss_N\dco_Edelweiss_N\Settings.ini <String Replacement> *****
+Before: AddedImageSource=C:\Datacap\Templates\FormTemplate\dco_FormTemplate\blank.tif
+After: AddedImageSource=C:\Datacap\Edelweiss_N\dco_Edelweiss_N\blank.tif
+
+8/27/2018 2:48:21 PM    ***** C:\Datacap\Edelweiss_N\dco_Edelweiss_N\Settings.ini <String Replacement> *****
+Before: InsertImage = C:\Datacap\Templates\FormTemplate\dco_FormTemplate\blank.tif
+After: InsertImage = C:\Datacap\Edelweiss_N\dco_Edelweiss_N\blank.tif
+
+8/27/2018 2:48:21 PM    Updating rule file entries
+8/27/2018 2:48:21 PM    Updating dco paths in admin database
+8/27/2018 2:48:21 PM    Performing project file name changes in C:\Datacap\Edelweiss_N
+8/27/2018 2:48:21 PM    ***** C:\Datacap\Edelweiss_NFolder Files *****
+Before: C:\Datacap\Edelweiss_N\FormTemplate.app
+After: C:\Datacap\Edelweiss_N\EDELWEISS_N.APP
+
+8/27/2018 2:48:21 PM    ***** C:\Datacap\Edelweiss_NFolder Files *****
+Before: C:\Datacap\Edelweiss_N\FormTemplate.app.bak
+After: C:\Datacap\Edelweiss_N\EDELWEISS_N.APP.BAK
+
+8/27/2018 2:48:21 PM    ***** C:\Datacap\Edelweiss_NFolder Files *****
+Before: C:\Datacap\Edelweiss_N\FormTemplateLook.mdb
+After: C:\Datacap\Edelweiss_N\EDELWEISS_NLOOK.MDB
+
+8/27/2018 2:48:21 PM    Updating other paths in admin database
+8/27/2018 2:48:21 PM    ***** Admin Database *****
+Update: All records deleted from AUDIT table
+
+8/27/2018 2:48:21 PM    ***** Admin Database *****
+Update: ADMINFO.db_apptitle updated to Edelweiss_N
+
+8/27/2018 2:48:21 PM    ***** Admin Database *****
+Update: ADMINFO.db_index updated to 34
+
+8/27/2018 2:48:21 PM    ***** Admin Database *****
+Update: DCO.dco_id updated to Edelweiss_N
+
+8/27/2018 2:48:21 PM    Updating other paths in engine database
+8/27/2018 2:48:21 PM    ***** Engine Database *****
+Update: ENGINFO.db_index updated to 34
+
+8/27/2018 2:48:21 PM    Updating other paths in fingerprint database
+8/27/2018 2:48:21 PM    ***** Fingerprint database TEMPLATE.tp_CCOPath *****
+Before: C:\Datacap\Templates\FormTemplate\fingerprint\555.cco
+After: c:\datacap\edelweiss_n\fingerprint\555.cco
+
+8/27/2018 2:48:21 PM    ***** Fingerprint database TEMPLATE.tp_ImagePath *****
+Before: C:\Datacap\Templates\FormTemplate\fingerprint\555.tif
+After: c:\datacap\edelweiss_n\fingerprint\555.tif
+
+8/27/2018 2:48:22 PM    Creating application in Datacap.xml
+8/27/2018 2:48:22 PM    Updating APP file
+8/27/2018 2:48:22 PM    ***** APP File *****
+Before: Provider=Microsoft.Jet.OLEDB.4.0;Data Source=[path/]FormTemplateEng.mdb;
+After: Provider=Microsoft.Jet.OLEDB.4.0;Data Source=[path/]Edelweiss_NEng.mdb;
+
+8/27/2018 2:48:22 PM    ***** APP File *****
+Before: Provider=Microsoft.Jet.OLEDB.4.0;Data Source=[path/]FormTemplateAdm.mdb;
+After: Provider=Microsoft.Jet.OLEDB.4.0;Data Source=[path/]Edelweiss_NAdm.mdb;
+
+8/27/2018 2:48:22 PM    ***** APP File *****
+Before: FormTemplate.xml
+After: Edelweiss_N.xml
+
+8/27/2018 2:48:22 PM    ***** APP File *****
+Before: Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Datacap\Templates\FormTemplate\FormTemplateFingerprint.mdb;
+After: Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Datacap\Edelweiss_N\Edelweiss_NFingerprint.mdb;
+
+8/27/2018 2:48:22 PM    ***** APP File *****
+Before: Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Datacap\Templates\FormTemplate\FormTemplateLook.mdb;
+After: Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Datacap\Edelweiss_N\Edelweiss_NLook.mdb;
+
+8/27/2018 2:48:22 PM    ***** APP File *****
+Before: C:\Datacap\Templates\FormTemplate\images\Input_SingleTIFFs
+After: C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs
+
+8/27/2018 2:48:22 PM    ***** APP File *****
+Before: C:\Datacap\Templates\FormTemplate\images\Input_MultiFormat
+After: C:\Datacap\Edelweiss_N\images\Input_MultiFormat
+
+8/27/2018 2:48:22 PM    ***** APP File *****
+Before: C:\Datacap\Templates\FormTemplate\images\Input_SingleTIFFs
+After: C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs
+
+8/27/2018 2:48:22 PM    ***** APP File *****
+Before: C:\Datacap\Templates\FormTemplate\dco_FormTemplate\Settings.ini
+After: C:\Datacap\Edelweiss_N\dco_Edelweiss_N\Settings.ini
+
+8/27/2018 2:48:22 PM    Clearing contents of the batch folder
+8/27/2018 2:48:22 PM    Batch folders were not found in C:\Datacap\Edelweiss_N\batches. Nothing to delete.
+8/27/2018 2:48:22 PM    Updated XML with DCO name
+8/27/2018 2:48:22 PM    Application Wizard is finished creating the FormTemplate application.

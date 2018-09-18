@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rsapp name="Edelweiss_N">
+	<rsc>
+		<ruleset id="ImportFiles.Rul.dll" name.dll="ImportFiles" depends=""/>
+		<ruleset id="2" name="Import Files - All" depends=""/>
+		<ruleset name.dll="Image_Convert" id="Image_Convert" depends=""/>
+		<ruleset name.dll="ImageEnhancement" id="ImageEnhancement" depends=""/>
+		<ruleset name.dll="IdentifyPages" id="IdentifyPages" depends=""/>
+		<ruleset name.dll="CreateDocuments" id="CreateDocuments"/>
+		<ruleset name="Document Integrity" id="11" depends=""/>
+		<ruleset name.dll="RecognizePagesAndFields" id="RecognizePagesAndFields" depends=""/>
+		<ruleset name.dll="ValidateFields" id="ValidateFields" depends=""/>
+		<ruleset name="Routing" id="10" depends=""/>
+		<ruleset name="Export" id="7" depends=""/>
+		<ruleset name="FingerprintAdd" id="8" depends=""/>
+		<ruleset name="Export Statistics" id="Export Statistics" depends=""/>
+		<ruleset name="Profile Statistics" id="Profile Statistics" depends=""/>
+		<ruleset id="5" name="ImageFix" depends=""/>
+		<ruleset id="9" name="PageStatus" depends=""/>
+		<ruleset id="12" name="Document Integrity" depends=""/>
+		<ruleset id="14" name="Clean" depends=""/>
+		<ruleset id="15" name="Validate" depends=""/>
+		<ruleset id="16" name="Routing" depends=""/>
+		<ruleset id="17" name="GeneratePDF file" depends=""/>
+		<ruleset id="18" name="GetValuesFromJSONWebservice" depends=""/>
+		<ruleset id="19" name="SetVariableToField" depends=""/>
+		<ruleset id="20" name="SetTenureValue" depends=""/>
+		<ruleset id="25" name="Pro_Adrs_testing" depends=""/>
+		<ruleset id="31" name="ExportToFolder" depends=""/>
+		<ruleset id="22" name="Create_TextFile" depends=""/>
+		<ruleset id="13" name="Recognize_bkp" depends=""/>
+		<ruleset id="39" name="Validationsbkp" depends=""/>
+		<ruleset id="23" name="GetDbValues" depends=""/>
+		<ruleset id="33" name="------------------------------------------------------------------------------------------------------------------------------" depends=""/>
+		<ruleset id="1" name="VScan" depends=""/>
+		<ruleset id="38" name="Copying the original  image to uploads folder" depends=""/>
+		<ruleset id="29" name="SplitthefilenamewithExtension" depends=""/>
+		<ruleset id="3" name="ConnvertImages" depends=""/>
+		<ruleset id="30" name="Recognize_OCREngine" depends=""/>
+		<ruleset id="6" name="PageID" depends=""/>
+		<ruleset id="26" name="PageID_AfterPageID" depends=""/>
+		<ruleset id="4" name="DeleteTempFile" depends=""/>
+		<ruleset id="21" name="CreateDocs" depends=""/>
+		<ruleset id="27" name="MergeCCo" depends=""/>
+		<ruleset id="28" name="Recognize" depends=""/>
+		<ruleset id="32" name="Clear" depends=""/>
+		<ruleset id="24" name="ExportToP8" depends=""/>
+		<ruleset id="34" name="Validations" depends=""/>
+		<ruleset id="35" name="SetthePageStatus" depends=""/>
+		<ruleset id="36" name="Copying the Documentsto another folder" depends=""/>
+		<ruleset id="37" name="DeletetheDirectory" depends=""/>
+		<ruleset id="40" name="Validating_Fields" depends=""/>
+	</rsc>
+	<tps>
+		<tprofile name="PageID">
+			<ruleset id="38"/>
+			<ruleset id="29"/>
+			<ruleset id="3"/>
+			<ruleset id="30"/>
+			<ruleset id="6"/>
+			<ruleset id="26"/>
+		</tprofile>
+		<tprofile name="Profiler">
+			<ruleset id="21"/>
+			<ruleset id="27"/>
+			<ruleset id="28"/>
+			<ruleset id="32"/>
+			<ruleset id="35"/>
+		</tprofile>
+		<tprofile name="Verify">
+			<ruleset id="40"/>
+		</tprofile>
+		<tprofile name="Export">
+			<ruleset id="24"/>
+			<ruleset id="37"/>
+		</tprofile>
+		<tprofile name="FingerprintAdd">
+			<ruleset id="ImageEnhancement"/>
+			<ruleset id="8"/>
+		</tprofile>
+		<tprofile name="ScanFromDisk_SingleTIFFs">
+			<ruleset id="ImportFiles.Rul.dll"/>
+		</tprofile>
+		<tprofile name="FixUp"/>
+		<tprofile name="VScan">
+			<ruleset id="1"/>
+		</tprofile>
+		<tprofile name="Convert">
+			<ruleset id="Image_Convert"/>
+		</tprofile>
+	</tps>
+</rsapp>

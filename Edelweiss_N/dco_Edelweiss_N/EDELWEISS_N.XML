@@ -1,0 +1,257 @@
+<?xml-stylesheet type="text/xsl" href="..\..\dco.xsl"?>
+<S>
+	<B type="Edelweiss_N">
+		<V n="ID">0</V>
+		<V n="TYPE">Batch</V>
+		<V n="STATUS">0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;1&quot; rs=&quot;1&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;21&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;12&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;5&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;4&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;24&quot; /&gt;&lt;/in&gt;&lt;out&gt;&lt;r id=&quot;3&quot; rs=&quot;6&quot; /&gt;&lt;/out&gt;</V>
+		<P type="Other" pos="0" min="0" max="0"/>
+		<D type="Edelweiss_Document" pos="0" min="0" max="0"/>
+	</B>
+	<D type="Edelweiss_Document">
+		<V n="ID">0</V>
+		<V n="TYPE">Document</V>
+		<V n="STATUS">0</V>
+		<V n="DOC DATA">0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;1&quot; rs=&quot;17&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;27&quot; /&gt;&lt;/in&gt;&lt;out&gt;&lt;r id=&quot;3&quot; rs=&quot;24&quot; /&gt;&lt;/out&gt;</V>
+		<P type="MainPage" pos="1" min="1" max="1"/>
+		<P type="SecondPage" pos="0" min="0" max="0"/>
+		<P type="TrailingPage" pos="0" min="0" max="0"/>
+	</D>
+	<P type="Other">
+		<V n="ID">0</V>
+		<V n="TYPE">Page</V>
+		<V n="STATUS">0</V>
+		<V n="IMAGEFILE"></V>
+		<V n="DATAFILE"></V>
+		<V n="TEMPLATE IMAGE"></V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;1&quot; rs=&quot;6&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;8&quot; /&gt;&lt;r id=&quot;2&quot; rs=&quot;5&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;3&quot; /&gt;&lt;r id=&quot;2&quot; rs=&quot;26&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;29&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;30&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;22&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;38&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</P>
+	<P type="MainPage">
+		<V n="ID">0</V>
+		<V n="TYPE">Page</V>
+		<V n="STATUS">0</V>
+		<V n="IMAGEFILE"></V>
+		<V n="DATAFILE"></V>
+		<V n="TEMPLATE IMAGE"></V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;2&quot; rs=&quot;21&quot; /&gt;&lt;r id=&quot;2&quot; rs=&quot;24&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;34&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;35&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;36&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;37&quot; /&gt;&lt;r id=&quot;2&quot; rs=&quot;40&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<F type="Entity" pos="0" min="0" max="0"/>
+		<F type="PrimaryUser" pos="0" min="0" max="0"/>
+		<F type="Function" pos="0" min="0" max="0"/>
+		<F type="Region" pos="0" min="0" max="0"/>
+		<F type="State" pos="0" min="0" max="0"/>
+		<F type="City" pos="0" min="0" max="0"/>
+		<F type="DocumentType" pos="0" min="0" max="0"/>
+		<F type="IssueDate" pos="0" min="0" max="0"/>
+		<F type="Tenure" pos="0" min="0" max="0"/>
+		<F type="Licensors" pos="0" min="0" max="0"/>
+		<F type="PropertyAddress" pos="0" min="0" max="0"/>
+		<F type="UniqueCode" pos="0" min="0" max="0"/>
+		<F type="VendorName" pos="0" min="0" max="0"/>
+	</P>
+	<P type="SecondPage">
+		<V n="ID">0</V>
+		<V n="TYPE">Page</V>
+		<V n="STATUS">0</V>
+		<V n="IMAGEFILE"></V>
+		<V n="DATAFILE"></V>
+		<V n="TEMPLATE IMAGE"></V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;2&quot; rs=&quot;35&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</P>
+	<P type="TrailingPage">
+		<V n="ID">0</V>
+		<V n="TYPE">Page</V>
+		<V n="STATUS">0</V>
+		<V n="IMAGEFILE"></V>
+		<V n="DATAFILE"></V>
+		<V n="TEMPLATE IMAGE"></V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;2&quot; rs=&quot;35&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</P>
+	<F type="Frequency_OMR1">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="length"></V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+		<V n="RecogType">4</V>
+		<F type="Frequency_OMR1_OMR1" pos="0" min="0" max="0"/>
+	</F>
+	<F type="Signature_OMR1">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="length"></V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="Frequency_OMR1_OMR1">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="length"></V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="Entity">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="Position">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="length"></V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;9&quot; rs=&quot;34&quot; /&gt;&lt;r id=&quot;3&quot; rs=&quot;40&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="PrimaryUser">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="Position">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="length"></V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;8&quot; rs=&quot;34&quot; /&gt;&lt;r id=&quot;8&quot; rs=&quot;40&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="Function">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="Position">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="length"></V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;7&quot; rs=&quot;34&quot; /&gt;&lt;r id=&quot;9&quot; rs=&quot;40&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="Region">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="Position">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="length"></V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;10&quot; rs=&quot;34&quot; /&gt;&lt;r id=&quot;14&quot; rs=&quot;40&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="State">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="Position">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="length"></V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;11&quot; rs=&quot;34&quot; /&gt;&lt;r id=&quot;10&quot; rs=&quot;40&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="City">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="Position">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="length"></V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;12&quot; rs=&quot;34&quot; /&gt;&lt;r id=&quot;11&quot; rs=&quot;40&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="DocumentType">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="Position">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="length"></V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;4&quot; rs=&quot;28&quot; /&gt;&lt;r id=&quot;5&quot; rs=&quot;40&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="IssueDate">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="Position">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="length"></V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;5&quot; rs=&quot;28&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;32&quot; /&gt;&lt;r id=&quot;4&quot; rs=&quot;40&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="Tenure">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="Position">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="length"></V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;2&quot; rs=&quot;28&quot; /&gt;&lt;r id=&quot;3&quot; rs=&quot;34&quot; /&gt;&lt;r id=&quot;12&quot; rs=&quot;40&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="Licensors">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="Position">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="length"></V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;3&quot; rs=&quot;28&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;32&quot; /&gt;&lt;r id=&quot;4&quot; rs=&quot;34&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;40&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="PropertyAddress">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="Position">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="length"></V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;1&quot; rs=&quot;25&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;32&quot; /&gt;&lt;r id=&quot;5&quot; rs=&quot;34&quot; /&gt;&lt;r id=&quot;6&quot; rs=&quot;40&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="UniqueCode">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="Position">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="length"></V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;7&quot; rs=&quot;40&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="VendorName">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="Position">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="length"></V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;13&quot; rs=&quot;40&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</F>
+</S>

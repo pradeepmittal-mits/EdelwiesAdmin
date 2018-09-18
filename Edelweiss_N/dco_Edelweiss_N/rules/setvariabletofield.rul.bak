@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archive>
+	<ruleset id="19" name="SetVariableToField" ver="1" modder="admin.1" qi="">
+		<rule name="Rule1" id="1">
+			<func name="Function1"/>
+		</rule>
+	</ruleset>
+	<ruleset id="19" name="SetVariableToField" ver="2" modder="admin.1" qi="" dt="08/27/18 15:06:05.1 ">
+		<rule name="LOBFieldValue" id="1" qi="">
+			<func name="Function1">
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@P.LOBDESCRIPTION"/>
+					<p name="varTarget" v="@F"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="CopyFieldValuesToDocLevel" id="2">
+			<func name="Function1">
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@P\Tenure_LOI"/>
+					<p name="varTarget" v="@D.Tenure"/>
+				</a>
+				<a name="rrSet" ns="rrunner">
+					<p name="varSource" v="@P\Start_Date"/>
+					<p name="varTarget" v="@D.StartDate"/>
+				</a>
+				<a name="rrSet" ns="rrunner" qi="">
+					<p name="varSource" v="@P\End_Date"/>
+					<p name="varTarget" v="@D.EndDate"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+</archive>

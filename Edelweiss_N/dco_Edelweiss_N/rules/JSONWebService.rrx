@@ -1,0 +1,10 @@
+﻿<?xml version='1.0' ?>
+<rrx namespace="JSONWebService" v="1.0.0">
+  <com ref="Datacap.Libraries.JSONWebService.Actions"  qi="Description of action library">
+    <!-- Example action declaration -->
+    <method name="GetValuesfromJSON" qi="sample method declaration in RRX">
+    <p name="URL" qi="Webservice URL name"></p>
+    <p name="Input" qi="Input Field Name"></p>
+    </method>
+  </com>
+</rrx>

@@ -1,0 +1,21 @@
+<B id="ID">
+  <P n="BatchDir">C:\Datacap\Edelweiss_N\dco_Edelweiss_N\test\run\admin.1</P>
+  <P n="AppName">
+  </P>
+  <P n="Workflow">
+  </P>
+  <P n="DCOFile">C:\Datacap\Edelweiss_N\dco_Edelweiss_N\test\run\admin.1\Recognize_OCREngine.xml</P>
+  <P n="Operator">admin</P>
+  <P n="Station">1</P>
+  <P n="JobName">RulesetTest</P>
+  <P n="TaskName">Recognize_OCREngine</P>
+  <P n="Priority">5</P>
+  <P n="PagesInBatch">0</P>
+  <P n="DocsInBatch">0</P>
+  <P n="ExpectedPages">0</P>
+  <P n="ExpectedDocs">0</P>
+  <P n="AdjustedPages">0</P>
+  <P n="AdjustedDocs">0</P>
+  <P n="ProjectPath">
+  </P>
+</B>

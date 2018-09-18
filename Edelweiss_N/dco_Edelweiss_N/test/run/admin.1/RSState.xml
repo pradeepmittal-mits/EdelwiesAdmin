@@ -1,0 +1,43 @@
+<s breakpoint="" lib="Edelweiss_N" wf="Edelweiss_N" tprofile="" rses="id=30" task="" task.index="" log_file="" last_batch_log_file="c:\datacap\edelweiss_n\dco_edelweiss_n\test\run\admin.1\recognize_ocrengine_rrs.log" last_exec_result="0" last_logic_result="1" flags="0">
+  <stack>
+  </stack>
+  <error code="0" api_source="" location="">
+  </error>
+  <dc n="5">
+    <data id="2:rrs:save-unfinished-dco" v="yes" />
+    <data id="rrs:atm:me:group_indexes" v="-1" />
+    <data id="rrs:atm:me:group_keys" v="0" />
+    <data id="rrs:atm:me:group_weights" v="0" />
+    <data id="rrs:atm:me:groups" v="Everyone" />
+  </dc>
+  <OnActionStart>
+  </OnActionStart>
+  <OnActionSuccess>
+  </OnActionSuccess>
+  <OnActionFailure>
+  </OnActionFailure>
+  <OnActionAbort>
+  </OnActionAbort>
+  <OnActionStop>
+  </OnActionStop>
+  <OnFunctionStart>
+  </OnFunctionStart>
+  <OnFunctionSuccess>
+  </OnFunctionSuccess>
+  <OnFunctionFailure>
+  </OnFunctionFailure>
+  <OnRuleStart>
+  </OnRuleStart>
+  <OnRuleFailure>
+  </OnRuleFailure>
+  <OnRuleSuccess>
+  </OnRuleSuccess>
+  <OnRulesetStart>
+  </OnRulesetStart>
+  <OnRulesetEnd>
+  </OnRulesetEnd>
+  <OnProcessStart>
+  </OnProcessStart>
+  <OnProcessEnd>
+  </OnProcessEnd>
+</s>

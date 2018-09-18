@@ -1,0 +1,4261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archive>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="1" modder="admin.1" qi="">
+		<rule name="Rule1" id="1">
+			<func name="Function1"/>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="2" modder="admin.1" qi="" dt="08/30/18 12:44:31.178 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind">
+					<p type="bInter"/>
+					<p type="bDebug"/>
+					<p type="strParam" v="[0-9]{6}"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="3" modder="admin.1" qi="" dt="08/30/18 12:47:42.887 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter"/>
+					<p type="bDebug"/>
+					<p type="strParam" v="situated"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="4" modder="admin.1" qi="" dt="08/30/18 12:48:04.246 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="5" modder="admin.1" qi="" dt="08/30/18 15:14:34.997 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter"/>
+					<p type="bDebug"/>
+					<p type="strParam" v="2"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="6" modder="admin.1" qi="" dt="08/30/18 15:17:34.32 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="7" modder="admin.1" qi="" dt="08/30/18 15:18:44.710 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="8" modder="admin.1" qi="" dt="08/30/18 15:20:05.115 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="9" modder="admin.1" qi="" dt="08/30/18 15:21:13.523 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoDownLine">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="10" modder="admin.1" qi="" dt="08/30/18 15:21:50.30 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="11" modder="admin.1" qi="" dt="08/30/18 15:30:02.703 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="12" modder="admin.1" qi="" dt="08/30/18 15:30:29.515 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="13" modder="admin.1" qi="" dt="08/30/18 15:31:16.734 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="14" modder="admin.1" qi="" dt="08/30/18 15:31:45.906 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="15" modder="admin.1" qi="" dt="08/30/18 15:32:13.108 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="16" modder="admin.1" qi="" dt="08/30/18 16:03:58.445 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="17" modder="admin.1" qi="" dt="08/30/18 16:04:23.176 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="18" modder="admin.1" qi="" dt="08/30/18 16:07:14.326 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="19" modder="admin.1" qi="" dt="08/30/18 16:07:38.233 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="20" modder="admin.1" qi="" dt="08/30/18 16:08:58.313 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="21" modder="admin.1" qi="" dt="08/30/18 16:09:38.896 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="22" modder="admin.1" qi="" dt="08/30/18 16:10:27.525 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="23" modder="admin.1" qi="" dt="08/30/18 16:11:08.621 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="24" modder="admin.1" qi="" dt="08/30/18 16:11:41.796 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="25" modder="admin.1" qi="" dt="08/30/18 16:12:49.700 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a name="GoFirstWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="26" modder="admin.1" qi="" dt="08/30/18 16:15:08.1 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoFirstWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="27" modder="admin.1" qi="" dt="08/30/18 16:15:42.516 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoFirstWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="28" modder="admin.1" qi="" dt="08/30/18 16:16:23.542 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="GoFirstWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="29" modder="admin.1" qi="" dt="08/30/18 16:16:54.54 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="" disabled="y">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="GoFirstWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+			<func name="Function1">
+				<a ns="Locate" name="WordFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a name="SelectParentBlock" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="UpdateFieldWithBlock" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="30" modder="admin.1" qi="" dt="08/30/18 16:18:22.280 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="" disabled="y">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="GoFirstWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+			<func name="Function1">
+				<a ns="Locate" name="WordFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a name="SelectParentBlock" ns="Locate.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="SelectParentBlock" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="UpdateFieldWithBlock" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="31" modder="admin.1" qi="" dt="08/30/18 16:19:45.644 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoFirstWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneLEFT_LeftBound" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+			<func name="Function1" disabled="y">
+				<a ns="Locate" name="WordFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a name="SelectParentBlock" ns="Locate.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="SelectParentBlock" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="UpdateFieldWithBlock" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="32" modder="admin.1" qi="" dt="08/30/18 16:20:59.575 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoFirstWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneLEFT_LeftBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+			<func name="Function1" disabled="y">
+				<a ns="Locate" name="WordFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a name="SelectParentBlock" ns="Locate.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="SelectParentBlock" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="UpdateFieldWithBlock" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="33" modder="admin.1" qi="" dt="08/30/18 20:06:25.700 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoFirstWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneLEFT_LeftBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+			<func name="Function1" disabled="y">
+				<a ns="Locate" name="WordFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a name="SelectParentBlock" ns="Locate.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="SelectParentBlock" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="UpdateFieldWithBlock" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="25" name="Pro_Adrs_testing" ver="34" modder="admin.1" qi="" dt="08/31/18 10:50:01.35 ">
+		<rule name="Rule1" id="1" qi="">
+			<func name="Copy ofReadzones" qi="">
+				<a name="IsThisFieldEmpty" ns="Validations.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="WordFind">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="FindRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Address" name="StrParam"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoFirstWord" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneLEFT_LeftBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="RegExFind" ns="Locate" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="\b[Pp][Aa4][Rr][TtI][Ii1l][Eea][Ss5]\s*[Pp][Rr][Oo0][Pp][Oo0][Ss5][Eea][Dd]\s*([Lli1I][Eea][Ss5][Ss5][Oo0][Rr]|[LliI1][Iil1][Cc][Eea][Nn][Ss5][Oo0][Rr])\s?\,?\.?\:?\;?(?!\w+)\s?" name="StrParam"/>
+				</a>
+				<a ns="Locate" name="GoDownLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="2" name="strParam"/>
+				</a>
+				<a name="UpdateField" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoRightWord" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_LeftBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneRIGHT_ImageRight" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_ImageBottom" ns="Zones.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="ZoneRIGHT_RightBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneTOP_UpperBound" ns="Zones.dll" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_LowerBound" ns="Zones.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="ZoneBOTTOM_UpperBound" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="GoUpLine" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="strParam"/>
+				</a>
+				<a name="GoLastWord" ns="Locate.dll" disabled="y" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="FindNextRegExList" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Pincode" name="StrParam"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="PopulateZNField" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="GetZoneText" ns="Zones.dll" qi="" disabled="y">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+			<func name="Function1" disabled="y">
+				<a ns="Locate" name="WordFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="situated" name="StrParam"/>
+				</a>
+				<a name="SelectParentBlock" ns="Locate.dll">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a name="SelectParentBlock" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+				<a ns="Locate" name="RegExFind" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="[0-9]{6}" name="StrParam"/>
+				</a>
+				<a name="UpdateFieldWithBlock" ns="Locate.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+</archive>

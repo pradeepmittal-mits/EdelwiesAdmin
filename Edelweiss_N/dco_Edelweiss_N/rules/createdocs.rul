@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleset id="21" name="CreateDocs" ver="2" modder="admin.1" qi="" dt="08/27/18 15:06:30.313 ">
+	<rule name="Create Docs" id="1">
+		<func name="CreateDocs: Document Function 1">
+			<a name="CreateDocuments" ns="DCO">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Create Fields" id="2">
+		<func name="CreateDocs: Page Function 1">
+			<a name="CreateFields" ns="DCO">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

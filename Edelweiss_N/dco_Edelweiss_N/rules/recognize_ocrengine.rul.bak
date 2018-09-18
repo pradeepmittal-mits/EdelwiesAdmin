@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archive>
+	<ruleset id="30" name="Recognize_OCREngine" ver="1" modder="admin.1" qi="">
+		<rule name="Recognize_OCREngine_Rule1" id="1" qi="">
+			<func name="Function1">
+				<a name="RecognizePageOCR_S" ns="com:Datacap.Libraries.ScansoftR.Actions" qi=""/>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="30" name="Recognize_OCREngine" ver="2" modder="admin.1" qi="" dt="08/31/18 12:14:04.892 ">
+		<rule name="Recognize_OCREngine_Rule1" id="1" qi="">
+			<func name="Function1">
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xlsx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xlsx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".docx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a name="RecognizePageOCR_S" ns="com:Datacap.Libraries.ScansoftR.Actions" qi=""/>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="30" name="Recognize_OCREngine" ver="3" modder="admin.1" qi="" dt="08/31/18 12:15:46.97 ">
+		<rule name="Recognize_OCREngine_Rule1" id="1" qi="">
+			<func name="Function1">
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xlsx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xlsx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".docx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".msg"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a name="RecognizePageOCR_S" ns="com:Datacap.Libraries.ScansoftR.Actions" qi=""/>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="30" name="Recognize_OCREngine" ver="4" modder="admin.1" qi="" dt="08/31/18 12:17:05.480 ">
+		<rule name="Recognize_OCREngine_Rule1" id="1" qi="">
+			<func name="Function1">
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xlsx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xls"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".docx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".msg"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a name="RecognizePageOCR_S" ns="com:Datacap.Libraries.ScansoftR.Actions" qi=""/>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="30" name="Recognize_OCREngine" ver="5" modder="admin.1" qi="" dt="08/31/18 15:05:02.942 ">
+		<rule name="Recognize_OCREngine_Rule1" id="1" qi="">
+			<func name="Function1">
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xlsx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot">
+					<p name="object1" v=".bmp"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".gif"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xls"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".docx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".msg"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a name="RecognizePageOCR_S" ns="com:Datacap.Libraries.ScansoftR.Actions" qi=""/>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="30" name="Recognize_OCREngine" ver="6" modder="admin.1" qi="" dt="08/31/18 15:05:36.477 ">
+		<rule name="Recognize_OCREngine_Rule1" id="1" qi="">
+			<func name="Function1">
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xlsx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot">
+					<p name="object1" v=".bmp"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".gif"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xls"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".docx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".msg"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a name="RecognizePageOCR_S" ns="com:Datacap.Libraries.ScansoftR.Actions" qi=""/>
+				<a name="CreateTextFile" ns="Recog_Shared.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="30" name="Recognize_OCREngine" ver="7" modder="admin.1" qi="" dt="09/03/18 10:18:45.796 ">
+		<rule name="Recognize_OCREngine_Rule1" id="1" qi="">
+			<func name="Recognize_OCREngine_Function1" qi="">
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xlsx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot">
+					<p name="object1" v=".bmp"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".gif"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xls"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".docx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".msg"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a name="RecognizePageOCR_S" ns="com:Datacap.Libraries.ScansoftR.Actions" qi=""/>
+				<a name="CreateTextFile" ns="Recog_Shared.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="30" name="Recognize_OCREngine" ver="8" modder="admin.1" qi="" dt="09/03/18 11:24:42.681 ">
+		<rule name="Recognize_OCREngine_Rule1" id="1" qi="">
+			<func name="Recognize_OCREngine_Function1" qi="">
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xlsx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot">
+					<p name="object1" v=".bmp"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".gif"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xls"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".docx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".doc"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".msg"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a name="RecognizePageOCR_S" ns="com:Datacap.Libraries.ScansoftR.Actions" qi=""/>
+				<a name="CreateTextFile" ns="Recog_Shared.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="30" name="Recognize_OCREngine" ver="9" modder="admin.1" qi="" dt="09/03/18 15:14:38.22 ">
+		<rule name="Recognize_OCREngine_Rule1" id="1" qi="">
+			<func name="Recognize_OCREngine_Function1" qi="">
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xlsx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" disabled="y">
+					<p name="object1" v=".bmp"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".gif"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xls"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".docx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".doc"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".msg"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a name="RecognizePageOCR_S" ns="com:Datacap.Libraries.ScansoftR.Actions" qi=""/>
+				<a name="CreateTextFile" ns="Recog_Shared.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="30" name="Recognize_OCREngine" ver="10" modder="admin.1" qi="" dt="09/03/18 19:05:29.170 ">
+		<rule name="Recognize_OCREngine_Rule1" id="1" qi="">
+			<func name="Recognize_OCREngine_Function1" qi="">
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xlsx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" disabled="y">
+					<p name="object1" v=".bmp"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".gif"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".xls"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".docx"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="">
+					<p name="object1" v=".doc"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a ns="rrunner" name="rrCompareNot" qi="" disabled="y">
+					<p name="object1" v=".msg"/>
+					<p name="object2" v="@B.FILEEXT"/>
+				</a>
+				<a name="RecognizePageOCR_S" ns="com:Datacap.Libraries.ScansoftR.Actions" qi=""/>
+				<a name="CreateTextFile" ns="Recog_Shared.dll" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+</archive>

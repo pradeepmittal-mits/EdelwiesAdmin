@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleset id="9" name="PageStatus" ver="2" modder="admin.1" qi="" dt="08/27/18 15:06:38.92 ">
+	<rule name="MainPage" id="1">
+		<func name="Function1">
+			<a name="SetDCOStatus" ns="DCO">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="1" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="TrailingPage" id="2">
+		<func name="Function1">
+			<a name="SetDCOStatus" ns="DCO" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="0" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

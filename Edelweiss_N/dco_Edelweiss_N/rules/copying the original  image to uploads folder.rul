@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleset id="38" name="Copying the original  image to uploads folder" ver="9" modder="admin.1" dt="09/14/18 17:32:19.953 " qi="">
+	<rule name="Copying the images" id="1" qi="">
+		<func name="Copy the images:Function1" qi="">
+			<a ns="com:Datacap.Libraries.FileIO.Actions" name="IsDirectoryPresent">
+				<p name="directoryName" type="string" v="@APPVAR(values\gen\UploadImage)+\+@BatchID"/>
+				<p name="create" type="bool" v="True"/>
+				<p name="testExistence" type="bool" v="False"/>
+			</a>
+			<a name="GoToNextFunction" ns="rrunner.dll" qi=""/>
+		</func>
+		<func name="Copy the images: Function2" qi="">
+			<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="" disabled="y">
+				<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\batches\+@BatchID+\+@P.IMAGEFILE"/>
+				<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID+\+@B.OriginalFileName+@B.FILEEXT"/>
+				<p name="overwrite" type="bool" v="False"/>
+			</a>
+			<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile">
+				<p name="sourcefile" type="string" v="@P.IMAGEFILE"/>
+				<p name="targetfile" type="string" v="@APPVAR(values\gen\UploadImage)+\+@BatchID+\+@B.OriginalFileName+@B.FILEEXT"/>
+				<p name="overwrite" type="bool" v="False"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

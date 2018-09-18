@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleset id="1" name="VScan" ver="33" modder="admin.1" qi="" dt="09/14/18 17:29:15.122 ">
+	<rule name="VScan" id="1" qi="">
+		<func name="VScan: Batch Function 1" qi="">
+			<a ns="vscan" name="SetSourceDirectory" qi="" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="C:\Datacap\Edelweiss_N\images" name="SmartParam"/>
+			</a>
+			<a ns="vscan" name="SetSourceDirectory" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="@APPPATH(vscanimagedir)" name="SmartParam"/>
+			</a>
+			<a ns="VScan" name="SetImageType" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="tif,tiff,pdf,png,jpg,jpeg,xls,xlsx,msg,docx,doc,bmp" name="StrParam"/>
+			</a>
+			<a name="SetSourceDirectory" ns="vscan" qi="" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="@APPPATH(vscanimagedir)" name="SmartParam"/>
+			</a>
+			<a ns="vscan" name="SetMaxImageFiles" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="1" name="StrParam"/>
+			</a>
+			<a ns="VScan" name="MoveImageFileToDirectory">
+				<p type="bInter"/>
+				<p type="bDebug"/>
+				<p type="strParam" v="@APPVAR(values\gen\MovetoDirectory)"/>
+			</a>
+			<a name="Scan" ns="vscan" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

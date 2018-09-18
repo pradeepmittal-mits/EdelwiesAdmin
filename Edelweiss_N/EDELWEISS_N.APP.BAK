@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archive>
+	<app name="FormTemplate" ver="5" modder="Administrator.WIN-E6GDL89KDJD.WORKGROUP" dt="03/10/15 00:34:31.848 ">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=[path/]FormTemplateEng.mdb;"/>
+		<k name="tmadmin" cs="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=[path/]FormTemplateAdm.mdb;"/>
+		<k name="dco_FormTemplate">
+			<k name="setupdco" v="FormTemplate.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="True"/>
+			<k name="fingerprintconn" cs="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Datacap\Templates\FormTemplate\FormTemplateFingerprint.mdb;"/>
+			<k name="lookupdb" cs="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Datacap\Templates\FormTemplate\FormTemplateLook.mdb;"/>
+			<k name="vscanimagedir" v="C:\Datacap\Templates\FormTemplate\images\Input_SingleTIFFs"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Templates\FormTemplate\images\Input_MultiFormat"/>
+			<k name="exportdb" cs=""/>
+			<k name="copyimagedir" v="C:\Datacap\Templates\FormTemplate\images\Input_SingleTIFFs"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="ScanFromDisk_MultiFormat"/>
+			<k name="Convert" profile="Convert"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+			<k name="NProfiler" profile="Profiler"/>
+			<k name="NPageID" profile="PageID"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="SettingsFile" v="C:\Datacap\Templates\FormTemplate\dco_FormTemplate\Settings.ini"/>
+			</k>
+		</k>
+	</app>
+	<app name="Edelweiss_N" ver="5" modder="Administrator.WIN-E6GDL89KDJD.WORKGROUP" dt="03/10/15 00:34:31.848 ">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=[path/]FormTemplateEng.mdb;"/>
+		<k name="tmadmin" cs="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=[path/]FormTemplateAdm.mdb;"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="FormTemplate.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="True"/>
+			<k name="fingerprintconn" cs="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Datacap\Templates\FormTemplate\FormTemplateFingerprint.mdb;"/>
+			<k name="lookupdb" cs="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Datacap\Templates\FormTemplate\FormTemplateLook.mdb;"/>
+			<k name="vscanimagedir" v="C:\Datacap\Templates\FormTemplate\images\Input_SingleTIFFs"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Templates\FormTemplate\images\Input_MultiFormat"/>
+			<k name="exportdb" cs=""/>
+			<k name="copyimagedir" v="C:\Datacap\Templates\FormTemplate\images\Input_SingleTIFFs"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="ScanFromDisk_MultiFormat"/>
+			<k name="Convert" profile="Convert"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+			<k name="NProfiler" profile="Profiler"/>
+			<k name="NPageID" profile="PageID"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="SettingsFile" v="C:\Datacap\Templates\FormTemplate\dco_FormTemplate\Settings.ini"/>
+			</k>
+		</k>
+	</app>
+	<app name="Edelweiss_N" ver="6" modder="mitsind305.INHYDMITS702833.MITSGLOBAL" dt="08/27/18 14:48:22.94 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=[path/]Edelweiss_NEng.mdb;"/>
+		<k name="tmadmin" cs="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=[path/]Edelweiss_NAdm.mdb;"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="True"/>
+			<k name="fingerprintconn" cs="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Datacap\Edelweiss_N\Edelweiss_NFingerprint.mdb;"/>
+			<k name="lookupdb" cs="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Datacap\Edelweiss_N\Edelweiss_NLook.mdb;"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs=""/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="ScanFromDisk_MultiFormat"/>
+			<k name="Convert" profile="Convert"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+			<k name="NProfiler" profile="Profiler"/>
+			<k name="NPageID" profile="PageID"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="SettingsFile" v="C:\Datacap\Edelweiss_N\dco_Edelweiss_N\Settings.ini"/>
+			</k>
+		</k>
+	</app>
+	<app name="Edelweiss_N" ver="7" modder="mitsind305.INHYDMITS702833.MITSGLOBAL" dt="08/27/18 15:23:11.366 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]015cc4940b239893bcdb031ec752d88646f868ba4f71db7934a10711af9981af26eeab788c868e8eb436ee316bd0a1fd917957cf0ec2cde7c4abb5afaf3fdea3d8d4882e0037fde8d6a52ec65c8ebb4a43100ef9485913c7d4886633131ad0d635a0710c3999b285752dc40dae10f9c0085f09e9245e4773c9771c4671411f079d16c3a19dbccf0f365559a374bc3935ceb1f40dbda825092000a198903475c06489a289257ce20a44034925496a3749dc0f36cba955f2e41283dc6d419fa2bb646c559ef24eabcd5b6e57c0ed24a66991[/secured]"/>
+		<k name="tmadmin" cs="[secured]018f69c45a6bfd084708c74d131074e65e7bddb42773457bfc7b898cc7c4df221c89524f271420d7aba59a6c40ebfa510558e413ff365648d50c6aa231bd3c44937b14944292cf8117d510b448fd92a91e97bdfc80633d882a74c9fc10b4eff322531438c99ffb698bb65de01fc2777354c76ac3513c9023d9c19e31f92121a30d817bf7381bf53e11ad081a99413a04256a00f659889e69fc206196a405607a70ba9b6c1f7f299996da0db933cb987b984dc2ad05d79171627682e797e22c8fd1c88d4616d4809016f45c68897d67dbe7[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="True"/>
+			<k name="fingerprintconn" cs="[secured]0178af851789fac7ea644f380aa73375723e3245a3c763b78ba793504e122824c477b48835912817f3aeb83916ee35364a0a79ff15859762a86a92d7d817d7f99559478300a89b8a27eff68996e0af267244a5eaf9b5b2fc0b017414f94e5f02204b293eb5a68fdbad667103247dba69d7bf0beac75360ba7d6f54225cb70059bd4c6609041a32271b711437a04b447a5de90f9bf8176ad7aa865db8e380a3c39f2f60b63326a3d7b8a37719b15ff5b9b5e8dbdd8565ac65e41b22131282da60cfdff91d9b372a00345ac2e0000cf41d9c3dbdcf327f3a7d3a4bd99fd40b560a51[/secured]"/>
+			<k name="lookupdb" cs="[secured]0107534664f7fff0f064033b9dcf1cfd644dfc6b813dc51d928cb183b86a73c75be5d9bd39a575ef824f85f01d5e3b5423c0a553fa083692213fd678bdf5879618111f888cb01c016da4f569bcb09845746a7b650e6080ee06c2a136a3b7bcd0f5401a3e8ea9472a9cb163fe51b2be3dc2a5458876ecb1b0a40106fcec4c93666d55dcd8ac6f7d77121e0b08f02058a9c9ea82329bf549b7f02c01a8b03516673b615bb5655cd222a3a0ae1744bf45c36029aba33079e6f00951b9680a59a007397fbfc6604c932b76fde77386642a7586[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]0162576e7a8b63ae76b644fd8da3d9c00aab73c4503df040d83b98713deb31a3d530daf16770a563c204c8412d442e498332b935fe587d3f84bef3894215c1e39d[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="ScanFromDisk_MultiFormat"/>
+			<k name="Convert" profile="Convert"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+			<k name="NProfiler" profile="Profiler"/>
+			<k name="NPageID" profile="PageID"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="SettingsFile" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZDlE5Lo18f2gY7Y37R5GW96Nr4Yj1KK0Ws6OxCUD7CABeH1ZZ0ySDs9DvQFTE7XtFxQ7zfAe70IY1KADJdEvS3xn[/encoded]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="8" modder="mitsind305.INHYDMITS702833.MITSGLOBAL" dt="08/27/18 15:23:27.579 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]01839c957301d0c9a3ec6bd760402ecb91d69b370d82c9d3a70939f1721fce05c27ea932862ec33e1c852e9a460a77a6b968aaa1581ade256d7664ba412982708acaacc2ad5c0f1ccf83082744096618e0138b7996ae108eaabade8a0615485dbc97e7b935d60d7d1a39c331463913c3c58d9adcee917521b214dcab5507c229d28fac3c0213158864fc9213a178304a72fbc56dba5c55ec43f670534d60d940b2f5e61a964dd306881a2fb988799a35a79c3ffb103eccad9246417e448cda2aeb3693da323f77b5da6ea0f0f145c89bf0[/secured]"/>
+		<k name="tmadmin" cs="[secured]017804ad62e970992ab26553b7e92b2186eb31efe9bd94fe5944083581738f7b3beb71c823238308eded6e243477a13fbc8db6c74d99f3b9e92e250ac37ac34889ecba698468dd5773a34837fcc40627e08808115cd54cc2298cece2068368a8ba733bf0b00171510f7b0c27bdfbd33f363e4b5e595902a58c6a3681dd5f2d6eaa0c3d7558368488b3a2bdb7c09b572b13301c7c681a321e9f2734d10dfd8ec9145a13d447fceab405789d42557bb670008939a998ac98fdca3ad9e546dd608d0e17d0122dea1c69a7cce4b957a74be12e[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="True"/>
+			<k name="fingerprintconn" cs="[secured]018f1ef03343d86d68bbd0964ad2458f2026762a29d3ff92430537e2164615445fd3b9c5244b94bd549b66e9466be4bef3344288db451901d95685987e8170cae1cf1a9b5013c722fe31ac19b6ba6508b5b03c50d802bf2ce0b7660f209fb1b5f90ffddf62e50f4b2849433fe19213e27c00686847b4f9e0cb44bfe7594369df7e04a194f851c0ba043fb648da20a8dbfe5669d3d54209b92f4f4eea61fecda7ad2ccfb5a62303d304f2abc7e5db73241d2e0f2cfa6d6a3d49fd3ba72a084ddc70576781d0c68d205d5ecd7b1ddb9fd18106404e86d737ae8c4f8a0e81e2d6b6f6[/secured]"/>
+			<k name="lookupdb" cs="[secured]019a0308c523c861f79986cf0622f063aeebe28eba0aa26e169ef91750b3b37896e33d4530c51e17af02050535272c6f7b9be59559588ab2dd6aca8c16a1f15facc0adedc7e7e44e8f16524ba25160857fb34da30bab381427e52326efa82931b2ab8cac33859feddbd58d53737cbaec4eabf33d5607bc1fc43577b709fd4ef2c52ea9d64e0a82829877576a381633735494c713a8ff9b60939b20a990133641ba221fe45961f2f4f005c921955174fb0faf99d81f2617f09643f3f7caeb04d000d4f3317b4c2a7b4a1e2c1b7b91146ad5[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]011919f56efbb51bd291bbb03777f36a225f26e7f8a2f2b4f49def9380438c6f779e0eb98d1d6268ac7005b2fbd3c8b51cfb58f22af75d708dfe2123743fb15a8b[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="ScanFromDisk_MultiFormat"/>
+			<k name="Convert" profile="Convert"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+			<k name="NProfiler" profile="Profiler"/>
+			<k name="NPageID" profile="PageID"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="SettingsFile" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZDlE5Lo18f2gY7Y37R5GW96Nr4Yj1KK0Ws6OxCUD7CABeH1ZZ0ySDs9DvQFTE7XtFxQ7zfAe70IY1KADJdEvS3xn[/encoded]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="9" modder="mitsind305.INHYDMITS702833.MITSGLOBAL" dt="08/27/18 15:23:37.971 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]018222aadcb4c9e971e30e03565361f8b482a5a0e7931c5481c8f5db953139c3bbc8969a88f10107fba4e51944f9abdb3f8fc228bf7b9cd345b82caa617c0cc1d15aa788a70e5780ee47fac0d858447bd27a84261ee02cfd97c196ff79bd905ab718862bfec0723f75192a74dccdacebd30e937f082127bfdcf8ae0185cf46e1ebeb4c2b10dd4476001d8a8d0314ca0e96322f9d5843fe5a9733b3f0da9707f9e6067d1d21efabcbeeca035dbb78f07051671381aac4300ffa6911f4c130417bceeaa426435d1c8368127dcc92df31c413[/secured]"/>
+		<k name="tmadmin" cs="[secured]01f0369cb317f20a0f5f60d5bf18b0eeff24cf31ac1ab057abe9ccee8b9b04d7c57c91167d5494c3dec7ede4d8ac2be33344e8cafbe58cea17917d1e37ef4c73347ba5a4a70653192bd418b68de7e16ea403633e19a4664f668a4789f50db8dfc539fac8e16248cd1ffcd243e04a6854acf89e911499a1cfa68f3d530cba819497fe74f7c8faab2716862a068a6b676e1f063963fd5748bb704218626214f2898ed3a95c5e9be87e9dc474fee010bdf815279c09103210e9bf67c00a3ded96585e8396b1e49421bea4b095ca03d81ecc63[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="True"/>
+			<k name="fingerprintconn" cs="[secured]016953b8b0621ea1096ad1f9bb7d45b4b338ce907f993280545da773847978a5ba584e2dbb7e97cd8ae27348008daa21c617a6c2b2a8ab9cae4d42b8bdb2ed3e0fa340deebbc723778ed4035f329e4fcaf076c00a1d7c3e87652a42031315227196294f1f8b0ee20a5de262fdef71086532ebb6b8732442e631e45b8b67b010adb1c3807970a440e3228be35a0ee35ef87f6c6601debd8fe6e313edaf48ddb07b587709af20f0adef882463283d8bafa68a51f745111cbd8fe70fb37d9b49f01153ee391b459efe14a3e8c81e516385376679b7ac976a0b3f5f429710b87153013[/secured]"/>
+			<k name="lookupdb" cs="[secured]019e3982fa462f3045a79e080d459b44f3759a3262973fa3bf9872307c807d2db02f2b07e489a54368df5f6695a801c555df27df2253e6551ddbc2c7afe72a9f532e9a6c14cb949642054e6a3df689388258c8509f5d682b7abdc69f7da8bb6f743836710aaa5649ca7ca01c95a5c9552a9cb8fef8dda3e8f0c56202da7b70dbaba48364afc91e119c5e2098612020012e1782757cb64ac031fd0370eeef02314aa7b482e30baed7bbd204d05a769fd2b113dcfb446b42c6ebc8a08621e0b1aafcdd752b2df08e4a18682c80089f88fc5d[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]016d4e47afae06cb33d5c24cd30b89851780a11a60ce4ce61e06dfc70a8b933e448135be77080e206a5192d4123bdfba24d4c6e9cbb6d0d75b902ea2f72643dc8f[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="ScanFromDisk_MultiFormat"/>
+			<k name="Convert" profile="Convert"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+			<k name="NProfiler" profile="Profiler"/>
+			<k name="NPageID" profile="PageID"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="SettingsFile" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZDlE5Lo18f2gY7Y37R5GW96Nr4Yj1KK0Ws6OxCUD7CABeH1ZZ0ySDs9DvQFTE7XtFxQ7zfAe70IY1KADJdEvS3xn[/encoded]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="10" modder="mitsind305.INHYDMITS702833.MITSGLOBAL" dt="08/27/18 15:23:41.902 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]014b9617810fefc29abe771723887d68ad362d18f020d9ba000749d2278a8cbba9412982f9f8ddafddb94395c167b7124a673eb3d2c065231e280d42a64731050e71a491474d0f3e668b3d34430f2546b4fed0af65ee3abb1b59703e7606db49d5407b25f9aa6c29e9fe5c9e0a541a22c9cfddf4abb36d46cc5ca18f83893c72946678c09ac922b778a4bacd3c24645bb315f5df50491af78d7bef115b3ab69883a4b25abfaabd858983606d85965c25702d015687ca5ad4db4eceb4fbaa72a82797d4ed8736531457016b5634909524cf[/secured]"/>
+		<k name="tmadmin" cs="[secured]01adef7a3a18a136769e4e9cedb9136dcd65cb19b4496e5b09552e12cc230328e5349d2be38a7af591962699a9188822d8eafe3cffa72d58296433fe6a5b3857090f595944eb8681dbbac8b43e9d6af1fe26929b70c146cf4b93c1b9707bd0f334c2d2d3da5759bffae993d36e92ffb5d082cad89d250c51a337359b239fbfa0feb81f7fbc774f77bb1d703d0a05c9a2d4a26b2f67ffcbb96f389708bd73edc90f715c87fc85a1f0ea803500d7c59b1c345cdd83a0da33c84db2edd3b33ae8507850a7c2c1ed178335a06dd669e2882cb7[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="True"/>
+			<k name="fingerprintconn" cs="[secured]01864139e525eafeddb0c5f2f1b70410d6082c675b4c9dc1be2b8a50031d0f8755d01574f10c778ebe52b3824f85db16d53b837267084693aea3e685229394b9c3f2aa6a4ad7438edc937fe6021d3d381af9e8b5e7549697fcb1e2ece1962c44e2e34a506f31540fa0c7d0f6d21e89b5a394a8157bd9705d7f8ad90abf7cea515a25f21ed796db365ad59965ba37a6444613372af7d466d26d0c71bdd24473f330938f0a9a716bbf0607349331ed64f7c1fb8d501d01c3fd310eeab3e3d4a288abe41f1a458a5aefdf4735b4a6d19b12757293381ac8fb1a45a395451377a1c056[/secured]"/>
+			<k name="lookupdb" cs="[secured]01112e26ea3706e1821b3cbdc6d2be617201edd2dd60aa3c029b4ede91ef0cd9a3040cd40d13321811751893f6eb61846930f0223fcf4346ee5baca3c78c3e7570a135ca440eedcc9907b91319fb8e1e84a8fed6b55e624e6dc9bbeae32c45053ffc3001a2965fe0cb5508481b054f6561259603c038c86ee9e65fe652ed3b793d65277363b5019a733ffe2aff0ce3c5d8fbc9aba8f340a47496ad77285f197a5f6e5b9a2e6fee270eaf8ff397cc42165fc5aad877588346f7e936897f4c54a66f079b55b11445c3286f1295166d2bc3bd[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]019ecae025dd06d55be7f485bd0d4e12b30676049f2917de68a2ef2e4faafe4cbb02bb340c4a10cb8d023d00b045271e9e9a00f756848ad9e7db7c35428e6c0f15[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="ScanFromDisk_MultiFormat"/>
+			<k name="Convert" profile="Convert"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+			<k name="NProfiler" profile="Profiler"/>
+			<k name="NPageID" profile="PageID"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="SettingsFile" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZDlE5Lo18f2gY7Y37R5GW96Nr4Yj1KK0Ws6OxCUD7CABeH1ZZ0ySDs9DvQFTE7XtFxQ7zfAe70IY1KADJdEvS3xn[/encoded]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="11" modder="mitsind305.INHYDMITS702833.MITSGLOBAL" dt="08/27/18 15:23:47.139 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]01dc809ae068d8ed3263aaab4d323cfc77bcd2da0ebaec9609b012c001cff3245505ca87693537b356a52f77a35f483c0cb8a5147d21b1347c2f2f6f40ddb1580ce8872c65c9f2d054fbd7c551b0721a6d6a8a25af6a4ae2fd5d9f80e209279f1e59059caf203a0d9930670f6c397ebe4ad6b171c5f630ec3fe4b69a13f7f7eacbffafbbf377f73106d2c415f39701886146fb33e587ae9cb1ab7202aa24a740fa0e1ba3e3d000af10a13accbc743f5feb79a552279a21451fbbad67d34bdd3828ad4378e4771f2dd59b7496456e0b045d[/secured]"/>
+		<k name="tmadmin" cs="[secured]019c7902eaa0c229de5c70578e718d5636e492ed0a9022919e2a89be830d54836d7d37b3b124867f4226e9a45caf5989ac8514a0fa7a3c4d231800584c6415fb99dd444c757b8be322461d41abc72036936bab097600babe99673f0ca79f1dc7964011874e63e7c558ef0a2853cfaffcc9c5d93fab90201577d59ed7a744b5e0b8324c3094ef9509676442ea1feb4f6a967724f914c62fa44a78752c0450672e39341cb2e10cf626107ca6cf1dab3eb7c50d6afdabf944ad012261c3a8a32508a2a1f7eb3b4ccfa41eb12ecf0328cd0c93[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="True"/>
+			<k name="fingerprintconn" cs="[secured]0157c6bf8fd114981ec8161e2b2a7fa81caa4c19afbf0c99673252ffafcfd4bf27d4fd0dceece07ae74d7fe8ce206353565c742c469d1d2f7d0b1ac6b5a4ac845d35e39dd0bd8f327a6fc7e5f6c4632784d182fbeb283ac26990e1ee66bd52b577d8130f4954903c366983f5d6e7f26affc633302d83f9bae769a55fea8c8a6b79fae702aa1b6772f6759b25cdb095f3b1dd98e5f7ea444caa898f7d953e780f6ac70087d01f5734241b01b78a48ce2db1a064f0c50ee2fee06e191ccbcbd920b4d093b6eb35c1a66c8b1e0e430f663c9044cbd6e522e4550c0c1f5b63e90271cf[/secured]"/>
+			<k name="lookupdb" cs="[secured]01da604cc7a4dcfb077bbfb7210ebe6bf94f4aff90641275d08130e7e968dd17a87bf367eb23840b7c55947e4c268dba2f7bbc740f357766e4babb33a10ff482f0c9d280e90e08f24787913b09f2975153a23135128115f77ea9a2507312bd659e7acb8c58355b165e055c51f938e5576979a3e43790878b7f482db6c902341b5cea6d398df8211bb0ff0379d18247b198fd1292e7496007ae21526e243e94a227f45e2435fbbb97ea1399b46825fac4ffef9033177db588d4d6d3e4b8840e4e501b43b07b32a5397df35d4eb116b6868a[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]012f5c6b69755b9c4cb26a07096e8184598ed4f81fd3e20d21547ac29f3f33268ac05e74cdc952cf98d1fa2635a0f49b402ee75a7f878092d78fb7f50ba7f021ea[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="ScanFromDisk_MultiFormat"/>
+			<k name="Convert" profile="Convert"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+			<k name="NProfiler" profile="Profiler"/>
+			<k name="NPageID" profile="PageID"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="SettingsFile" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZDlE5Lo18f2gY7Y37R5GW96Nr4Yj1KK0Ws6OxCUD7CABeH1ZZ0ySDs9DvQFTE7XtFxQ7zfAe70IY1KADJdEvS3xn[/encoded]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="12" modder="mitsind305.INHYDMITS702833.MITSGLOBAL" dt="08/27/18 15:23:51.310 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]01213fed4c14c69cbeabf902db3da22497809bb346537cdcb4afdbbd8418f735764c6459a1c7d846cc8940d26fc08a61982e7373b51e871b037aedef471480a4570e4685047e58e4822e5bb5d120cb743e7b3286db68aff149bcab36d687fb8d3a2f4714fa002869de40801eafe1eff5c0dfac13ee17a157b1a6dfd4d6412180cb3a17044beeb3490d1d3ce188ec10d969ebdb216fdb0769ec9d4264b978bef1b9a1bff127cfef3707781eaa8c17032343805ef928cada4be179d70c514dfbb2a42489c9686a0624469b36b7f2c4fa9b0e[/secured]"/>
+		<k name="tmadmin" cs="[secured]01b8464b81f518fe2c76e096edfb74fba2e23bf27025ccf7f9ea7b5d0eef85ac8846682a5e9b8452f239f908e5e2f3e25a7f647f73d50179108da9bf4d59235fa5838d9db4f31e23abea1c6dc8dffe25931d53ce8c93e7fa6f6a688b0a7687b8862948bb9168894aa0eba436075bb24b86b3c7bd0f9b922ff22d7f174af6e8b8bc82be879cb159b1c32604b932f1c072d1ddb875290f629cfb5acf90c0c93fc64a8276e2d8f083eb047ab067dbec918bdb1719afcf22aea3929290222202a39b7d7d56689e130335ff3ef88a5b73f2b752[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]01d8618a40619afbc76aa9351edc48bc571beae98ae42c9d8cece13935c7005536e2709e7956682dd5950ad1e46f677687b9e28ac3f6d4a03371e954545145af1cac3cf3c64f49229fd1b240ff6bdcb3418848b48d7087728248d84a1151e32dc51aa271dbf6fab660bc85a056fd18f32b329d4034c88730991bc581bfa34202ea6d9a75413e1e1e80ae20ae90f9065fcdbf357733a8ced17944d0279b78f10616c55747a708db5f413cfbf06d8cb258a1de163f2eec8df329a01d893fe3066d6025f049277066ed04c8f78f3e6091e95f7e4c2f7e5dbfc40f5f6fd98f292ea633[/secured]"/>
+			<k name="lookupdb" cs="[secured]01776a6a781ceedce558b6266fc9d8affa4c5f76d9fb748eafc5666e874075c85ff9e2f3d0279ef75b9bd7b5f1a985c6a53687945f94ad02c9850ea28cd1fdfb57abcca2293921b823a308a9c141366ae856126050576cca8d45d47129bfdbf1b9ba7f9f0621019aea204dc99fd6758bbfa5a13a17b9c8c19bfb8338992065c72cdca3512d43b76bf12fb7cb521a154c6ba1a1c18484493f4c0de2b199611edf688380c3ffd0827018ae115b2cb043885c50bf50c377dd722b98252036f47814d8f90f263033875251966470c99a99f9de[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]01c064695c16fde22759da7c2a62c87b573289a5d58ce3fc31ada6cbd9bb672a56098245fa1dd25811ce83dd93f3fa04513854616883163ccdc6ac2704218843f1[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="ScanFromDisk_MultiFormat"/>
+			<k name="Convert" profile="Convert"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+			<k name="NProfiler" profile="Profiler"/>
+			<k name="NPageID" profile="PageID"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="SettingsFile" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZDlE5Lo18f2gY7Y37R5GW96Nr4Yj1KK0Ws6OxCUD7CABeH1ZZ0ySDs9DvQFTE7XtFxQ7zfAe70IY1KADJdEvS3xn[/encoded]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="13" modder="mitsind305.INHYDMITS702833.MITSGLOBAL" dt="08/27/18 15:24:12.662 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]0176dbd4499315c8a4bd8143d7f7f2e5f8659fad75cc618adf358a5af614e144de63eef882f68fba20323ce33f83bdba67462158cd1e62a90b5594a558e1b951179c62e6d7c501a81261909e460e36c5d00972923721c3dbec4100f2eb7c6572062c19819abd677440a43b8c6421897c01a966719a5f3d30b69ed6e8904efb8b60ec40c9f6268779a0baab61f0be610ae14af51ea656261bd2e5f915f968f1bdefca1fedae2ed17f39ee4ea4f4869299964374e1e54d737901d032462e9c22f0f66ae8da51f42468eeef8d8a6f15f2b7df[/secured]"/>
+		<k name="tmadmin" cs="[secured]019f48c7875e78607c41bfa6e689b3bbdf4c971205fdd91ab318d7a94fa7c24aa646a5082a84a2d2c91f86693c21eb8a42dded94d5f0e41f14fdc63718860529fa1261f5155a88bdf7481164f497b4f9925895c56f676703a1aeb4427e4a6175dbdb7ffd2e56a5606e9fa614f0ec87b3797ae76acd287ccb7c6fbf788c206a837a8f19515a702749a700a4162ba3bfd7adcd74736887a53332dd0e1a54c99bed821da6fbfe6b87c128ece1a82f37391a438d806ac4c984645368482e0478325f12e8c82e1af53c5faf58fc0393f732a589[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]01ea3160e2cc2c24123c4c0bacb400c00c029256b6b937676d53ef8b33ed176c94ca7d954c6752ef60d73d306cda54a496ec989eb062c157bba844b87d5606ec2667d1b674695478f2e263a76fdc5568a67fafaae25c21afd33a3c55fe06ef9879bff4f737c58af060c5e12830f906710d1deef931d9492482a5e72d2bbebaf649f45fc157531dda6ccc154c6cdd5316c509582b2b38cb78098cf426def9115097f523570fff6b1d01302e3e28d8eea111e0cc1e11bbb4493ea3c16fe3b5f17d0330b9b316fbac429e7f9c2871822c53f4d0476de922a9ff8cac4aad1f1aecafc1[/secured]"/>
+			<k name="lookupdb" cs="[secured]01998391c52f4716665d8ed3296d5ea738517daf770a3265360d10a946368a515d8226dd6fadd082f594e22b90e4a9e9d7ba0a4ccc63cc56da7fa37451bc975a995fc26817a7411de7729a95d604b3385168f7d0ab93b7fa04b1c9939687bc2092e2563430d90387f6fbc5967ace2fe272c428b98414385d88bfc1c07c05ffc9569b1811e5aaa10a6f685645b0f0d6f271f5cd1707bbe70aa4796e83d4591857f0357881883e963e2d99877ca5015fc53c[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]0198f91f44bda761d9e8de962ec2cd918e7656ef6303e37c792c0f692a4dfd58030853166967981507712dd64be3b237ed1b4f0183d099b4a4263c948ac4306d99[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="ScanFromDisk_MultiFormat"/>
+			<k name="Convert" profile="Convert"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+			<k name="NProfiler" profile="Profiler"/>
+			<k name="NPageID" profile="PageID"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="SettingsFile" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZDlE5Lo18f2gY7Y37R5GW96Nr4Yj1KK0Ws6OxCUD7CABeH1ZZ0ySDs9DvQFTE7XtFxQ7zfAe70IY1KADJdEvS3xn[/encoded]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="14" modder="mitsind305.INHYDMITS702833.MITSGLOBAL" dt="08/27/18 15:24:38.93 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]01294ae49974dd95f56340a44608c15ca43751a7c2ba8a9b8abe74ac8faa136f300eb31bcadce4d17c7e347f3d165ef742dc582940e67b2a53752d8873ea56b9b548908c6d95bb2301748f3acc74f7ca266eb799e23862843b069af63a2c7608788e4d8a7f492f1fb96f62e9449274e03b0a043ab680de78e058446c7dc774f2d479cf1cb9a962185d6d3b3b7fa336c37e89252fd19f64bc9e1d1a70f82be5f1538506cdb1eb16f2f186c17ab73d16a1263bb99cb634b98545a890c4de7d4b1a1fc5f1dde9f5f51a3727e85aba11ac19e8[/secured]"/>
+		<k name="tmadmin" cs="[secured]016f939e9ff07daaf9b350b76b5693c0d16d0495b39b3a37ed5daa033258b18190083ddc5365bdfd7dbea2f980161c19d5013a47bbf922f3c37ad18bc78dcc9fd8a0c4f07c2ed355e4c975bd9f336a57021e107b3aaed632be623dad4cfd4cac555cc15df6f913625e5818ca5bd2ff07cb022ee7b0f39f1bfffd5e221ebc1f01e4e17f10258d3ed372405af279a7496f8b6fbe2c67e31ed23d06f6ffde23ea36f556f1ea3f74c1b9a63d9b0fb315c22faab2c30be53f7518d7f09b5995ce33011c671706468b8cae1047c386079a273860[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]0174e437aeb853ae320197f36f7aef4e543a1d31a67e26bb66b449a06ba07573d268bf8deaa69bef712975082fe0e6aa0cebeb171259df308ee82e8adfce9ab85c5ef1175d5576ba61d94157be6b85fbfa51eaecc7756020b99c64aa5d98a146e171235377c95683900f45bae8cf44d2b3971e524c3e9a809dfaaff68eaae38c7aac68202f576f90792d0e1cc02fb0cad4d46716a7052ca388a007f86f197251aa280cd27674c31f6c5967fc67ce138e08d9704daad758e0183ec097828589323e8d607d09502107aaf1ce866aab62d30155e8be20862daa8ac85e9cdac3b0b0b5[/secured]"/>
+			<k name="lookupdb" cs="[secured]0128291d7fefa3f8f4f12b499e874cd5132eac31df41497b58d4bb6cce305ee66181c8822ce1233d15e12fa34aae6b9c6f812ccfe522dff54772ae6f157dc91a6b081e4e307cd276ffb222e4f2d916404ec8fb3598271fefbe73dc5f73513f2d76df3ddf5e49e2bc8649061371913f43d29ce57d2f6bc2f26b0f54a1efa471c139d41064bfc7a454a06f332be05fa9121b17e6c1cc0200c56a7a20775661ded593ff7c3328c369a884581a1b5cbabcce56[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]01074624ab97f57d6a679a5dda2198472cbd9981ee76dac5168cd8376c92aefff9830c7242db73cdc07285c11c54d9a08d5ee94c8e579e009451b5bdca34f450e0[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="ScanFromDisk_MultiFormat"/>
+			<k name="Convert" profile="Convert"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+			<k name="NProfiler" profile="Profiler"/>
+			<k name="NPageID" profile="PageID"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="SettingsFile" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZDlE5Lo18f2gY7Y37R5GW96Nr4Yj1KK0Ws6OxCUD7CABeH1ZZ0ySDs9DvQFTE7XtFxQ7zfAe70IY1KADJdEvS3xn[/encoded]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="15" modder="mitsind305.INHYDMITS702833.MITSGLOBAL" dt="08/27/18 15:24:48.378 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]01def4053462d63a852b1b7beadc1e8dfe4d8fd1f35d759cf5a683ea46e3de563bd7c27b952309cbc6a289c3634ebd9c01ace733ef4ad1cfe9f12e3c19aa7b581066fc477c31d27ede7a0db18c23270b7340ea9b5825ed5ebdd2b361179740d29b14678d6b2c9019651e4477ae01050e64816dfbf344c581655f882bc850e328b43ba4f5b14df034204acf50589dc65bc5cfc4c84dccad50ef6f26d5d548201115c473095a2c929e766449da8db4cbabe1450988cd2a966688b0eb2b575a93a463fdbbd693a3449e723e60c6e26cbacb1f[/secured]"/>
+		<k name="tmadmin" cs="[secured]010b166ae70f03193028d4a7b8de63798fe2238e4eb76b3b965fd7bb2413baac1f11ca9925b751fcd6fdbfc7859295d39c2ab788e4141276c0596f6f83c38c9708f63ba3ffea0baf17a6cfb58cab48ea292caea85c117d2c844d8f36230e6f222be0a0aac79347fb59f0822b7d91146f615c0d01f2263f11961be4bb65c9ff63221b17ae868613f95aed72caa0ce1f08c33f07a70a01a65bec5b5e699a55fc17dc129c0816954f6419dbc3093d89460b8c70350828cfbe6c6aaaab4887447e6d475c8f5dd648fd3c9003e0411920ef1e91[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]01aec3a301b155080fbd5e1f64fcc0f00aabece72b77ed782f448fb5836732a9495e352ee412eaf9b38bd704d7a78e50607e48b12f183dba1efc1aa4f3a24b554cb9cc31b6f2788dc4351b7537234535e8ab72c0f2e415b755400ee73544a65f000e2dafa140567f5ebec0a371eeac0e167021cf07473d924847162c271488e06a826ad55f89cf128fe868b44775bd20765cb6df49983097e133076cb4e52db3e7a856d3a62b32552e99f85ddfc1a955562c87c0e9d615b9c0930aaf2967decc49152b2e25ebc47186a295afeaca28eae1fc0f519ee4925579de824f92854d6d5a[/secured]"/>
+			<k name="lookupdb" cs="[secured]0122aa326b47c6fb0612649dc65be0650b1f1d9f7d024eb4c3ddd87db5b7443a2a57f3458ef0ce1c5fb20a792653d14b26729f9ee28a5883eb0cce1e3f86d343fc88a9faf591b0b8adbae5e18e0144353562a0c43c0fb081299184246a21e6ccec47226e0dfad3a3579dad183fcba1ff6689ec87abc7bf7d96c2c3c55e21a608800483a83c8e8b37b7dd81aa3addd8aaa69bf970e92427939ba9f534a7273717f4cc5c6caec61c40b35a312842dea30509[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]01495c8298932e388305bc20ec2d03ed6266ed85d58a0ba126cf3dcf45938b6c03e85cbf7f703d501b929ed9022e685cf67b24bb88f5fb3ac8eb100b8a2577a819[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="ScanFromDisk_MultiFormat"/>
+			<k name="Convert" profile="Convert"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+			<k name="NProfiler" profile="Profiler"/>
+			<k name="NPageID" profile="PageID"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="SettingsFile" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZDlE5Lo18f2gY7Y37R5GW96Nr4Yj1KK0Ws6OxCUD7CABeH1ZZ0ySDs9DvQFTE7XtFxQ7zfAe70IY1KADJdEvS3xn[/encoded]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="16" modder="mitsind305.INHYDMITS702833.MITSGLOBAL" dt="08/27/18 15:24:56.333 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]01678f38c25fb1ace69d8d086c16e00a7666ed95ac169972d376442db9d3f1e45345e1b17b9b6eee74e5a38f62c887b5517a3069acf5df098eff17798f8eaff8816c1884080201a8771e4e4b41691ec2003e845a187ed3740e06e444a3c985138975f985968613c4fb30842eb80306337546b20387e94dd3f0a6c59fde59128ca53c4745f8f02bcb3e2ae4b13a9bbf6293a196355cd89346028464a7f3198524d779f0c90e486b665d0756e8cc8fced1f42c9ae5c3a319ff7700397e0407d01dcdfbda9571e4000ac1b7f1c8115281eb92[/secured]"/>
+		<k name="tmadmin" cs="[secured]01d91a379937f26db5b47bf58abb789a58cb5e56cd875ce6bfc03f71fd0a5b8cf445850db713a448ede44f12bcd256622132e054a42438e5d9361d89ef435cb9b7ace5a4408ebedd1a63762df3fec876d747157023f2d5fafed187adf2c170a118316d5040624738ba84343dea474eab848bdef408661ce966fefc96419d43d4abecb050880a09871b2bf2926eebfcfa2d4f8f718c4f4d9abcda6dbf8c6d382f685bf73ffe9571d93d6aa647c569bd1f234f7e763ca66adee34a7e9c0f1e250c362fc043826979f8ef6c7d631bbcf2fadb[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]01cf9a3d016ea8a90310fc7dbecb8522fcd30c90efd48ea368cd8f74edefeac3ae8e8b4f1cca0639a42fead91d68b810d2be4c3e3f0bea1a1f90a732fcf86b407f1f17287ea5ea25f9610d4c57de07b9712e617183ccbf9a1b380babe43afcc71b281286a473012395f35324f8db972cdf9b1af4c54f15ebad37bdf36404ade4517485f694219221baffd87f5a07e52ba74016828de210a7cf531c17d01565ddc0648ecd1a58a771a97298b2f1afb2e20dd16ddd08543f27e00a028e4e229acd88e09dc5659c98b1b4b3e93d596c448cb86d906c95396a7555d9268222e5529820[/secured]"/>
+			<k name="lookupdb" cs="[secured]01392b6a6fc63f0e456dff702e7f3c9b3926247abf9b7da65a6e14e2197ef9f59db4246d38ee6d858536b316b62d18f14a45864da0910f8c51860773ea080e2924692772ba3a71f758551420e702e5b4a396be768d0f472cd7f9948a4f997505538082abd5540e03f74cf3b45b3404ca1f4c1e1f3cf2750f66894ea14dbf283581ea27bde7bf672bd63e3ee14dc437e1f6dd0058e469e48f48e742b68399b86fe92ddfb86d539e9e7e4aa701722d4c9d9f[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]012eec03bf37da1276de5d1daa5caa06d40e56b9365c8902b3c1c8c59334be8b93a2f264174e346006c33a10bdc1643a440e82334cdc04baca45442af69ab2d56d[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="VScan"/>
+			<k name="Convert" profile="Convert"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+			<k name="NProfiler" profile="Profiler"/>
+			<k name="NPageID" profile="PageID"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="SettingsFile" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZDlE5Lo18f2gY7Y37R5GW96Nr4Yj1KK0Ws6OxCUD7CABeH1ZZ0ySDs9DvQFTE7XtFxQ7zfAe70IY1KADJdEvS3xn[/encoded]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="17" modder="mitsind305.INHYDMITS702833.MITSGLOBAL" dt="08/27/18 15:25:04.163 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]01d876ae8de017765ce930e4a1ba3824619d02a9227ea88a68904b467d98d5b69876060c2b2063f838df132ed3cec64cf9cf72b88171b0e775dfa41a54aa36a629fccc1bd9f8af59f56adf9a8db248418ee5c1cf74ee2de912fe0072534e858b37f9256ffa15e76dbb5b7e3587e47dc9f59ddbf26e6ff10199ab9eab9a73b8d80c0fdbc91c524e98dbb890b7cdd84f422563d2245ac2f9654715eff9a08e4f06d669b66cd3216e5ebe7e507366bb5407c89f6655788f2e375846ca63af76ac3c1009bfdc0f3506c604c636c5b3343b5a57[/secured]"/>
+		<k name="tmadmin" cs="[secured]01f8cf17d7140aeef7388e325b6142ee376c175af981266155570f3ebdc58d1da65028f39575455dde82c664b0c94f49d4d85eeedf72586f64e68ce1f0f6ce5717a545376eaba5122b972d9957fc60419af0e78116da7db6377eb399a2d5c1a9d3679396298a1db370b88e01f508f112e3cc926c0745811cf3acd2a0f7c3b650642b985314d3dcde1612615b249232b202ccdcaa662554bc2523334a2ca944bc5359b8a9cc162110d25fb486522bffc2fb9ef463e71837a7f43ca0eba1a8908ba92374bfdb8013a053b2cdccb73a1218ee[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]01d156821b4ff5316ea17401dc5626919c76c6b26621c0f1aacce5d6a537b1b06b18ab9575c581da962854f8bd46d126a097595c7d870f69ca6e28edc6d485e3a57df6451bf5a06b3d8d7872a480a85bdaecd5793223a361ee7243ef9760c05a438d3c087f8b2889183e86f54553f218b537d3e171a2c247b7b72bbdd0f13dc7657dc88c8c2b789bb0b3d550555383e7c07b4b3c34a0b84fa4325f4e528fd202cb591d35b33310d9a980a0e4ce3d26161807a75521ee3316e33e1cfdb215b4bd2b888fd0e969beb4faceb28da8faafcc5c8728437b6968e0cfb1b33443672b5914[/secured]"/>
+			<k name="lookupdb" cs="[secured]01e61971343821fe8dc95f56ebea048a19d98cb71a2060d23d8254497281a069d92e91048d76f01941a7c9acfb44ed414cc94a303945d5d0beeb7b4312a0deb2e09ab7476a94274d8280870aef48d6aee8d3f08f1d9d4468074e13abba18543829d3d7dd1f893da9515370ccf98dcf5d44710fefe4eb56ffd33c812fe107b59939b058913f06c777a0311a82b7a03760de64ef4b359e0076258df3bac77402d7c549e1bd50842e4a36b732183f7bc472fc[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]0125e38ea692b5d5fc8b9735f0a44393f91997993cded2a84d07b86dc437666f907fe06dcc6cbb24080ed832305b955a130d9ac5f440bb2101cac78dfff721be7f[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="VScan"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="SettingsFile" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZDlE5Lo18f2gY7Y37R5GW96Nr4Yj1KK0Ws6OxCUD7CABeH1ZZ0ySDs9DvQFTE7XtFxQ7zfAe70IY1KADJdEvS3xn[/encoded]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="18" modder="mitsind305.INHYDMITS702833.MITSGLOBAL" dt="08/27/18 15:25:19.945 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]0120d8e2eac76061f0cb19446a09ce10b2558b72a6bb400fe40122d3f95f10771fb7ecf5fca2e1f46a08729c653b3e474d92604c0fecc7da3f4b8a8d09b66ee90e509f97e559efec325d176aec2353f9ce0aebaf91b2a15c49ea69a32529e04727d9919b716ebc88dbad41752374d0e4fa78c6859d4f5173b27e7f06e304f6a3bdff53cf5f6f12e9c73e7fce54713aaad10224e8805c94dcaf1cf4187adede5dbb3ac117cbf2ac025657a717d52bcd4ea59519ab26cfbbcd643d0ffd67cb77e0c7af044f0e904e852e4113489a5c4e4aef[/secured]"/>
+		<k name="tmadmin" cs="[secured]017e98979a3768d02bf3f809ab47bb2820d0d8f1a54d83a830d595d7f440c0d3d9dbf42a2669611568288dca7073b040a0179e0168433fd6bbc059fcb74e432486e772fef9041440ee879b9857c34545cb00130f9dedd5a05ea6a45974b18475bcce2aa7cf5b1ca71143cc9defb64453ec4c597bafd446873c3024c0ff035034eb55a4f089bb265cc9a88662fabfb7fbfb7b609738c091298d362cf0bba665378080e466172dbba746b213a72ef1e3b1aa5422050f6ad72c3f1e15f8ca78048b2673877c71a5a0f7d2624da694f3efc503[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]015152306a70842d2e8971cdce411b9bb808584e16bdba5e50310694fef1f4388faeabd8c2a5aee963a00cd21ca7cb67bf4abf50628887d7f08f5773827e185e7bfc4d2877883b23ef092a99f16d620a4d8cdc6bd9647d7f40743096b25c4eae78451ceed06399f406f656cf3f746c8fb5e9326a64eeec467d6fb11372ddb4d807ed42b728f3845973cd6017f34b9ee023cbbd833110347560645ebfb38685dbcc9d431c6e9fb4f1f4c88136130faa220cd6a939d19afe21f20a493c64597d06b36adbdb2096ddc4b62f51a8acdc8d7e792d7dcf1a3eeae8fdc979644b1eafbc55[/secured]"/>
+			<k name="lookupdb" cs="[secured]01191445b9e4d0c02101cad438fb6d618f80f7dff1b49e4333702d25e78f368f26a3952b9a6baaf921a8b0308ee25660e17ed06204e7251bff3081c6234016d2f0becd2956756ee5316fa65af73de8d5fdef8f9f5506bd2bc705d64fe7a460a01d0b91cd77801a838ec1a91d8d9a4819bb19e1a29980d593559a56af5fc2445d120bc2fdb49e265eca2e29163153a738cb5f33629bb248a4174c7da8c19e520593f1b37690f75be72377cd1388f1b36532[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]01b7b65ddd5603aedc253bb61919f10c0d564e6ed31d376fda7485fa52873d57fcade31c515089c2054ad38598f328604377a8786c99e6c392faf6b6f17a17494c[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="VScan"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="SettingsFile" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZDlE5Lo18f2gY7Y37R5GW96Nr4Yj1KK0Ws6OxCUD7CABeH1ZZ0ySDs9DvQFTE7XtFxQ7zfAe70IY1KADJdEvS3xn[/encoded]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="19" modder="mitsind305.INHYDMITS702833.MITSGLOBAL" dt="08/27/18 15:25:26.645 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]01149af15af25d25cf5637932732e01e69653d78bc6ae5392587d08283ae2ad232cbef7ea56afbec615973e9a70750614f57760d8d7b26c42bd9bfac1a11f48e6a146c17b608787d8995f03e21edf139f892c1fd191e112b6f6d2698ae18464741543c393ee22dbe2c9869c918f776da89f21858a1c4c472aaeb761558aac4a7d83357764585cfd983ddfa2dfd40081740b53c0900d7c1809fcfcb0edff38aa68ef045f63f8279f537a3d9e4d6427c361804a9b782334dbd81e28ea0a265f07f4c607124da711647d0f01d7d3c70871f01[/secured]"/>
+		<k name="tmadmin" cs="[secured]0140591f67161474be857f8740ff12834eeb82529d69ecddaa97d34f152c4bce31810ced95030b62c1d2092113ee2e270404f94fb7e9f3eb8c44a6dcc64f4c67c1d2edf40f1e124247cd110f2e03942077b9a1c22cf2bc9777a105de842348946ffbc81f1db00f5b9ee0358de880ec539c0afb2b9fdeb1a9e384818c9cf0bd6ff31291976d65295fa68d3919dd165f9fe1b6e7fd860d60f43c8fdec372c6565ef9373c26efbd64b4a501e3d4e7be0e5e42bd8a35bdd06bbb410fd303c43cbdf3bf34e288790d9df3a768e75d028cf299a5[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]0117fdf8e72c933c66362dd7f870e246d215f15a444cf213ff0787bf9c895b05c721d118cbc6d02e51e68100cee1fd98cb7b06b0ed59bd23d58136c1625bb4d4577fc4033dedf9de3695061809f9a62752431395c25c34933fa436d220ea3096ff523bdff737a73834ff08a9d1f132df5f8dbe29cb51b8b8c280a7a91d28cf5e5911e528f427e7226ae99e582f875f8c4051cbe38138257782448b782744f597908d1683430b378b5ca1fe5d8dcc4333f27d7701292e527fa1c3338fc7eda61b0589045fc79703ed6b035a0db5e52ca365a1a45cfaa7664636b1d1eec14e93467f[/secured]"/>
+			<k name="lookupdb" cs="[secured]01223010f51f32db63d97261c86d1ea1c4b024ecbfbc867cde351ff7a97ad5f43d837caabbd1c678de1458c27034cc9a37779daf0ffe8c4814f43229ed65cbe861644dcb7a00a428478d954bba4b53e15cba2015d63ba2b3c735b9f25f9d11bbaac778cfc7b4234a64a6fc7fb9ab2b688fc7afc09419cd1b9c32dc0f85c5dbf85f908b8b683d7700522e40f1b510c8fdfe73117c4a1d38beef4ee61a8d95b1c5aaa7238d7957339bef0f594d452b0b687b[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]016256143bc48ba980834eca7f1456d7aea513c0fc745f931102451b6f2bcd45d1fbd44d98a78b058bd5381ff3c074c4f2eeaa472fd36c55669479d96a675d0559[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="VScan"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+		</k>
+		<k name="values">
+			<k name="gen"/>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="20" modder="mitsind616.INHYDMITS702826.MITSGLOBAL" dt="08/28/18 18:58:07.565 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]018c2474284ca941d79dd9acc58f13da10ae07f452a17552065a873a52693e289f58c36a327caeaddb7153d8bb30d0875be287d72d93204e126466a888149967c1c0470858c18dde16fc8f7dc69229879b2bd6a796410d68acfaa605dede779a83c268d78e2f68316e263782c88a01025268548715416ca7564d22465ff248b3fdde24a655b4b32836be2732ce17d4cd333911b504ceac4ab524c05f76fdadc9115ef5e6d7dabc1d0d61fb5bf8b7380f16974faf29e8ed5b355fcb2993404c9c58582e9f1174d218232e9365d6344ac733[/secured]"/>
+		<k name="tmadmin" cs="[secured]010f0d7fe085fefa2c16e9f8689aee9872b378ccbd86e154143b7eedfb7136955aec891d14e7c38d8df0170d842ca1a4b959cf9e8b1ed40ebd85b9724a6b3793ba5302007f38d7861c8cee31240486acea8c3b5efb8a0dffc38876824909c07f575e502d5b356339c8eeba4bfebf0183f225cc7959e132ae6ea72bf638f11dfa3ca10542401701d38ad475fcf15688f674350ed47df43fe09a9f6e0c92e0937a1f6dbbc0bb5769202e37e42f1f34f479edd11169b8bed9444c2c7403800a9fc8d4a8e4cbc92c19c5dd97a46d83b59ef598[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]018ae9c6a5bca435f59c1458782ecea7da3544a26de3a6157dd0ce78eaa282a239b58372f59d0d7246bb3ef52259e41c80bb1dc846b839e3f4cfa3d2419035bc775afe8698651ceacd22ee277081ba6d68f086f11ae66f5df38ed81ff979554e51858bd1c9375998e3dcfe2fc835cc7a971ae31fdb38b24f58d185f6c35d250a037d648e41d3a9058f2e68db83d2f3216f6f2a81551db2c9c44a5d100e58878cc91bfe4994bbc08934b719b333b7b2bee4befc5d2b6ebf8a13e4f65cd7bfc06c11774a4523f28fc28adbab6f4d47ab6fe40fd55a3cab7086cd57055938c443a696[/secured]"/>
+			<k name="lookupdb" cs="[secured]01a7c79b62182189bdba403aaa3744557f0de6ad95c9bb982a678dfcd9a354b7d013f22120df61d66993d8dc7437d83637c12dcec335f23e1f3748f666e9712cded7b3a09126ae91cf2b0385f78e259598d223b5eda1f91d653f2dc4fe05e7a510e18c6fcd37b5a02b0f1160c9f4fb8200139e7935444b662e050c9014c4766867d089b88ab39442811baf4efd969ad9be1a45373ca47783244912d572f40fd05301af6b91b72ac019c362632829823f18936c4c1dd233993b595f31013953615e4cc5776d2bde1ba3146f2de0efe7dc8d[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]0171ab2881f528d8dc8640afe20f8025f01d64f15c6739c42c151cabfecef1a6c072d06495c9ec26bebd0eb16a6492f3662cb7457eedd6b75bee557288722ba847[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="VScan"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+		</k>
+		<k name="values">
+			<k name="gen"/>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="21" modder="mitsind616.INHYDMITS702826.MITSGLOBAL" dt="08/31/18 10:40:27.131 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]01ba11684780dbe9b5dfc9ea6bede0e0ce9a02246b1748b8feeed8cb6af9b0109b8043dab8442892299ca2894445f86591dbdefed9423871eddfc7fb8254294f01ec1a1bf966cb5cb09b1f769dde32b53edd9ad65b8ff9392d148d6275052d4d301ae2b225ec371217c9afb11ce900c84c5208b037c6a2d918cc4fe1e6ba93555969754ff79b6c6fb95df6234bcdc09a30a40a5059a46df268c994f62e7fb8554caa48e5e042cc8df0c73e9bb84b7f4b2ea583b07c265bc065a19a887c59800b85b9b659420a33541263cb1bcf1e00affd[/secured]"/>
+		<k name="tmadmin" cs="[secured]01cd9058750d028f2fc0695b42686b1cde4acd809bad1b5be167701713522a19f7102145cb3544a8b9a92fde60049196f68d73232b052b17e67dc0fe496a445d3305ef499162376c95546ae4e4a6318ab481bf8f98453d6ebb8bb144bd1b54b4cfb774e48f909d64252c80f098c658a2ee59ee0bea1046a02f385ecd16213473881328c30f805c9853fa902f0284d1575fc8e51aa519ddd0b44a65e0a4a2555fdab07946e9d16b079fe78ff936a832d167f00ab6ce24ea756cc602da2bb36586145f9676163ed3517a11d8e57363d88fa9[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]01b5aefe308889697b28538e0ec9bfe16d658f0288ba71c97f6b27ec0892f631c955bd1d553e7ef02ae23ea1ee930e906e792cc2ff3ba254f2e3d7af24eea4187b[/secured]"/>
+			<k name="lookupdb" cs="[secured]014da1a26473cfd17d63ae3a3f1d299d45e68f2367e49ffe65c242058f36adff93b86dfee58abceffa2f110fdda8e5f11697b707283112a21ac3c7bfbf90949abd[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]01e9df1a1eee977a6ce7c8ed294bf252bb867ff2b033709c225bd200a61d964eb3aed8b0b85d5543281ff05ac4065502e71bd3effbb54d631938e92319b5f23104[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="VScan"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+		</k>
+		<k name="values">
+			<k name="gen"/>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="22" modder="mitsind616.INHYDMITS702826.MITSGLOBAL" dt="08/31/18 10:40:48.164 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]01beb449e08d82e5739dbf12fb00c75aa21cd566998f9fdeac4f397e0ab02055a8405e25d346d22553a976c896e094f5bf1a8618ce1c4a3f2a4557d156f6a39c2f5317a8305a42efb68a730dd96d29c31dc10a7d90e9a2f14f1ed635cc25f0c1e041e4e6ef2ffce18f988f5b1a473558caeb72304502883672b584eeb1d1cb78c0f8de6ad480042373b03611b8f6e28134dfba523d0326d5b024be6a8575a2e40d76c4acec35c0070428975f8188dd79deddc7b72e074ac545b28c8439e4fdc0b9d86115eabd3cd08e626e98545a385d4e[/secured]"/>
+		<k name="tmadmin" cs="[secured]013e9e9f29f6e55c2700947230a573f769ca8794168fde4b6324ce4c733eab4c969d8af5047d747a1e9492a31c169e19972a093e50c8bafeb711d2435866be80e3b314193cc2eb6dce50a973971fcde461a11ade2e4e3b3509c390a01cf15289d0edc771896297ce8387a087b59691d739849b8ba702bc06de838c3d55058c284fe9aa38973d56106b7d4a6851ed1348fe7ace156026cc9da6a117dc9ccdae7085d5e33f73efb8421927ede78c43ddf3f6a225adca586b28ef00907d4e29fd1a37e67da2d220f71cd98fe8925bb49f54e3[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]0164818cabf58fb6e7e21f9d5a23ea172f4ffe605201dadec075a22d7c9519f38b9456efa4c2c80af1fd2e8cbf2f4fd97c0ed92843170d7c437ea9ee26c8afbf46a86fd49c79f86c80d52e4dc141efab4bfcd5733b182c7f82dc23a0566fc854c133838eae20391e48fa17b7cd4704e39deeae469ce0d807af6b180612ffbce1265cba66d51db419e81a94cdd21aae69bcdbb4168ed6f1de9f4a9e694d5b370d9e64c4736f5249785dd9a8508985db3ff683d34c150339a5fc9186cee610a98c03b8713670246771d5237126be5ab756a9f534505fefc1d1bd31d5284ee269010b[/secured]"/>
+			<k name="lookupdb" cs="[secured]01e8d97148416c3318788df9cb7d2f5d09f80f20bb2c9e695494a1e9c42b6d410612656d4a00dc514ffc05737a09ad3edde498e0ea5afdd580c29f706e8b5f6405db56f926194663c2a7342a8f19fe644901c1fbabfb93787ef400f5450a1f5a9ae2a40c2e1cf345f0192e9a50dcae0d05d3fae4f47cd432d6681908a242a7567f0fca7c753aa0effa319d8d6a526221e0db0a4ea37774cfa5ebb1d81ba3e5178174286d4933f4559a164a3a403efd0918d7ab0e0895d477074699d3367c3960ac1a98b2151b62874035683b681dfe31f4[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]014b5925ebb3c1b64e2a39c1f6636ca7d5366e5eded0633e0a6c1865d1232f0d710747bb4231881ba17709fcf472f48eb0cde9db712c06257c5a377c9fe302d472[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="VScan"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+		</k>
+		<k name="values">
+			<k name="gen"/>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="23" modder="mitsind616.INHYDMITS702826.MITSGLOBAL" dt="09/03/18 14:26:02.393 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]01ca89f95f05bb862e848a80d633e82650bcfea35bc8199c8b3073c9e46cc4adbb99842a6cb68eddbd85d483d0ac2bb1572928d9443975087a698f0cc3f486fba9ebfad81e3013468a47a3bfb7eafc8202f71178c5490f69a3968aa8faa48b660f19c65bdc13efa72e29bf55818ae91fbca07831c4f9a24a3971dd3cf44e2aa6c3e098932f5f505ab6ac2e269fdcfa7319a826b22ab18658894872c2ab6199cf4517bf178e8b21e055cf8e1977ac690f82a15020831810b495fc0dcc4c7d25ad52fa0f7dfac233837f96f5229035019306[/secured]"/>
+		<k name="tmadmin" cs="[secured]01ee7f99d174adc866af20a3920332126db74e5cd7e0031ed8960b8aba6331a5b5bd51a0ef5296c3e3374353b417675608c45f108e98ed975b487fa4bcef1a5c4269b0dc6d5246753e928af5a37775710bb522326f82325d661a483d588a4dac6ad6457c36924445cf273bbdfa574ff1db37e5ea81c912595f67ab15f7a794236d3c695bcaecea8b5d9e735ee8f04430908109ed2a2d8a29a64b4f47ccf0517ad46cc3f62283cdf05a22fac861339ca82f24b35c1182db8a82fd243c96903835ade15c16af7c79d66a20ba24583cbd0ef8[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]01e99eac98dff2e43c66cba5a99d4472d7a145d311f2037e533c61cdea708bcc8c43734e86cb130f73ab7da826e04e01182eb8ff80929442e2f8a1e50955ab8af4ed93e91ecf3d0770d8b4f7e74efdd8de1c9331409cb3f42de4316bb5fd782d16aebd470ed909d6b862b213f71ed05941e8e994220f17fa6cb1bba1162738ceec1337fcc5526f9fbce94f360c929d3a13b52323987fb2989232779e9411b4a795723641f11228d8dc385d1f0bcd47dc92a5227d9e0acf9d03ce6c4e8a4972df5480defb8bf90e90bb5e3aa98bb956df301c216d32754e062e8f25ed000be18776[/secured]"/>
+			<k name="lookupdb" cs="[secured]019aa0a5eac209ff7a1f977e6561d88f62df8e3e770aab25a70a20d77f00a64786cbd0060443644e4c169a62bc391f1d39f87632135327c1ebfcbe3d150839ddf1896f913aa9333425b9b7cf3f1c3ee4844f32070be399eb965c86de46d5efcc0506325217e5426aa75529bb0a373ef6adb6a6b89df356e905e72b0feaa7d62051c5ec732277b07226aae8f69f3a0b0581abcbcf2affa3753cacd8e661407632671d1b5ecbde8e0d403aaabb34d3b4f2307ea9933e6a47f286b3f61e40ee89b7c8b1aed09eff923e1373781737e436c0f3[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]010c4545371a176a164e8e91ca28848e9e0c730fd84f14ee10ce3f9c08c83ce7f0a5512b0ae6b106288bff32a492bd255bfee3b7f181df112523ff15127104eb62[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="VScan"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="upload" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZ0yS5Ld9fB6wnBoF3AfCFtAe7D5B1KZ0Wq6Ov3xk7C7FuQ1Zw5Eh15R18Q6ww7XsBhAGW9EuKD5F1KPDJcEvY8E3FibBe75pp9V5DsM18eFT5BoKFxaGWR6Nj8p25aaDJe6Ow3xh7C4Be55px[/encoded]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="24" modder="administrator.MITSDEMO.SQL" dt="09/03/18 15:07:49.494 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]0118e6263d10013fb726fffc8e24773b42b40f9e86390169919fb5f1e8857bdf82e4354f2ddb64ad97998727e7c7148142b18e2763c0a822d69f0421436fbd5eca5e53557e3305b1adc237d7eed42436c9e65a8aec2ccec8436fed025c49cd23f0d33aded85a90aac01238a73d10579088c76efb20c68c9a0fbcda7f40a82f7269a195c59e8930d6eccaa924acc732c3de52f9114aaf0d1b04d055c4192944fc62ec70df51a0c9e67f8ce8dc4174c112c3361e75a76e011f9928474b3f92b37dc37b03080935fa7d6ce1664a0b9574ee9e[/secured]"/>
+		<k name="tmadmin" cs="[secured]01e6b33dfb7f715058aad5f102c8abb313eab3f6903e9487cf73f312bccaa2bed4c2d7520d2d84df293144862bc495d9f82ad0f30d5429774fff0cf58161cc36f78509f9a765b13860eccdbaf3dac2336c09ef1622fe859c93c1346afa7f717c2e676ea4776a84143f1c7c1a2a4a5d34f8aa2f676c0c84029aaf6b3212a1a10e49f6742fd9e48caad211d262fa59f532401d5c3e300463e144999a02f94dd0c1dc6ecf0b64c23bacc6f5f371d5a1a87305683290273d50635c575295ba7c53c9ba0b3d199ef4eb9f818f5e208717f37d83[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]01977c0ad378668c6322a3b10f2fb03b9220e45ddcdfc0e7d0669b57aa13432466cb57161aae1036bdf5a96879a597d14fe2f2facdc809b6f6fc3995beffd09a0e1dc28b224d4770c16ea0ef94a8e3ef6ea47a3a7dd46e03131e2acec9abac8307d8e715ea8b8564849646f815e163e5d920b614095ac6f71dfd51a103306dc258f60d36d9fb814800a57d6954255ce22c3303f860de3e60bd32aec7af0a7f966afe23c05fb606f9b7fdead43482a3426fb6eb9d5ae50e50ee3e00f00e856cb9121fcf1f8ac10a4c7627231a0798c99382bdc74920c0e1cac5aca8c180a68c5eda[/secured]"/>
+			<k name="lookupdb" cs="[secured]01801baa9996e4e71cb633c9fb68779f17cbeb292fd29bebab8e5ba078ce74037ea92055797d354ed0f7e363e58365aeec711ac58e724f9b3b02e08cfe017632bf43b19066afedcc7ad1c84d8787f00b8ba735e745e6614fc8c7535826c1b6c2094f718734cb258c0f4a3ef3d92c76e07256e39b4f4bf4d15303f9b16481aa5a3f8434c53066329ed8a86a709fe703d537702db8babae4a883a89882fc76c9c07221488f2faae3db7020c3581b09d4c472b45f1d4e886f47926d0cd354b16662b3a4bfbca3aa3a9cf5536e7df6f20a15b3[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]015ce27d2f76b015b0234a5b52ee459a95bf9363a428aac2bc1c6008c4f05c1cdce4857b1455c7c43cfd8c9ac1febd58e26f771f25b369199c943c9e65bbac7e09[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="VScan"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="upload" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZ0yS5Ld9fB6wnBoF3AfCFtAe7D5B1KZ0Wq6Ov3xk7C7FuQ1Zw5Eh15R18Q6ww7XsBhAGW9EuKD5F1KPDJcEvY8E3FibBe75pp9V5DsM18eFT5BoKFxaGWR6Nj8p25aaDJe6Ow3xh7C4Be55px[/encoded]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="25" modder="administrator.MITSDEMO.SQL" dt="09/11/18 18:04:15.858 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]01832bfb84b60be10c8e80005caa3ea66006b00b6884fec0437475e9b8537b10c721854ce1b3217e79369077f1654c88968aaab630105f7ef1c847258f40866cdb99b359624805a26bde9fbbea7d5cb600d572efa8550ba6998ecdbedbe3c5f01e5ef5b9e935f5d505057c223516448f2c868541faf565e34981ef75e01f43a38fa4a57700f177ecb4c464feee4e829f8095c649f3ac8ff15e2a99899283b480a71f48717c170c7b19bc5891bf82a8cb0b675add9fe246f70c4b8f04c5072c90406512c577f7b4d65a0d2a8058d2054901[/secured]"/>
+		<k name="tmadmin" cs="[secured]01d74989aba9d0cd0596d05f0d91f669553d31244885d595e66548d953326ec9ec91014faa02002dd35c9437f090adc93a7a6f509281356805af933cb78590a446392c3bd99aaf0c4c105999ec30716d5cb9b45604c0bbc760035ee3f7d1236379cb1100e1fc3d7690b738b765a622828d29ad9cb2ba668acfd36910aa85b32564b72647aee4fc5e46544c8e35d92d76896f3bb845f01727f01d39e16bb894c34ae13f5bb73547ac4a2c510a578f123058a67b295c126e331bf19afc3391025076a96fbb7b2f952ecb93888cca403c3e44[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]013c319c4de4e2384eb70d28dcb3a55e7c7a079d8c487d7f33e7380c56a6374d331a1eb638f55510ae2661cbe0f34fd326017cd4149609cc531ba81a29a5457b208a9fa6cf9941f7925ca939d5bd275069a72e885e41264fc025498475de32fe429f074c046ff5ff42536db9667164d9a737c1298f838fbec4393e9f53ac0dec0b60dfe0b1334d82855bfa4037713858f64f7eba596da5abeda6f5b20b8a5f02f8d1d738567c7b2840973aead384ffb58eb4c14c9c21eacb056840601a9749853e7eadb48cad7b8e738fafefed05e6d961dadca7da7fa2758892528b8538e34c9f[/secured]"/>
+			<k name="lookupdb" cs="[secured]018ab151f85bf7e006736cc71ed3399bc52a3cdbf5ddcf4b67aa80d176457313e536b954da03a8e1ea7bea20e96df016bc528e7987814887042f7ee433bf11ab612f46825d54d76f90b8a164fdfda9dcc477902dcb1aa9f9a56665bef22c35e787d5a9697d9310c41856170328261cf4b0fcbc91cc39d77b463951398f6edc2893b9f01cc1c869c2432f12a45af2095bdc5835ca8e509120f84c13c1f379a221c0b85e60e321d375f790929ed1ec1743efce33490d63822bf2e7267d199a75af180fe10dfe5bfd6644b8253921ef50f8e0[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]0145f672f11c4aebb0cf63332032b458eda19e8c4696b59a8c374a99c0ed76b1077bf62c07eb5fa29f3562ff9fc3edeb3db3b0e945c6596a8de72cf2d3a8c77f11[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="VScan"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="upload" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZ0yS5Ld9fB6wnBoF3AfCFtAe7D5B1KZ0Wq6Ov3xk7C7FuQ1Zw5Eh15R18Q6ww7XsBhAGW9EuKD5F1KPDJcEvY8E3FibBe75pp9V5DsM18eFT5BoKFxaGWR6Nj8p25aaDJe6Ow3xh7C4Be55px[/encoded]"/>
+				<k name="Login" v="[encoded].DJnEvS8E3Fib[/encoded]"/>
+			</k>
+			<k name="adv">
+				<k name="password" v="[secured]01e0796dc6b3109bafc2c4f11f09139c3af04270352ce136f60b74de270fdb190469653025d38b5a036b6592c86082a80df8b5571ded9db6220ac44254d22a1543[/secured]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="26" modder="administrator.MITSDEMO.SQL" dt="09/11/18 18:06:22.951 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]019d1f6587fc6be5cae537784aaaa608456a0804e7a51132bf6ee600e0d8075f804aea9a7b066852f06fee323ad9e96d3a3a926f506ececb7ec20bddc1fe005a67bce5951330cfa559d9eac4895c26445f7d8f08bbcfc3d4f2513885c07860b7f54db0335a0cec63e5ffd96a378878081eeb438451970e0b0832085f7421a95a0ab909937f206d5a8071f7112e91849aaca62b6f0c006f27787d13d8ecba265eb765afdbb823a12a133fd6b2aed10e9aa99ed3d04af2a1f5c197ff92b991d99cd62a61aaa1ac6eeaad451f4e567c7d68ac[/secured]"/>
+		<k name="tmadmin" cs="[secured]01ffdb0625e9670ffd4cde00dbe95d992ae4a2fc7c981c56bdb4ea5b1d7d6c8a31a64066b86cd0bd9612b8706caad5461e53b4d5b132863cf5cdd3740a7b79ba80c674c906a5a6b01227d19324eb2887fcd33225c4bc67cf217bf67252ab3feee94a4c74c9f18d91bc5a5a65082e7e42981a197c2d2a73b293ac87ab12651d323870f6011b3093c43d920da96b9682ffa7744b887c079cd1d8856f9d12d66d1c1f94c9815d9e3096c6564e74cf334e156c15c08f502b7746f0bf3c53597f9936556ff58256fb19e453d2b986929bf395b3[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]01f21dcbdb499682cf815b3a7f98f0f106545f708f4f68c516bd6646c251f9f013e3ec372e8e04810aa8cfdd1cf7770250c49fa612ae87c54ad90092cfe4406a9d2fb187c108168d1d1a7e7796e4f2d5f2c608227086c65b503a3d4aedc5f53a839ab938f991b7b1962c78cee6a55d83813efb40bdfff5c7a602c8ea028770499489a3183268ddcb8920f118c1e0326352df48b784d4c33c2be9ba13441367cc0153d5c5e02c4881a8f0616ba085cb4d454612bccdcbecfe1806da604855f9d4950d68b86a17490f87f05a837bfa13fb6d24f8e955ce954c5297b66fd3423e197a[/secured]"/>
+			<k name="lookupdb" cs="[secured]011aadd82252db49cbe332f26f2328dbba986fc3db55f9b72404a943e9b739123f950fd2f4cb0d32d5ba81d1d854593b2be33c570d41bfe94524f2d358d09cc53dedc5b26ab7bfcaeda6e6f3d98c4dc094b8bbb8566aa77305ef1c66342a6f92ec9f7b4c60622ba569025757ffb013a1d2e4c7e386d7496cc02456a891522272c23040242169d3a03ad0c689ae28b262fa3842f00de7420830dc84309dc305dae9c79038dd6fe5a61acf311d2e94e306ec2fecd9c53b19d3c8afec33a29615c6990a09057fd0053c79541c14d7377d4833[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss\images"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]01c8ee7a15394fd926337b90cf5b9a45b95f0b4860aed04210e61c8788d7ac979af236ebd13fd3c7c7eac5e520291a00942f390735f4257cf15b8c9361b12a141a[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="VScan"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="upload" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZ0yS5Ld9fB6wnBoF3AfCFtAe7D5B1KZ0Wq6Ov3xk7C7FuQ1Zw5Eh15R18Q6ww7XsBhAGW9EuKD5F1KPDJcEvY8E3FibBe75pp9V5DsM18eFT5BoKFxaGWR6Nj8p25aaDJe6Ow3xh7C4Be55px[/encoded]"/>
+				<k name="Login" v="[encoded].DJnEvS8E3Fib[/encoded]"/>
+			</k>
+			<k name="adv">
+				<k name="password" v="[secured]019e030e89bf2d4a62d0efefcbe975c9c91cd8a348e89cc0633b2f53e2073b7f9464110ad6509fd7ca003e4b5f700199bc320abc0331142e0d183edcdaa1fc63ec[/secured]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="27" modder="administrator.MITSDEMO.SQL" dt="09/12/18 14:31:32.227 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]01a6a0576d1ffe82c905395c27040d92d9e4329f2983ddb96803f12e8654d3030f72e8f9b2824df290654a1bbf5382e693bb9971e1815460b91a6b8dad49cc7ea3dc9ddadc742686f4510d53bc97666fc8f308f51f1a0049c27449f4c2277c5f94cc67bac0a7f9c7216a54bad2b4f14f80adac26c0a0b5441769c6e8f0ba9527a900cb20efc9fa2daa774305b58813f79d64b405893216341f35366da1c140db5dd2604084c4b67034d180a1e4ce277796dbbf5046273d21875bc5f36d8cf14e4bf8f963b663917efed03100b46d8add27[/secured]"/>
+		<k name="tmadmin" cs="[secured]017c8e771675a0c9699435a1483f9d71b17245946557d37740e4dae6a62495c2bc077b86d6d10c42d9cb7b31a4938ff6bd99703bdc5eb32d0cb6fb595f46252cfad222f92e64f7863dac2809743ddc8695f7b278ac9b1b8ff19e541d8903f5b78fa3198811ea79e71ae762f2ea85912a6073eb16349aca64d22af1d16b9084de4dbb667acd4be397a111649b4857790c7153f008f661b1ac2d7cea232255ae4c204044f02e1d50fe09f8ddc486d93aea8ea45130dffba6b846154925fca50da28bbf7920caf9400bbc4dabc10abc7d92ca[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]01a094b0add0670ac8b9028847f09401bc0594428b5cd7ead3884932a3fc4bb1f6d41a62b0ddc2babce0bb332397a2b81d1902548de6ad2c3939020b5b31598e34fc313f42b0a32eda8ffe4410ed349a10aa17e705ba2d9a77a0d87ac77cabccbd8c4a33de2d44c281dedd8ee2d6efd8d87a3dace78979f020e268e4aacf6d4eb3aa6e2dbf73bfd218b20f7764f05623f4692872bdc8067c0764d4d8cd1d41b8cea060231d387505f879975d0019aad2aa83d545f670b216a45bd77771433aea05fa184f46bf6b5fa545117be6cae568db12035dbf227342aa16115628a94dbdc4[/secured]"/>
+			<k name="lookupdb" cs="[secured]0134459fc8c8be21b47e1dbd9c8100328ddd60139f27ba760195ce431ee655b9c2a8f839edf05391bc28f51d92901a7c3510694723d09bfd9bfca0e6abe035544266b77ea5e1021704312298b40cc89829cafbfe8d94180d2bbfdbff547265488d3675c98f363e946aee524e6f9f023bcf13c2c32b4ea7bb5e3a8eeceaac4012c10f929f66d5ccf82bfddd572124e6f3ead0eccd9ee90ab1547994d6e087ce7f70dedf7f53556f27e0b504c37878176f794aa80a0e604b73ecad9cbaa1f10ff20331d2794b8bd138eedb336ecca927c25f[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss_N\images\InputImages"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]015bdd2dd555d9133d33022413ed84b04665d77090f7d883b54778c20f3b6620a561655e0b9ed582c9ebc842527d9f82bcaba6127c1d7ce9d1b0dad211fb2a0c1b[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="VScan"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="upload" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZ0yS5Ld9fB6wnBoF3AfCFtAe7D5B1KZ0Wq6Ov3xk7C7FuQ1Zw5Eh15R18Q6ww7XsBhAGW9EuKD5F1KPDJcEvY8E3FibBe75pp9V5DsM18eFT5BoKFxaGWR6Nj8p25aaDJe6Ow3xh7C4Be55px[/encoded]"/>
+				<k name="Login" v="[encoded].DJnEvS8E3Fib[/encoded]"/>
+			</k>
+			<k name="adv">
+				<k name="password" v="[secured]010c15608fd270efad23d461285a60cede1d6420a8cb940becf5d167891bafec5dbed20b0a1c415c6e2816f8aaa1fa4b5668e97111fdbca3141fe7989392d9003c[/secured]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="28" modder="administrator.MITSDEMO.SQL" dt="09/14/18 17:01:29.75 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]01cc6bafeba3a382a4a3395eef8b222b4e3415fb17c7e1a80766a51d7667e86c016aa79002fcb7d6bd8061a5c409335fcba58666b72e679e8baebbfb50505a3da0f6c54eceedacda17fb3730b6165047c3b2cdb39f36993dcc63eeadb1d83e6a91a6da740dbad3b3720edf92d20023cea35f50ddca927edb01b75ca77af629ceeeab3a99a5a48d48aad84f194bde0942e2bbb34bf86d7dc340c6906ce165de89d72193d22fbc01fe110b19c9ebd456d58e0fec13511a300f40fd626ebc2673f76da3054abb9aab3aa77290b0b664f65aa4[/secured]"/>
+		<k name="tmadmin" cs="[secured]0176fec2ea605f9da4a984dbc95d6e2ad45f1e602faa5eb6c88e93b9a592db7494d21aa4bcf72e4fcde3359d22e573bc8f254eedf9e256ffd47f7f4340eeee1633ec2361ac8ed78b4017c0fcfdf5c6dca1e0db8d2c78d312d79bc4517da360bdc079bf1df7676fcf8a8fc2b1696a4d033d3b6ceae4d7a0e220fb5acc7f8925d6d4c8664e87c5d4f7334b92abdc3c40e8aadaebe02c9ca3340bba7f0a857e002d49e46e1559e6481cbff54a4c9bbcb152458a87790ff6261327e0bfd4187dd75273a96d291ff0b159271649605cc1e427d6[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]015d81800704e980db0c57bb6399879a7d19a54ea1a6f7c25ab2f8a26e78cefd92bcae2ece6ab8ca569ac62e092c42a1b584a2022204391e1ba01eca2ba58fffda5894796614105618eaef93cdf36a8e81c09b16009aa21fdd80bb0522f7fb32a6a2c58a4dcfa7e1f57901d1decb55d3e3b86a4d1edd2228fd25c65e89ce04c706e8e043980ff5ba39894a74b542e5987ae8f7d075ed8193148efdaf0770c97d224918b0c4da82057672604a24865668ad85c76ff07369e066daaa8ae3eb3e92c1947113a5baea06e42f9dce84b6477a6ff35b754b3dc5059ddcf33dbf0d4ddeaa[/secured]"/>
+			<k name="lookupdb" cs="[secured]01520ec8731cd116de9fd56d24c40c5866e67a6d35032824e4e594b5bddfcc2b2f23eadb811fbd356ae71ed2d4f9983ce3b5505268965b71d5e09506b39668dbcd6c832d981ced3f556e1bb450fe31068584c2907a22a015394f2d3c38c6f642cd1599c3ffaa5b8c1b976e9fbe27be5c8f5c8a1ff3145ff6cec2ce3118e6eada6f259d1815f172ee0f1f401606ee88ed42ffe59ea78eb9bdc92a6a16c8792fd7647ea2691dbab3f493016e971c105cb0d99078ed67a8389db850558335e4dad7f014db6f2e7854ddd5b5091735e74b5df5[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss_N\images\InputImages"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]01a7c5e3330f0bb3022400ba99b6ff7937e10a999d0b3e0b710ab4e30dc0de828c5742ce48eb65ab6228770bfa3d576dea67467bbfc8a39fcae9a1b3b7dc1990c3[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="VScan"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="upload" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZ0yS5Ld9fB6wnBoF3AfCFtAe7D5B1KZ0Wq6Ov3xk7C7FuQ1Zw5Eh15R18Q6ww7XsBhAGW9EuKD5F1KPDJcEvY8E3FibBe75pp9V5DsM18eFT5BoKFxaGWR6Nj8p25aaDJe6Ow3xh7C4Be55px[/encoded]"/>
+				<k name="FilenetUrl" v="[encoded].4n7AfE8Dw2vuFueEMj9VI5LV5Oa6wT7XjFxm3jh6NZ0IG5aQ4mp28y3xzBSe37u1a00yt5La18aBCzG4UFxh3jFAdxD581KW93SAfN8ECFiw37hEMR9Uu5Li[/encoded]"/>
+				<k name="ObjectStore" v="[encoded].4nG6P23xoBSE7Nz5pp5Ef5Li18YBD7[/encoded]"/>
+				<k name="FilenetUserName" v="[encoded].4n5Evn8E1Fid7NpA6CDlI[/encoded]"/>
+			</k>
+			<k name="adv">
+				<k name="FilenetPassword" v="[secured]011efb4b70e2cc71f5fd9c46dd96bb471b2015e05a51a419d6225c642d398dbda21fc811973d2360110d2cc27cf5bb306b6cf4af481f233b16ec16f802a9a672e7[/secured]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="29" modder="administrator.MITSDEMO.SQL" dt="09/14/18 17:06:21.328 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]016cfd93d6124410c045544a03cb0413702f540af14217731b9a67864518d0149916fe927c6b1babfbf15f43b64676339d37c422fce827b803efd89595710196628ad9f166cdb8d04d4cd6848190613384a3ac19d23bd4a23bf3a931c7ae3c99358563ea5b17d583c772640ff0ec0203f78bb98d567e97bcf66f4c3a8d7257f9eb5b71bab07730d5060a2f46b14389762c765ee0b434ad6364055b00c7af980987c72e617c02c53fc3e6c1527cf2374ff82eedc58b84bf99aefd7ea217832f83ab5536668d6070d7f3fa7a4f874b1b0670[/secured]"/>
+		<k name="tmadmin" cs="[secured]01c787aa3b31e67399969e745a0107b5d26bc98d949475b8f423248ce6a8381be605ba1ce782401ca11c1d3b2b82a2181646da1f8ec3b611ca5e89140efc2004610d917455a65f79192f73aba46980ad8eb90b1a3a2a56073788b6274c318e9a9f3bbc5553c21f77047a4448685fef8b205395c49bcc42f06ede6773d60b5f1babbdf2a867e660f8baece353446303283690d85168038cbdb5149694051411deeaf2195af118f27d31cfc6308265ab5c5049a5595d492af52db1a46d4305ade374b705f098a5ea96c894c2a95b39a9e635[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]018b9c430807d6ba2ad8972404600ee7b8d46c5b66b4c8f2d0d7841f6304b4af3136fa18d42a1f9eb1844ef1a9877abaa38c1d925970468fe655c173e589f0af2f64bc892097595cf0cecae25e1999b8eb43510dafb193e6026dc10a550c106e779560bfd384e1e15eb08f23f8a2b95bb0184031c271aff12ee26f462f6c903f46addd4c75a2c0049520dce190b0fee1738d49629a04b54adc46bd53bc1557b4de3400ba6103c25cbc4c971affcfd95e6900ad9b020ec60330b24d1c38fe33c052fa6996bb6f746d38bd08b8e7fc2f388a037d50b3d207e626c909c81ae6dd0be5[/secured]"/>
+			<k name="lookupdb" cs="[secured]014d902e88d5e46ea573b2fa16549b37b29f3c850414f20be6947cae8cc08a430b534ff5d7f10997db4453a8e0dd5b4644bcee5c7f77e4262f4b7a01c2c1b319c6b5889e55928c196907cd2a96401688b0d9525a4322ece65c57ff5b4b2cb55f76b6ab05bda9b9d6515c0cd5fe1f876de86d6beb88311e28ac4565a10bc0b07aa8f6ce61080d5af9b11be627b3596c6e72f24441b12bed1fb37d2bb8e9f1d6f57a080983c49140496e135e4c75519c985c2589c34d42dbc1e3a3cf53c1f7d130d05b8be08b1eef6977ec4df60172e197c6[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss_N\images\InputImages"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]01c853c04b328b66238fcbfd81bee34fccd046192aac66b9e263f16894c736b2ce16da020407a58035d91964158d3eb23633d78c3047617aa5e976057cc1e17215[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="VScan"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="upload" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZ0yS5Ld9fB6wnBoF3AfCFtAe7D5B1KZ0Wq6Ov3xk7C7FuQ1Zw5Eh15R18Q6ww7XsBhAGW9EuKD5F1KPDJcEvY8E3FibBe75pp9V5DsM18eFT5BoKFxaGWR6Nj8p25aaDJe6Ow3xh7C4Be55px[/encoded]"/>
+				<k name="FilenetUrl" v="[encoded].4n7AfE8Dw2vuFueEMj9VI5LV5Oa6wT7XjFxm3jh6NZ0IG5aQ4mp28y3xzBSe37u1a00yt5La18aBCzG4UFxh3jFAdxD581KW93SAfN8ECFiw37hEMR9Uu5Li[/encoded]"/>
+				<k name="ObjectStore" v="[encoded].4nG6P23xoBSE7Nz5pp5Ef5Li18YBD7[/encoded]"/>
+				<k name="FilenetUserName" v="[encoded].4n5Evn8E1Fid7NpA6CDlI[/encoded]"/>
+			</k>
+			<k name="adv">
+				<k name="FilenetPassword" v="[secured]019c311f3cf97363ae077dab4d64ae675a8bb7842b8ca2fb6f0442dcb79c3618471a3e97bf6dfb23a65c039c7654416360ce13e36fc917099721dc1a17e3d1e3a7[/secured]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+	<app name="Edelweiss_N" ver="30" modder="administrator.MITSDEMO.SQL" dt="09/14/18 17:20:48.996 " src_ver="5">
+		<k name="tmservers">
+			<k name="tms" ip="127.0.0.1" port="2402" retry="3" protocol="300"/>
+		</k>
+		<k name="runtime" v="batches"/>
+		<k name="tmengine" cs="[secured]01b83f644289ebcfc95147e202f43305f39929d14826d302e3f61e084f3be660485b5c92c0941ee5d8136f1aac1695b5493d3788f4e67b465fff5bdbdbecf48fea1aef185191a167d0ac1eeefea81c41de178e8b5d326a3c2cb7b310d1e0336b047385cbcbdbb9acf23c4b739df9c3c911dfe944a1705850bcd932c71a857da8567b57667baa6faad771bea746925d80dfd1d03cf0d9642f711fcb55f7a1d438076f0363b9705ef3a9dbad454b3bfacd587686c5dcfd855e8b4f4d83d46ce8cf93ed994ceeccdb06413d41836fd3a88fba[/secured]"/>
+		<k name="tmadmin" cs="[secured]0141ebe97ca9167702d2dedaaffa66f5422edbca1eebec0c33a76055e895e01388608f8955fe8f04de99955ef7922eacccb1cf1d3b6c0b48a7ba3fee281d2f55c4b030ddedda39e436b59614d251a146e1d109d2ceb602e1085249891472c364ed4803f2a8337eda2cf73920a7c772fc23de01984cc875da1e31e60fc1412b4e7a32b48a610b90300594f2213c67ff133ba3822595d7b033ef8a1a152c71d1664c3fb803b863e51754a06d686bfe375cdf2b11b2837186dbf552b254dcc3a6d6a7b4179dd0acf0e3b6365ea1546c254fac[/secured]"/>
+		<k name="dco_Edelweiss_N">
+			<k name="setupdco" v="Edelweiss_N.xml"/>
+			<k name="rules" v="rules"/>
+			<k name="imagefix" v="imagefix.ini"/>
+			<k name="UseFPXML" v="False"/>
+			<k name="fingerprintconn" cs="[secured]01035c9c79d614bdf8099fc05a7c567c2c9ba895159b54f00b69ef79cab0ace626a7816f6cde1ac1b5154bfdb0df9ad080f787b7da039e018b081e97a3fae601a65476cb003704d964c99ef2e33118188e5bce5ccc6835676c63f1f4dae6284050abc2ffd0232458cee5955f1550f49d1d6a41aac90470586698d79b091b31df1f7d689749d4331817e8c119678eb1bbc770380a43186e0718cff32153e4ab14972471e126e1600d6cd5d66d757eef4b03d8836734b7f6ac49a0c5993316a76b20cd62ba9acf6ffabd34a3cc489a44dc06439d3ae15eca8c2dcac7db671ec5a313[/secured]"/>
+			<k name="lookupdb" cs="[secured]01e47a99621aff5f59688967d598cbae33b8bd027679d591067d6b184defba645be7ccdfdc14d69a822acbfa92f6ceae0ee974eddd90acfa4e981b26ae31464c38b76fd615972df3991b856d6afe185bf43489753e756744057b3130cc212a501915713bbce06b4db213d2894cecdef33f80105693a079aa3d34ba1fb5bbcc6b9d5bc6a292f6077d9ffeb9f6bbd654833268094af43bacaa8e412088fb193137dc008caa2600a816e8ff4df089560f0d93fbb2c9e0d511ce4742596c7ca1aea83414f2540d4b4fe36ad95eb550dc16186b[/secured]"/>
+			<k name="vscanimagedir" v="C:\Datacap\Edelweiss_N\images\InputImages"/>
+			<k name="vscanimagedir_Multi" v="C:\Datacap\Edelweiss_N\images\Input_MultiFormat"/>
+			<k name="exportdb" cs="[secured]014cf47d19a669c9f3ccb9f4085104fc40fb09415b89b25bd1b67f655bba3c1eac4e094475f6c9f15c96992675bcb53c103a74a036073767c786b789c763662304[/secured]"/>
+			<k name="copyimagedir" v="C:\Datacap\Edelweiss_N\images\Input_SingleTIFFs"/>
+			<k name="locale" v=""/>
+			<k name="SaveReportStatistics" v="False"/>
+		</k>
+		<k name="fingerprint" v="fingerprint"/>
+		<k name="export" v="export"/>
+		<k name="tasks">
+			<k name="VScan" profile="VScan"/>
+			<k name="PageID" profile="PageID"/>
+			<k name="Profiler" profile="Profiler"/>
+			<k name="Export" profile="Export"/>
+		</k>
+		<k name="values">
+			<k name="gen">
+				<k name="MovetoDirectory" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZ0yS5Ld9fB6wnBoF3AfCFtAe7D5B1KZ0Wq6Ov3xk7C77Nu[/encoded]"/>
+				<k name="FilenetUrl" v="[encoded].4n7AfE8Dw2vuFueEMj9VI5LV5Oa6wT7XjFxm3jh6NZ0IG5aQ4mp28y3xzBSe37u1a00yt5La18aBCzG4UFxh3jFAdxD581KW93SAfN8ECFiw37hEMR9Uu5Li[/encoded]"/>
+				<k name="ObjectStore" v="[encoded].4nG6P23xoBSE7Nz5pp5Ef5Li18YBD7[/encoded]"/>
+				<k name="FilenetUserName" v="[encoded].4n5Evn8E1Fid7NpA6CDlI[/encoded]"/>
+				<k name="UploadImage" v="[encoded].DJnAfX8E6FiV37a5q30yZDsLDvRFTF7Y37R5GW96Nr4Yj9qq0Ws6OxCUD7CABeH1ZZ9Uy9bsDvN2gY7Xz7QwGW9EuK4Yj1KO0WdEvb3xm7C67NrEMVDlP[/encoded]"/>
+			</k>
+			<k name="adv">
+				<k name="FilenetPassword" v="[secured]01ac7992eba52070393c8425a8f011a86fd26e330b5627df49aaf254e9276841f615c04abe6862daef55f6abcecfb09e10e0534e9c54d0fc89a3f6a392e34aa8bd[/secured]"/>
+			</k>
+		</k>
+		<k name="BatchNew" v=""/>
+		<k name="QBy" v=""/>
+		<k name="RoleMode" v=""/>
+		<k name="Authenticator" v=""/>
+		<k name="AutoImportNTGroups" v="True"/>
+		<k name="Audit" v="True"/>
+		<k name="SaveDeletedBatchInfo" v="True"/>
+		<k name="InheritJobPriority" v="False"/>
+	</app>
+</archive>

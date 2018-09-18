@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleset id="34" name="Validations" ver="57" modder="admin.1" qi="" dt="09/04/18 15:05:04.866 ">
+	<rule name="Rule1:Page Level" id="1" qi="">
+		<func name="Function1">
+			<a ns="rrunner" name="rrCompare" qi="" disabled="y">
+				<p name="object1" v="@P\DocumentType"/>
+				<p name="object2" v="Registered Agreement"/>
+			</a>
+			<a name="Status_Preserve_OFF" ns="rrunner.dll" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+			</a>
+			<a ns="Validations" name="SetIsOverrideable" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+			<a name="ClearErrorMsg" ns="MC_Validation.dll">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+			</a>
+			<a ns="Validations" name="SetIsOverrideable" qi="" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Entity: Rule2" id="9" qi="">
+		<func name="CheckField_is_Empty_Function1">
+			<a ns="Validations" name="SetIsOverrideable" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot">
+				<p name="object1" v="@P\Entity"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+			<a ns="rrunner" name="rrCompare" disabled="y">
+				<p name="object1" v="@P\Entity"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+		</func>
+		<func name="Error Message_Function2" qi="">
+			<a ns="Invoice" name="AddToErrorMsg" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Entity Field Cannot be Empty." name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="PrimaryUser: Rule3" id="8" qi="">
+		<func name="CheckField_is_Empty_Function1">
+			<a ns="Validations" name="SetIsOverrideable" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot">
+				<p name="object1" v="@P\PrimaryUser"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+			<a ns="rrunner" name="rrCompare" disabled="y">
+				<p name="object1" v="@P\PrimaryUser"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+		</func>
+		<func name="Error Message_Function2" qi="">
+			<a ns="Invoice" name="AddToErrorMsg" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="PrimaryUser Field Cannot be Empty." name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Function: Rule4" id="7" qi="">
+		<func name="CheckField_is_Empty_Function1">
+			<a ns="Validations" name="SetIsOverrideable" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot">
+				<p name="object1" v="@P\Function"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+			<a ns="rrunner" name="rrCompare" disabled="y">
+				<p name="object1" v="@P\Function"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+		</func>
+		<func name="Error Message_Function2" qi="">
+			<a ns="Invoice" name="AddToErrorMsg">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Function Field Cannot be Empty." name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Region: Rule5" id="10" qi="">
+		<func name="CheckField_is_Empty_Function1">
+			<a ns="Validations" name="SetIsOverrideable" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot">
+				<p name="object1" v="@P\Region"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+			<a ns="rrunner" name="rrCompare" disabled="y">
+				<p name="object1" v="@P\Region"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+		</func>
+		<func name="Error Message_Function2" qi="">
+			<a ns="Invoice" name="AddToErrorMsg">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Region Cannot be Empty." name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="State: Rule6" id="11" qi="">
+		<func name="CheckField_is_Empty_Function1">
+			<a ns="Validations" name="SetIsOverrideable" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot">
+				<p name="object1" v="@P\State"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+			<a ns="rrunner" name="rrCompare" disabled="y">
+				<p name="object1" v="@P\State"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+		</func>
+		<func name="Error Message_Function2" qi="">
+			<a ns="Invoice" name="AddToErrorMsg" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="State Cannot be Empty." name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="City: Rule7" id="12" qi="">
+		<func name="CheckField_is_Empty_Function1">
+			<a ns="Validations" name="SetIsOverrideable" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot">
+				<p name="object1" v="@P\City"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+			<a ns="rrunner" name="rrCompare" disabled="y">
+				<p name="object1" v="@P\City"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+		</func>
+		<func name="Error Message_Function2" qi="">
+			<a ns="Invoice" name="AddToErrorMsg" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="City Cannot be Empty." name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="IssueDate: Rule9" id="2" qi="">
+		<func name="IssueDate_function1" qi="" disabled="y">
+			<a ns="Validations" name="SetIsOverrideable" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot">
+				<p name="object1" v="@P\IssueDate"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+		</func>
+		<func name="Error Message_IssueDate" qi="" disabled="y">
+			<a ns="Invoice" name="AddToErrorMsg">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Issue Date Field Connot be Blank.Please Select the Date from Date Picker" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Tenure: Rule10" id="3" qi="">
+		<func name="CheckField_is_Empty_TeureFunction1" disabled="y">
+			<a ns="Validations" name="SetIsOverrideable" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+			<a ns="rrunner" name="rrCompare" qi="">
+				<p name="object1" v="@P\Tenure"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+			<a ns="Invoice" name="AddToErrorMsg" qi="" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Field Value is Empty " name="StrParam"/>
+			</a>
+			<a ns="Invoice" name="AddToErrorMsg" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Tenure Field Cannot be Empty." name="StrParam"/>
+			</a>
+			<a ns="MC_Validation" name="AddToErrorMsg" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Field Value is Empty " name="StrParam"/>
+			</a>
+			<a ns="MC_Validation" name="AddToErrorMsg" qi="" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Field Value is Empty " name="StrParam"/>
+			</a>
+		</func>
+		<func name="Error MessageTenure_Function2" qi="" disabled="y">
+			<a ns="rrunner" name="rrCompare" disabled="y">
+				<p name="object1" v="AgreementFirstPage"/>
+				<p name="object2" v="@B.PageOccured"/>
+			</a>
+			<a ns="rrunner" name="rrCompare">
+				<p name="object1" v="@P\DocumentType"/>
+				<p name="object2" v="Registered Agreement"/>
+			</a>
+			<a ns="Invoice" name="AddToErrorMsg">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Tenure Field Cannot be Empty." name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Licensors: Rule11" id="4" qi="">
+		<func name="CheckField_is_Empty_LicensorsFunction1" disabled="y">
+			<a ns="Validations" name="SetIsOverrideable" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot">
+				<p name="object1" v="@P\Licensors"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+			<a ns="Invoice" name="AddToErrorMsg" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Licensors Field Cannot be Empty." name="StrParam"/>
+			</a>
+			<a ns="MC_Validation" name="AddToErrorMsg" qi="" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Field Value is Empty " name="StrParam"/>
+			</a>
+			<a name="IsThisFieldFilled" ns="Validations.dll" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+			</a>
+		</func>
+		<func name="Error MessageLicensors" qi="" disabled="y">
+			<a ns="Invoice" name="AddToErrorMsg">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Licensors Field Cannot be Empty." name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Property Address: Rule12" id="5" qi="">
+		<func name="CheckField_is_Empty_Function1" qi="" disabled="y">
+			<a ns="Validations" name="SetIsOverrideable" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot">
+				<p name="object1" v="@P\PropertyAddress"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+		</func>
+		<func name="Error Message_Function2" qi="" disabled="y">
+			<a ns="Invoice" name="AddToErrorMsg" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Property address Cannot be Empty." name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Copy ofProperty Address: Rule12" id="13" qi="">
+		<func name="CheckField_is_Empty_Function1" qi="" disabled="y">
+			<a ns="Validations" name="SetIsOverrideable" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot">
+				<p name="object1" v="@P\DocumentType"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+		</func>
+		<func name="Error Message_Function2" qi="" disabled="y">
+			<a ns="Invoice" name="AddToErrorMsg">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="DocumentType Cannot be Empty." name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="UniqueCode: Rule13" id="6" qi="">
+		<func name="CheckField_is_Empty_UniqueCodeFunction1" qi="" disabled="y">
+			<a ns="Validations" name="SetIsOverrideable" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot">
+				<p name="object1" v="@P\UniqueCode"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+		</func>
+		<func name="Error Message_Function2" qi="" disabled="y">
+			<a ns="rrunner" name="rrCompare" qi="" disabled="y">
+				<p name="object1" v="@P\DocumentType"/>
+				<p name="object2" v="Registered Agreement"/>
+			</a>
+			<a ns="Invoice" name="AddToErrorMsg" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="UniqueCode Cannot be Empty.Please Select the Value from Dropdown" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule1" id="14">
+		<func name="Function1" qi="">
+			<a ns="rrunner" name="rrSet" qi="">
+				<p name="varSource" v="0"/>
+				<p name="varTarget" v="@F.STATUS "/>
+			</a>
+			<a ns="rrunner" name="rrSet" qi="">
+				<p name="varSource" v="0"/>
+				<p name="varTarget" v="@P\Tenure.STATUS"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

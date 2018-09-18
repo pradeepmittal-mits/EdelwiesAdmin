@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archive>
+	<ruleset id="35" name="SetthePageStatus" ver="1" modder="admin.1">
+		<rule name="Rule1" id="1">
+			<func name="Function1">
+				<a ns="DCO" name="SetPageStatus" qi="">
+					<p type="bInter"/>
+					<p type="bDebug"/>
+					<p type="strParam" v="1"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="35" name="SetthePageStatus" ver="2" modder="admin.1" dt="09/03/18 11:52:47.67 " qi="">
+		<rule name="Rule1" id="1">
+			<func name="Function1">
+				<a ns="DCO" name="SetPageStatus" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="35" name="SetthePageStatus" ver="3" modder="admin.1" dt="09/03/18 12:19:08.437 " qi="">
+		<rule name="Rule1" id="1">
+			<func name="Function1">
+				<a ns="DCO" name="SetPageStatus" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="Rule2" id="2" qi="">
+			<func name="Function1">
+				<a ns="DCO" name="SetPageStatus">
+					<p type="bInter"/>
+					<p type="bDebug"/>
+					<p type="strParam" v="0"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="35" name="SetthePageStatus" ver="4" modder="admin.1" dt="09/03/18 15:17:40.685 " qi="">
+		<rule name="MainPageStatus" id="1">
+			<func name="MainPage: Function1">
+				<a ns="DCO" name="SetPageStatus" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="TrailingPagestatus" id="2" qi="">
+			<func name="TrailingPage: Function1" qi="">
+				<a ns="DCO" name="SetPageStatus">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="0" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="35" name="SetthePageStatus" ver="5" modder="admin.1" dt="09/04/18 14:12:50.596 " qi="">
+		<rule name="MainPageStatus" id="1">
+			<func name="MainPage: Function1" disabled="y" qi="">
+				<a ns="DCO" name="SetPageStatus" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="1" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+		<rule name="TrailingPagestatus" id="2" qi="">
+			<func name="TrailingPage: Function1" qi="">
+				<a ns="DCO" name="SetPageStatus">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="0" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+</archive>

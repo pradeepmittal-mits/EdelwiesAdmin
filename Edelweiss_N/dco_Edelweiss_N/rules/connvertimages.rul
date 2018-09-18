@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleset id="3" name="ConnvertImages" ver="17" modder="admin.1" qi="" dt="09/03/18 19:47:02.825 ">
+	<rule name="PageLevelPDF" id="1" qi="">
+		<func name="Convert_PDF" qi="">
+			<a name="PDFBitDepth" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" disabled="y">
+				<p name="p_iVal" type="int" v="1"/>
+			</a>
+			<a ns="rrunner" name="rrCompare" qi="">
+				<p name="object1" v="@B.FILEEXT"/>
+				<p name="object2" v=".pdf"/>
+			</a>
+			<a ns="com:Datacap.Libraries.Convert.PdfFRE" name="PDFFREDocumentToImage" qi="">
+				<p name="resolution" type="string" qi="The resolution of extracted images." v="300"/>
+				<p name="compressionBW" type="string" qi="The compression of extracted black and white image files." v="32"/>
+				<p name="compressionColor" type="string" qi="The compression of extracted color image files." v="32"/>
+				<p name="compressionGray" type="string" qi="The compression of extracted grayscale image files." v="32"/>
+				<p name="extensionBW" type="string" qi="The file extension of extracted black and white image files." v=".tif"/>
+				<p name="extensionColor" type="string" qi="The file extension of extracted color image files." v=".tif"/>
+				<p name="extensionGray" type="string" qi="The file extension of extracted grayscale image files." v=".tif"/>
+				<p name="convertMode" type="string" qi="Preseve colors on images or convert all to black and white." v="0"/>
+				<p name="useFastBinarization" type="string" qi="Use fast image binarization algorithm when convertMode is set to preserve colors." v="false"/>
+				<p name="jpegQuality" type="string" qi="Jpeg quality of the of images extracted with JPEG compression." v="100"/>
+			</a>
+			<a name="PDFDocumentToImage" ns="com:Datacap.Libraries.Convert.Pdf=Datacap.Libraries.Convert.Pdf" qi="" disabled="y"/>
+			<a name="SetDCOType" ns="DCO" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Temp" name="StrParam"/>
+			</a>
+		</func>
+		<func name="Convert_PNG" qi="">
+			<a ns="com:Datacap.Libraries.Convert.Images" name="ImageFileTypesToConvert" qi="">
+				<p name="fileextensions" type="string" qi="A CSV string of file extensions that defines the image types that will be   converted." v="png,bmp,msg"/>
+			</a>
+			<a name="ImageToTIFF" ns="com:Datacap.Libraries.Convert.Images" qi=""/>
+			<a name="SetDCOType" ns="DCO" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Temp" name="StrParam"/>
+			</a>
+		</func>
+		<func name="ExcelConversion" qi="" disabled="y">
+			<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelPrintBlankPage">
+				<p name="blankPage" type="bool" v="False"/>
+			</a>
+			<a ns="com:Datacap.Libraries.Convert.Excel" name="ExcelTiffCompression">
+				<p name="tiffCompression" type="string" v="CCITT4"/>
+			</a>
+			<a name="ExcelWorkbookToImage" ns="com:Datacap.Libraries.Convert.Excel" qi=""/>
+			<a name="SetDCOType" ns="DCO">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Temp" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

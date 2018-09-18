@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleset id="17" name="GeneratePDF file" ver="2" modder="admin.1" qi="" dt="08/27/18 15:13:33.238 ">
+	<rule name="GenerateTiff to PDF" id="1" qi="">
+		<func name="Function1">
+			<a name="SetEngineTimeoutOCR_S" ns="com:Datacap.Libraries.ScansoftR.Actions=Datacap.Libraries.ScansoftR.Actions" qi="">
+				<p name="Seconds" type="int" v="5000"/>
+			</a>
+			<a name="RecognizeToPDFOCR_S" ns="com:Datacap.Libraries.ScansoftR.Actions=Datacap.Libraries.ScansoftR.Actions" qi="">
+				<p name="OutputPDFType" type="int" v="1"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

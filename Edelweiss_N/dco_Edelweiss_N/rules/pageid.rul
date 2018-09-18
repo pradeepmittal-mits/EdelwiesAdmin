@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleset id="6" name="PageID" ver="31" modder="admin.1" qi="" dt="09/04/18 11:56:00.2 ">
+	<rule name="PageID" id="1" qi="">
+		<func name="RecognizeFingerprint" qi="" disabled="y">
+			<a name="RecognizePageOCR_S" ns="com:Datacap.Libraries.ScansoftR.Actions" qi=""/>
+			<a name="CreateTextFile" ns="Recog_Shared" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+			</a>
+			<a name="GoToNextFunction" ns="rrunner" qi=""/>
+		</func>
+		<func name="LOI_MainPage" qi="">
+			<a name="rrCompareNot" ns="rrunner">
+				<p name="object1" v="@B.PageOccured"/>
+				<p name="object2" v="LOIFirst"/>
+			</a>
+			<a name="RegExFind" ns="Locate">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="\b[Lli1L][Eea][TtI][TtI][Eea][Rr]\s*[Oo0][Ff]\s*[Ii1l][Nn][TtI][Eea][Nn][TtI]\s?\.?\,?\:?\;?(?!\w+)\s?" name="StrParam"/>
+			</a>
+			<a ns="DCO" name="SetDCOType">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="MainPage" name="StrParam"/>
+			</a>
+			<a name="rrSet" ns="rrunner">
+				<p name="varSource" v="LOIFirst"/>
+				<p name="varTarget" v="@B.PageOccured"/>
+			</a>
+		</func>
+		<func name="LOI_SecondPage" qi="" disabled="y">
+			<a name="RegExFind" ns="Locate">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="\b[Ss5][Pp][Aae4][Cc][Eea]\s*[Oo0][Nn]\s*[Tt][Eea][Rr][Rr][Aae4][Cc][Eea]\s?\.?\,?\:?\;?(?!\w+)\s?" name="StrParam"/>
+			</a>
+			<a ns="DCO" name="SetDCOType">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="LOI_SecondPage" name="StrParam"/>
+			</a>
+		</func>
+		<func name="LOI_Trailing Page" qi="" disabled="y">
+			<a name="ChkLastDCOType" ns="DCO">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="LOI_SecondPage" name="StrParam"/>
+			</a>
+			<a name="SetDCOType" ns="DCO" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="TrailingPage" name="StrParam"/>
+			</a>
+		</func>
+		<func name="Agreement_MainPage" qi="">
+			<a name="rrCompareNot" ns="rrunner" qi="">
+				<p name="object1" v="@B.PageOccured"/>
+				<p name="object2" v="AgreementFirstPage"/>
+			</a>
+			<a name="RegExFind" ns="Locate" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="\b[Aae4][Gg][Rr][Eea][Eea][Mm][Eea][Nn][Tt]\s*[Oo0][Ff]\s*[Lli1I][Eea][Aae4][Vv][Eea]\s*[Aae4][Nn][Dd]\s*[Lli1I][Ii1l][Cc][Eea][Nn][Ss5][Eea]\s?\.?\,?\:?\;?(?!\w+)\s?|\b[Lli1I][Eea][Aae4][Vv][Eea]\s*[Aae4][Nn][Dd]\s*[Lli1I][Ii1l][Cc][Eea][Nn]([Cc]|[Ss5])[Eea]\s*[Aae4][Gg][Rr][Eea][Eea][Mm][Eea][Nn][Tt]\s*\s?\.?\,?\:?\;?(?!\w+)\s?" name="StrParam"/>
+			</a>
+			<a ns="Locate" name="RegExFind" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="[Cc][ ]{0,2}[Oo0][ ]{0,2}[Mm][ ]{0,2}[Pp][ ]{0,2}[Aae4][ ]{0,2}[Nn][ ]{0,2}[Ii][ ]{0,2}[Eea][ ]{0,2}[Ss5][ ]{0,3}[Aae4][ ]{0,2}[Cc][ ]{0,2}[Tt][ ]{0,2}" name="StrParam"/>
+			</a>
+			<a ns="DCO" name="SetDCOType">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="MainPage" name="StrParam"/>
+			</a>
+			<a name="rrSet" ns="rrunner" qi="">
+				<p name="varSource" v="AgreementFirstPage"/>
+				<p name="varTarget" v="@B.PageOccured"/>
+			</a>
+		</func>
+		<func name="Agreement_SecondPage" qi="">
+			<a name="rrCompareNot" ns="rrunner" qi="">
+				<p name="object1" v="@B.PageSecondOccured"/>
+				<p name="object2" v="AgreementSecondPage"/>
+			</a>
+			<a name="RegExFind" ns="Locate">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="\b[Cc][Oo0][Mm][Mm][Eea][Nn][Cc][Iil1][Nn][Gg]\s*[Ff][Rr][Oo0][Mm]\s?\.?\,?\:?\;?(?!\w+)\s?" name="StrParam"/>
+			</a>
+			<a ns="DCO" name="SetDCOType">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="SecondPage" name="StrParam"/>
+			</a>
+			<a name="rrSet" ns="rrunner" qi="">
+				<p name="varSource" v="AgreementSecondPage"/>
+				<p name="varTarget" v="@B.PageSecondOccured"/>
+			</a>
+		</func>
+		<func name="Function1" qi="" disabled="y">
+			<a ns="rrunner" name="rrCompare">
+				<p name="object1" v="@B.PageSecondOccured"/>
+				<p name="object2" v="AgreementSecondPage"/>
+			</a>
+			<a ns="DCO" name="ChkLastDCOType">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="MainPage" name="StrParam"/>
+			</a>
+			<a name="rrSet" ns="rrunner" disabled="y">
+				<p name="varSource" v="AgreementSecondPage"/>
+				<p name="varTarget" v="@B.PageSecondOccured"/>
+			</a>
+			<a ns="DCO" name="SetDCOType" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="SecondPage" name="StrParam"/>
+			</a>
+		</func>
+		<func name="Agreement_MainPage_Trailing Page" qi="" disabled="y">
+			<a name="ChkLastDCOType" ns="DCO">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Agreement_MainPage" name="StrParam"/>
+			</a>
+			<a name="SetDCOType" ns="DCO">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="TrailingPage" name="StrParam"/>
+			</a>
+		</func>
+		<func name="Agreement_SecondPage_Trailing Page" qi="" disabled="y">
+			<a name="ChkLastDCOType" ns="DCO" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Agreement_SecondPage" name="StrParam"/>
+			</a>
+			<a name="SetDCOType" ns="DCO" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="TrailingPage" name="StrParam"/>
+			</a>
+		</func>
+		<func name="TrailingPageAssign" qi="">
+			<a name="ChkLastDCOType" ns="DCO">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="TrailingPage" name="StrParam"/>
+			</a>
+			<a name="SetDCOType" ns="DCO" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="TrailingPage" name="StrParam"/>
+			</a>
+		</func>
+		<func name="TrailingPageAssign-2" qi="">
+			<a ns="DCO" name="ChkLastDCOType" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="MainPage" name="StrParam"/>
+			</a>
+			<a name="SetDCOType" ns="DCO" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="TrailingPage" name="StrParam"/>
+			</a>
+		</func>
+		<func name="TrailingPageAssign4" qi="">
+			<a ns="DCO" name="ChkLastDCOType">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="SecondPage" name="StrParam"/>
+			</a>
+			<a name="SetDCOType" ns="DCO" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="TrailingPage" name="StrParam"/>
+			</a>
+		</func>
+		<func name="TrailingPageAssign-3" qi="" disabled="y">
+			<a ns="DCO" name="ChkLastDCOType" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="SecondPage" name="StrParam"/>
+			</a>
+			<a name="SetDCOType" ns="DCO" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="TrailingPage" name="StrParam"/>
+			</a>
+		</func>
+		<func name="SetDefault_TrailingPage" qi="">
+			<a ns="DCO" name="SetDCOType" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Other" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="DeleteTemp" id="3" qi="">
+		<func name="Function1" qi="">
+			<a ns="Validations" name="DeleteChildType" qi="" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Temp" name="StrParam"/>
+			</a>
+			<a name="DeleteSourceImagePages" ns="com:Datacap.Libraries.Convert.Common"/>
+		</func>
+	</rule>
+	<rule name="Set Fingerprint Params_Unused" id="2" qi="">
+		<func name="PageID: Batch Function 1" qi="">
+			<a name="SetFingerprintDir" ns="autodoc">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="@APPPATH(fingerprint)" name="StrParam"/>
+			</a>
+			<a name="SetFingerprintSearchArea" ns="Autodoc">
+				<p name="matchStart" v="0.5"/>
+				<p name="matchEnd" v=""/>
+			</a>
+			<a name="SetProblemValue" ns="autodoc" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="0.6" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="PageID_other_Unused" id="4" qi="">
+		<func name="Function1">
+			<a ns="rrunner" name="rrCompare">
+				<p name="object1" v="@B.PageOccured"/>
+				<p name="object2" v="AgreementFirstPage"/>
+			</a>
+			<a name="rrCompareNot" ns="rrunner" disabled="y">
+				<p name="object1" v="@B.PageOccured"/>
+				<p name="object2" v="LOIFirst"/>
+			</a>
+			<a name="SetDCOType" ns="DCO" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="TrailingPage" name="StrParam"/>
+			</a>
+		</func>
+		<func name="Copy ofFunction1">
+			<a ns="rrunner" name="rrCompare">
+				<p name="object1" v="@B.PageOccured"/>
+				<p name="object2" v="LOIFirst"/>
+			</a>
+			<a name="rrCompareNot" ns="rrunner" disabled="y">
+				<p name="object1" v="@B.PageOccured"/>
+				<p name="object2" v="LOIFirst"/>
+			</a>
+			<a name="SetDCOType" ns="DCO" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="TrailingPage" name="StrParam"/>
+			</a>
+		</func>
+		<func name="Function3">
+			<a ns="DCO" name="ChkLastDCOType" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="MainPage" name="StrParam"/>
+			</a>
+			<a name="SetDCOType" ns="DCO" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="TrailingPage" name="StrParam"/>
+			</a>
+		</func>
+		<func name="Copy ofFunction3">
+			<a ns="DCO" name="ChkLastDCOType">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="TrailingPage" name="StrParam"/>
+			</a>
+			<a name="SetDCOType" ns="DCO" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="TrailingPage" name="StrParam"/>
+			</a>
+		</func>
+		<func name="Function4">
+			<a ns="DCO" name="SetDCOType">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="MainPage" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

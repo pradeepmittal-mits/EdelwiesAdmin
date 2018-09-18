@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archive>
+	<ruleset id="36" name="Copying the Documentsto another folder" ver="1" modder="admin.1">
+		<rule name="Rule1" id="1">
+			<func name="Function1">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="36" name="Copying the Documentsto another folder" ver="2" modder="admin.1" dt="09/03/18 15:16:22.920 ">
+		<rule name="Copy the Files" id="1">
+			<func name="CopyFiles: Function1" qi="">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="36" name="Copying the Documentsto another folder" ver="3" modder="admin.1" dt="09/03/18 15:25:54.37 ">
+		<rule name="Copy the Files" id="1">
+			<func name="CopyFiles: Function1" qi="">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="36" name="Copying the Documentsto another folder" ver="4" modder="admin.1" dt="09/03/18 15:27:40.783 ">
+		<rule name="Copy the Files" id="1">
+			<func name="CopyFiles: Function1" qi="">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="36" name="Copying the Documentsto another folder" ver="5" modder="admin.1" dt="09/03/18 15:29:54.224 ">
+		<rule name="Copy the Files" id="1">
+			<func name="CopyFiles: Function1" qi="">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="" disabled="y">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="36" name="Copying the Documentsto another folder" ver="6" modder="admin.1" dt="09/03/18 15:32:53.92 ">
+		<rule name="Copy the Files" id="1">
+			<func name="CopyFiles: Function1" qi="">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="" disabled="y">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="36" name="Copying the Documentsto another folder" ver="7" modder="admin.1" dt="09/03/18 15:34:39.286 ">
+		<rule name="Copy the Files" id="1">
+			<func name="CopyFiles: Function1" qi="">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="" disabled="y">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="36" name="Copying the Documentsto another folder" ver="8" modder="admin.1" dt="09/03/18 15:35:19.740 ">
+		<rule name="Copy the Files" id="1">
+			<func name="CopyFiles: Function1" qi="">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="" disabled="y">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="36" name="Copying the Documentsto another folder" ver="9" modder="admin.1" dt="09/03/18 16:13:33.545 ">
+		<rule name="Copy the Files" id="1">
+			<func name="CopyFiles: Function1" qi="">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="IsDirectoryPresent">
+					<p name="directoryName" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID"/>
+					<p name="create" type="bool" v="True"/>
+					<p name="testExistence" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="" disabled="y">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="36" name="Copying the Documentsto another folder" ver="10" modder="admin.1" dt="09/03/18 16:16:27.570 ">
+		<rule name="Copy the Files" id="1" qi="">
+			<func name="CopyFiles: Function1" qi="">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="IsDirectoryPresent">
+					<p name="directoryName" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID"/>
+					<p name="create" type="bool" v="True"/>
+					<p name="testExistence" type="bool" v="False"/>
+				</a>
+				<a name="GoToNextFunction" ns="rrunner.dll" qi=""/>
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="" disabled="y">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="" disabled="y">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+			<func name="Function1">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="36" name="Copying the Documentsto another folder" ver="11" modder="admin.1" dt="09/03/18 16:18:13.81 ">
+		<rule name="Copy the Files" id="1" qi="">
+			<func name="CopyFiles: Function1" qi="">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="IsDirectoryPresent">
+					<p name="directoryName" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID"/>
+					<p name="create" type="bool" v="True"/>
+					<p name="testExistence" type="bool" v="False"/>
+				</a>
+				<a name="GoToNextFunction" ns="rrunner.dll" qi=""/>
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="" disabled="y">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="" disabled="y">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+			<func name="Function1">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="36" name="Copying the Documentsto another folder" ver="12" modder="admin.1" dt="09/04/18 10:56:18.299 ">
+		<rule name="Copy the Files" id="1" qi="">
+			<func name="CopyFiles: Function1" qi="">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="IsDirectoryPresent">
+					<p name="directoryName" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID"/>
+					<p name="create" type="bool" v="True"/>
+					<p name="testExistence" type="bool" v="False"/>
+				</a>
+				<a name="GoToNextFunction" ns="rrunner.dll" qi=""/>
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="" disabled="y">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="" disabled="y">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+			<func name="Function1">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" disabled="y">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="">
+					<p name="sourcefile" type="string" v="@P.ScanSrcPath"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="36" name="Copying the Documentsto another folder" ver="13" modder="admin.1" dt="09/04/18 11:00:00.664 ">
+		<rule name="Copy the Files" id="1" qi="">
+			<func name="CopyFiles: Function1" qi="">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="IsDirectoryPresent">
+					<p name="directoryName" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID"/>
+					<p name="create" type="bool" v="True"/>
+					<p name="testExistence" type="bool" v="False"/>
+				</a>
+				<a name="GoToNextFunction" ns="rrunner.dll" qi=""/>
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="" disabled="y">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="" disabled="y">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+			<func name="Function1">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" disabled="y">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="">
+					<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\batches\+@BatchID+\+@P.ParentImage"/>
+					<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="overwrite" type="bool" v="False"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+</archive>

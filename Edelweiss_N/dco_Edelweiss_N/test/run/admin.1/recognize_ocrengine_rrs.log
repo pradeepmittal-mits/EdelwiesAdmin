@@ -1,0 +1,74 @@
+Log started Mon Sep 03 11:17:56 2018
+------------------------------------
+11:17:56.440 (0)	State xml: <s lib="Edelweiss_N" wf="Edelweiss_N" log_time="y" log_timediff="y" log_threadproc="n" log_override="y" log_reflush="n" service_log="5" action_log_level="0" batch_log="y" script_reload="y" dco_reload="y" rses="id=30"><data id="2:rrs:save-unfinished-dco" v="yes" /></s>
+11:17:56.440 (0)	Workflow "Edelweiss_N" paths: runtime="C:\Datacap\Edelweiss_N\batches\"; process="C:\Datacap\Edelweiss_N\dco_Edelweiss_N\"; setup dco="C:\Datacap\Edelweiss_N\dco_Edelweiss_N\Edelweiss_N.xml"; runtime dco="C:\Datacap\Edelweiss_N\dco_Edelweiss_N\test\run\admin.1\Recognize_OCREngine.xml";
+11:17:56.440 (0)	script:init [m0x=be993cc]
+11:17:56.443 (0)	/script:init
+11:17:56.443 (0)	add object [id="dco"] to script
+11:17:56.443 (0)	/add
+11:17:56.443 (0)	add object [id="DCLogX"] to script
+11:17:56.443 (0)	/add
+11:17:56.443 (0)	add object [id="Pilot"] to script
+11:17:56.443 (0)	/add
+11:17:56.443 (0)	add object [id="Applications"] to script
+11:17:56.443 (0)	/add
+11:17:56.443 (0)	add object [id="Application"] to script
+11:17:56.443 (0)	/add
+11:17:56.444 (0)	add object [id="RRState"] to script
+11:17:56.444 (0)	/add
+11:17:56.444 (0)	add object [id="RRError"] to script
+11:17:56.444 (0)	/add
+11:17:56.444 (0)	execute statement On Process Start
+11:17:56.444 (0)	   nothing to exec
+11:17:56.444 (0)	/execute statement On Process Start
+11:17:56.444 (0)	rrs execute: mode="debug"(2) flowmode="run"(3)
+11:17:56.444 (0)	ruleset:
+11:17:56.450 (15)	   Loaded dcomap.open:
+11:17:56.450 (0)	   
+11:17:56.450 (0)	   Loaded dcomap.close:
+11:17:56.450 (0)	   
+11:17:56.450 (0)	   execute statement On Ruleset Start
+11:17:56.450 (0)	      nothing to exec
+11:17:56.450 (0)	   /execute statement On Ruleset Start
+11:17:56.450 (0)	   ruleset name="Recognize_OCREngine" id="30" target object="B" target id="ID" target type="Edelweiss_N"
+11:17:56.450 (0)	   dco open tag="B" id="ID" type="Edelweiss_N" progress="0"
+11:17:56.450 (0)	      Looked up map for current dco: dco tag:[B]; dco type:[Edelweiss_N]; base:[];
+did not match [B.Edelweiss_N]
+did not match [.Edelweiss_N]
+looked up DCO object type map
+map for DCO object type [0] is blank
+*(star) was not specified
+did not find matches
+11:17:56.450 (0)	      skip: current DCO has no associated rules from this ruleset
+11:17:56.450 (0)	   /dco
+11:17:56.450 (0)	   dco close tag="B" id="ID" type="Edelweiss_N" progress="2"
+11:17:56.450 (0)	      Looked up map for current dco: dco tag:[B]; dco type:[Edelweiss_N]; base:[];
+did not match [B.Edelweiss_N]
+did not match [.Edelweiss_N]
+looked up DCO object type map
+map for DCO object type [0] is blank
+*(star) was not specified
+did not find matches
+11:17:56.450 (0)	      skip: current DCO has no associated rules from this ruleset
+11:17:56.451 (0)	   /dco
+11:17:56.451 (0)	   stop: finished for target
+11:17:56.451 (0)	   execute statement On Ruleset End
+11:17:56.451 (0)	      nothing to exec
+11:17:56.451 (0)	   /execute statement On Ruleset End
+11:17:56.451 (0)	/ruleset
+11:17:56.451 (0)	CIMainAlgorithm::Execute::finalize_after_process:
+11:17:56.451 (0)	execute statement On Process End
+11:17:56.451 (0)	   nothing to exec
+11:17:56.451 (0)	/execute statement On Process End
+11:17:56.451 (0)	CIMainAlgorithm::Execute::finalize_after_process:SaveDCO:
+11:17:56.454 (0)	unload script [m0x="be993cc"]
+11:17:56.454 (0)	   execute statement (null)
+11:17:56.454 (0)	      executing code:
+11:17:56.454 (0)	      Call set_CDCOnothing()
+11:17:56.454 (0)	   /execute statement (null)
+11:17:56.454 (0)	   script released
+11:17:56.454 (0)	/unload
+11:17:56.454 (0)	unload COM m0x="be9939c">
+11:17:56.454 (0)	/unload
+11:17:56.454 (0)	c:\datacap\RRS\Logs\wrrs
+11:17:56.454 (0)	end log to batch

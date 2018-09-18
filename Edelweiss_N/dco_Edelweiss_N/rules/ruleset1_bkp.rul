@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleset id="40" name="Ruleset1" ver="11" modder="admin.1" dt="09/04/18 14:17:29.795 " qi="">
+	<rule name="Licensors" id="1" qi="">
+		<func name="Function1">
+			<a ns="Validations" name="SetIsOverrideable" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+			<a ns="rrunner" name="rrCompare" qi="">
+				<p name="object1" v="@P\DocumentType"/>
+				<p name="object2" v="Registered Agreement"/>
+			</a>
+			<a ns="rrunner" name="rrCompare" qi="" disabled="y">
+				<p name="object1" v="@P\Licensors"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot" qi="">
+				<p name="object1" v="@P\Licensors"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+		</func>
+		<func name="Copy ofFunction1">
+			<a ns="Validations" name="SetIsOverrideable" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+			<a ns="rrunner" name="rrCompare">
+				<p name="object1" v="@P\DocumentType"/>
+				<p name="object2" v="Letter of Intent"/>
+			</a>
+			<a ns="rrunner" name="rrCompare" qi="" disabled="y">
+				<p name="object1" v="@P\Licensors"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot" qi="">
+				<p name="object1" v="@P\Licensors"/>
+				<p name="object2" v="@EMPTY"/>
+			</a>
+		</func>
+		<func name="Copy ofCopy ofFunction1">
+			<a ns="rrunner" name="rrCompareNot">
+				<p name="object1" v="@P\DocumentType"/>
+				<p name="object2" v="Letter of Intent"/>
+			</a>
+			<a ns="rrunner" name="rrCompareNot" qi="">
+				<p name="object1" v="@P\DocumentType"/>
+				<p name="object2" v="Registered Agreement"/>
+			</a>
+		</func>
+		<func name="Function2" qi="">
+			<a ns="Invoice" name="AddToErrorMsg">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Licensors Field Cannot be Empty." name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Copy of Licensors" id="2" qi="">
+		<func name="Function1">
+			<a ns="rrunner" name="rrCompare" qi="" disabled="y">
+				<p name="object1" v="@P\DocumentType"/>
+				<p name="object2" v="Registered Agreement"/>
+			</a>
+			<a name="Status_Preserve_OFF" ns="rrunner.dll" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+			</a>
+			<a name="ClearErrorMsg" ns="MC_Validation.dll">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+			</a>
+			<a ns="Validations" name="SetIsOverrideable" qi="" disabled="y">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="False" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule1" id="3" qi="">
+		<func name="Function1" qi=""/>
+	</rule>
+</ruleset>

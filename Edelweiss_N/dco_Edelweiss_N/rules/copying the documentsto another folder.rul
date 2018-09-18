@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleset id="36" name="Copying the Documentsto another folder" ver="14" modder="admin.1" dt="09/04/18 11:14:05.700 ">
+	<rule name="Copy the Files" id="1" qi="">
+		<func name="CopyFiles: Function1" qi="">
+			<a ns="com:Datacap.Libraries.FileIO.Actions" name="IsDirectoryPresent">
+				<p name="directoryName" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID"/>
+				<p name="create" type="bool" v="True"/>
+				<p name="testExistence" type="bool" v="False"/>
+			</a>
+			<a name="GoToNextFunction" ns="rrunner.dll" qi=""/>
+			<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="" disabled="y">
+				<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+\+@B.OriginalFileName+@B.FILEEXT"/>
+				<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID"/>
+				<p name="overwrite" type="bool" v="False"/>
+			</a>
+			<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="" disabled="y">
+				<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+@B.OriginalFileName+@B.FILEEXT"/>
+				<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+@B.OriginalFileName+@B.FILEEXT"/>
+				<p name="overwrite" type="bool" v="False"/>
+			</a>
+		</func>
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" disabled="y">
+				<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\Scanned_Images+\+@B.OriginalFileName+@B.FILEEXT"/>
+				<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID+\+@B.OriginalFileName+@B.FILEEXT"/>
+				<p name="overwrite" type="bool" v="False"/>
+			</a>
+			<a ns="com:Datacap.Libraries.FileIO.Actions" name="CopyFile" qi="">
+				<p name="sourcefile" type="string" v="C:\Datacap\Edelweiss_N\batches\+@BatchID+\+@P.ParentImage"/>
+				<p name="targetfile" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images+\+@BatchID+\+@B.OriginalFileName+@B.FILEEXT"/>
+				<p name="overwrite" type="bool" v="False"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

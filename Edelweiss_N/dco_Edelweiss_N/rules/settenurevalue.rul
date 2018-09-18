@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleset id="20" name="SetTenureValue" ver="2" modder="admin.1" qi="" dt="08/27/18 15:13:51.520 ">
+	<rule name="Rule1" id="1" qi="">
+		<func name="Function1">
+			<a ns="rrunner" name="rrSet" qi="">
+				<p name="varSource" v="@D.Tenure"/>
+				<p name="varTarget" v="..\Tenure"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

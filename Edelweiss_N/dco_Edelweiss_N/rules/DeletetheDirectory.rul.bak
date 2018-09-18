@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archive>
+	<ruleset id="37" name="DeletetheDirectory" ver="1" modder="admin.1">
+		<rule name="Rule1" id="1">
+			<func name="Function1">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="DeleteDirectory" qi="">
+					<p name="Directory" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images\+@BatchID"/>
+					<p name="Recursive" type="bool" v="False"/>
+					<p name="FailureReturnValue" type="bool" v="False"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="37" name="DeletetheDirectory" ver="2" modder="admin.1" dt="09/03/18 16:23:04.918 ">
+		<rule name="Rule1" id="1">
+			<func name="Function1">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="DeleteDirectory" qi="">
+					<p name="Directory" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images\+@BatchID+\+@B.OriginalFileName+@B.FILEEXT"/>
+					<p name="Recursive" type="bool" v="False"/>
+					<p name="FailureReturnValue" type="bool" v="False"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="37" name="DeletetheDirectory" ver="3" modder="admin.1" dt="09/03/18 16:33:04.698 ">
+		<rule name="Rule1" id="1">
+			<func name="Function1">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="DeleteDirectory" qi="">
+					<p name="Directory" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images\+@BatchID"/>
+					<p name="Recursive" type="bool" v="False"/>
+					<p name="FailureReturnValue" type="bool" v="False"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="37" name="DeletetheDirectory" ver="4" modder="admin.1" dt="09/03/18 16:33:19.138 ">
+		<rule name="Rule1" id="1">
+			<func name="Function1">
+				<a ns="com:Datacap.Libraries.FileIO.Actions" name="DeleteDirectory" qi="">
+					<p name="Directory" type="string" v="C:\Datacap\Edelweiss_N\Uploading Images\+@BatchID"/>
+					<p name="Recursive" type="bool" v="True"/>
+					<p name="FailureReturnValue" type="bool" v="True"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+</archive>

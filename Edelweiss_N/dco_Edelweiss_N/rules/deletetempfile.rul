@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleset id="4" name="DeleteTempFile" ver="3" modder="admin.1" qi="" dt="09/03/18 10:33:10.262 ">
+	<rule name="DeleteFile" id="1" qi="">
+		<func name="DeleteTemp_Function1" qi="">
+			<a name="DeleteChildType" ns="Validations">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Temp" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

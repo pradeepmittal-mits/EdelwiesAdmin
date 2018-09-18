@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archive>
+	<ruleset id="27" name="MergeCCo" ver="1" modder="admin.1" qi="">
+		<rule name="Rule1" id="1">
+			<func name="Function1"/>
+		</rule>
+		<rule name="Rule1" id="1">
+			<func name="Function1">
+				<a ns="autodoc" name="MergeCCOs_ByType" qi="">
+					<p type="bInter"/>
+					<p type="bDebug"/>
+					<p type="strParam" v="MainPage,SecondPage"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="27" name="MergeCCo" ver="2" modder="admin.1" qi="" dt="08/30/18 20:01:52.624 ">
+		<rule name="Rule1" id="1">
+			<func name="Function1">
+				<a ns="autodoc" name="MergeCCOs_ByType" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="MainPage,SecondPage" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="27" name="MergeCCo" ver="3" modder="admin.1" qi="" dt="08/31/18 10:56:44.36 ">
+		<rule name="MergeCCo_Rule1" id="1">
+			<func name="MergingCCOs_Function1" qi="">
+				<a ns="autodoc" name="MergeCCOs_ByType" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="MainPage,SecondPage" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="27" name="MergeCCo" ver="4" modder="admin.1" qi="" dt="08/31/18 14:11:23.479 ">
+		<rule name="MergeCCo_Rule1" id="1">
+			<func name="MergingCCOs_Function1" qi="">
+				<a ns="rrunner" name="rrCompare" qi="">
+					<p name="object1" v="AgreementFirstPage"/>
+					<p name="object2" v="@P.PageOccured"/>
+				</a>
+				<a ns="autodoc" name="MergeCCOs_ByType" qi="">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="MainPage,SecondPage" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+</archive>

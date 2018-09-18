@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archive>
+	<ruleset id="18" name="GetValuesFromJSONWebservice" ver="1" modder="admin.1" qi="">
+		<rule name="JSONWebService" id="1" qi="">
+			<func name="Function1" qi="">
+				<a name="GetValuesfromJSON" ns="com:Datacap.Libraries.JSONWebService.Actions=Datacap.Libraries.JSONWebService.Actions" qi="" disabled="y">
+					<p name="URL" qi="Webservice URL name" v="http://localhost:21236/AddressService.svc/REST/listvalues"/>
+					<p name="Input" qi="Input Field Name" v="LOBDESCRIPTION"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+</archive>

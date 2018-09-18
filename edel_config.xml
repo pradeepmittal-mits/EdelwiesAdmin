@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    
+    <DB>
+
+      <setting name="CONNECTION_STRING" serializeAs="String">
+         <!--<value>Database=EDW_MAS;UserID=db2admin;Password=Passw0rd;Server=EDEMUMKALAPP005</value>-->
+		 <value>Provider=IBMDADB2;Database=SAMPLE;Hostname=localhost;Port=50000;Uid=db2admin;Pwd=mits123$;Protocol=TCPIP</value>
+      </setting>
+
+<setting name="UNIQUE_CODE" serializeAs="String">
+        <value>select * from ADMINISTRATOR.UNIQUE_CODE</value>
+      </setting>
+<setting name="N_FUNCTION" serializeAs="String">
+        <value>select distinct FUNCTION from ADMINISTRATOR.FUNCTION_DOCTYPE order by FUNCTION asc</value>
+      </setting>
+<setting name="N_DOCTYPE" serializeAs="String">
+        <value>select DOCUMENT_TYPE from ADMINISTRATOR.FUNCTION_DOCTYPE order by DOCUMENT_TYPE asc</value>
+      </setting>
+
+
+<setting name="N_VENDOR" serializeAs="String">
+        <value>select DISTINCT VENDOR_NAME from ADMINISTRATOR.VENDOR_DETAILS</value>
+      </setting>
+<setting name="UNIQUE_CODE_VALUES" serializeAs="String">
+        <value>select * from ADMINISTRATOR.UNIQUE_CODE where UNIQUE_CODE=':Uniquecode'</value>
+      </setting>
+
+<setting name="FUNCTION_VALUES" serializeAs="String">
+        <value>select DOCUMENT_TYPE  from ADMINISTRATOR.FUNCTION_DOCTYPE where FUNCTION=':Uniquecode' order by DOCUMENT_TYPE asc </value>
+      </setting>
+
+<setting name="VENDOR_STATUS" serializeAs="String">
+        <value>select FUNCTION, FIELD_STATUS from ADMINISTRATOR.FUNCTION_DOCTYPE where DOCUMENT_TYPE  =':Uniquecode' order by DOCUMENT_TYPE asc </value>
+      </setting>
+
+
+      <setting name="FA_FUNCTIONS_SQL" serializeAs="String">
+        <value>SELECT C.ID, C.NAME FROM db2admin.CATEGORY C, db2admin.GROUP G WHERE C.PROPERTY_NAME = 'Function' AND G.NAME = ':groupName' AND C.GROUP_ID = G.ID</value>
+      </setting>
+      <setting name="FA_SUBFUNCTIONS_SQL" serializeAs="String">
+        <value>SELECT C.ID, C.NAME FROM db2admin.CATEGORY C WHERE C.PROPERTY_NAME = 'SubFunction' AND C.DEPENDS_ON = :dependsOn</value>
+      </setting>
+      <setting name="CATEGORIES_SQL" serializeAs="String">
+        <value>SELECT C.ID, C.NAME FROM db2admin.CATEGORY C, db2admin.GROUP G WHERE C.PROPERTY_NAME = ':categoryName' AND G.NAME = ':groupName' AND C.GROUP_ID = G.ID</value>
+      </setting>
+      <setting name="R_FINYEARS_SQL" serializeAs="String">
+        <value>SELECT C.ID, C.NAME FROM db2admin.CATEGORY C, db2admin.GROUP G WHERE C.PROPERTY_NAME = 'FinYear' AND G.NAME = ':groupName' AND C.GROUP_ID = G.ID</value>
+      </setting>
+      <setting name="R_ENTITIES_SQL" serializeAs="String">
+        <value>SELECT C.ID, C.NAME FROM db2admin.CATEGORY C, db2admin.GROUP G WHERE C.PROPERTY_NAME = 'Entity' AND G.NAME = ':groupName' AND C.GROUP_ID = G.ID</value>
+      </setting>
+      <setting name="R_DOCUMENT_TYPES_SQL" serializeAs="String">
+        <value>SELECT C.ID, C.NAME FROM db2admin.CATEGORY C, db2admin.GROUP G WHERE C.PROPERTY_NAME = 'Document_Type' AND G.NAME = ':groupName' AND C.GROUP_ID = G.ID</value>
+      </setting>
+      <setting name="R_DOCUMENT_SUBTYPES_SQL" serializeAs="String">
+        <value>SELECT C.ID, C.NAME FROM db2admin.CATEGORY C WHERE C.PROPERTY_NAME = 'Document_Subtype' AND C.DEPENDS_ON = :selectedDocumentType</value>
+      </setting>
+      <setting name="SHORT_NAME_SQL" serializeAs="String">
+        <value>SELECT C.SHORT_NAME FROM db2admin.CATEGORY C, db2admin.GROUP G WHERE GROUP_ID=G.ID AND G.NAME=':groupName' AND C.PROPERTY_NAME=':propertyName' AND C.NAME=':categoryName'</value>
+      </setting>
+	<setting name="STATES_SQL" serializeAs="String">
+        	<value>SELECT * FROM db2admin.Category WHERE Property_Name = 'State'</value>
+      </setting>
+      <setting name="MONTHS_SQL" serializeAs="String">
+        	<value>SELECT * FROM db2admin.Category WHERE Property_Name = 'Month'</value>
+      </setting>
+	<setting name="SERVERIP" serializeAs="String">
+        <value>EDEKALMILUAT001</value>
+      </setting>
+      <setting name="USERNAME" serializeAs="String">
+        <value>DMSP8admin</value>
+      </setting>
+      <setting name="PASSWORD" serializeAs="String">
+        <value>D120120*</value>
+      </setting>
+      <setting name="OBJECTSTORE" serializeAs="String">
+        <value>FINOS</value>
+      </setting>
+    </DB>
+  
+  
+</configuration>

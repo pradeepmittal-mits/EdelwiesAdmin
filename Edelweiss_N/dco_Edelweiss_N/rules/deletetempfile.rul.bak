@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archive>
+	<ruleset id="4" name="DeleteTempFile" ver="1" modder="admin.1" qi="">
+		<rule name="DeleteFile" id="1" qi="">
+			<func name="Function1">
+				<a name="DeleteChildType" ns="Validations">
+					<p type="bInter"/>
+					<p type="bDebug"/>
+					<p type="strParam" v="Temp"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+	<ruleset id="4" name="DeleteTempFile" ver="2" modder="admin.1" qi="" dt="08/27/18 14:59:01.516 ">
+		<rule name="DeleteFile" id="1" qi="">
+			<func name="Function1">
+				<a name="DeleteChildType" ns="Validations">
+					<p type="bInter" name="bInter"/>
+					<p type="bDebug" name="bDebug"/>
+					<p type="strParam" v="Temp" name="StrParam"/>
+				</a>
+			</func>
+		</rule>
+	</ruleset>
+</archive>
